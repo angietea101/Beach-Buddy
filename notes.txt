@@ -1,0 +1,16 @@
+For each table that holds the information:
+PSLEVEL1GRIDNBONBO ui-table
+
+For the exact panel that holds the details:
+*must increment $x to look through each one
+trSSR_CLSRCH_MTG1$0_row1
+trSSR_CLSRCH_MTG1$1_row1
+trSSR_CLSRCH_MTG1$2_row1
+trSSR_CLSRCH_MTG1$3_row1
+
+Waitlist icon:
+class="init fa warning fa-exclamation-triangle"
+
+Open icon:
+class="init fa success fa-circle"
+
