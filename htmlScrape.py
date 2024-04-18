@@ -1,11 +1,13 @@
 from bs4 import BeautifulSoup
 import requests
+
 url = 'http://web.csulb.edu/depts/enrollment/registration/class_schedule/Fall_2024/By_Subject/CECS.html'
 response = requests.get(url)
 html_content = response.text
 
 soup = BeautifulSoup(response.text, 'html.parser')
 course_blocks = soup.find_all('div', class_='courseBlock')
+
 for course_block in course_blocks:
     course_code = course_block.find('span', class_='courseCode').text
     course_title = course_block.find('span', class_='courseTitle').text
