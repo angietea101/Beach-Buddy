@@ -18,8 +18,10 @@ for course_block in course_blocks:
     tables = course_block.find_all('table', class_='sectionTable')
     for table in tables:
         rows = table.find_all('tr')
-        for row in rows:
-            cells = row.find_all('td')
+        for i, row in enumerate(rows):
+            if i == 0:
+                continue
+            cells = row.find_all(['td', 'th'])
             # Extract and organize data from each row
             row_data = [cell.text.strip() for cell in cells]
             # Print the row data in the specified format
