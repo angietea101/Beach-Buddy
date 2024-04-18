@@ -10,7 +10,7 @@ class CSULBCourse:
         self._type = class_type
         self._days = days
         self._time = time
-        if self._open_seats == "NONE":
+        if open_seats == "NONE":
             self._open_seats = False
         else:
             self._open_seats = True
