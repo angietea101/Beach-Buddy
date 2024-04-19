@@ -1,0 +1,165 @@
+CECS 100, CRIT THINK IN DIGITAL INFO AGE, 3 Units, 01, 3330, NONE, NONE, 1, SEM, MW, 2-2:50PM, Open, ECS-302, Golshani F, Class instruction is: Face to Face - On Campus.
+CECS 100, CRIT THINK IN DIGITAL INFO AGE, 3 Units, 02, 3331, NONE, NONE, 1, LAB, MW, 3-4:15PM, Open, ECS-413, Golshani F, Class instruction is: Face to Face - On Campus.
+CECS 105, INTRODUCTION TO CECS, 1 Unit, 01, 9998, NONE, NONE, NONE, SEM, M, 1-1:50PM, Open, ECS-414, Golshani F, Class instruction is: Face to Face - On Campus.Class offered with CECS-105H-01
+CECS 105, INTRODUCTION TO CECS, 1 Unit, 02, 10000, NONE, NONE, NONE, SEM, W, 1-1:50PM, Open, ECS-414, Golshani F, Class instruction is: Face to Face - On Campus.
+CECS 105H, INTRODUCTION TO CECS, 1 Unit, 01, 9999, NONE, NONE, NONE, SEM, M, 1-1:50PM, Open, ECS-414, Golshani F, Class instruction is: Face to Face - On Campus.Class offered with CECS-105-01
+CECS 174, INTRO PROG & PROBLEM SOLVING, 3 Units, 01, 3391, NONE, NONE, 1, SEM, MW, 12-12:50PM, Open, HSCI-100, Nachawati S, Class instruction is: Face to Face - On Campus.Seats are reserved for BEACH XP Cohort 4 Students
+CECS 174, INTRO PROG & PROBLEM SOLVING, 3 Units, 02, 3392, NONE, NONE, 1, LAB, MW, 1-2:15PM, Open, ECS-403, Staff, Class instruction is: Face to Face - On Campus.
+CECS 174, INTRO PROG & PROBLEM SOLVING, 3 Units, 03, 4397, NONE, NONE, 1, LAB, MW, 1-2:15PM, Open, ECS-404, Staff, Class instruction is: Face to Face - On Campus.
+CECS 174, INTRO PROG & PROBLEM SOLVING, 3 Units, 04, 4398, NONE, NONE, 1, LAB, MW, 10:30-11:45AM, Open, ECS-403, Staff, Class instruction is: Face to Face - On Campus.
+CECS 174, INTRO PROG & PROBLEM SOLVING, 3 Units, 05, 4810, NONE, NONE, 1, LAB, MW, 1-2:15PM, Open, ECS-412, Staff, Class instruction is: Face to Face - On Campus.
+CECS 174, INTRO PROG & PROBLEM SOLVING, 3 Units, 07, 5183, NONE, NONE, 1, SEM, F, 11-12:50PM, Open, ECS-105, Nguyen K, Class instruction is: Face to Face - On Campus.
+CECS 174, INTRO PROG & PROBLEM SOLVING, 3 Units, 08, 5184, NONE, NONE, 1, LAB, F, 8-10:30AM, Open, ECS-403, Staff, Class instruction is: Face to Face - On Campus.
+CECS 174, INTRO PROG & PROBLEM SOLVING, 3 Units, 09, 6914, NONE, NONE, 1, LAB, F, 1-3:45PM, Open, ECS-407, Staff, Class instruction is: Face to Face - On Campus.
+CECS 174, INTRO PROG & PROBLEM SOLVING, 3 Units, 10, 6915, NONE, NONE, 1, LAB, F, 1-3:45PM, Open, ECS-416, Staff, Class instruction is: Face to Face - On Campus.
+CECS 174, INTRO PROG & PROBLEM SOLVING, 3 Units, 11, 7127, NONE, NONE, NONE, LAB, F, 1-3:45PM, Open, ECS-403, Staff, Class instruction is: Face to Face - On Campus.
+CECS 174, INTRO PROG & PROBLEM SOLVING, 3 Units, 12, 10134, NONE, NONE, NONE, LAB, F, 8-10:45AM, Open, ECS-407, Staff, Class instruction is: Face to Face - On Campus.
+CECS 201, COMPUTER LOGIC DESIGN I, 3 Units, 01, 3653, NONE, NONE, 1, SEM, MW, 8-8:50AM, Open, VEC-518, Staff, Class instruction is: Face to Face - On Campus.
+CECS 201, COMPUTER LOGIC DESIGN I, 3 Units, 02, 3654, NONE, NONE, 1, LAB, MW, 9-10:15AM, Open, ECS-413, Staff, Class instruction is: Face to Face - On Campus.
+CECS 201, COMPUTER LOGIC DESIGN I, 3 Units, 03, 8080, NONE, NONE, 1, LAB, MW, 10:30-11:45AM, Open, ECS-413, Staff, Class instruction is: Face to Face - On Campus.
+CECS 211, PRIN OF COMPUTER ENGINEERING I, 3 Units, 01, 3069, NONE, NONE, 1, SEM, TuTh, 9:30-10:20AM, Open, ECS-411, Hernandez E, Class instruction is: Face to Face - On Campus.
+CECS 211, PRIN OF COMPUTER ENGINEERING I, 3 Units, 02, 3070, NONE, NONE, 1, LAB, TuTh, 10:30-11:45AM, Open, ECS-411, Hernandez E, Class instruction is: Face to Face - On Campus.
+CECS 211, PRIN OF COMPUTER ENGINEERING I, 3 Units, 03, 10016, NONE, NONE, NONE, SEM, MW, 12-12:50PM, Open, ECS-411, Afzali-Kusha A, Class instruction is: Face to Face - On Campus.
+CECS 211, PRIN OF COMPUTER ENGINEERING I, 3 Units, 04, 10017, NONE, NONE, NONE, LAB, MW, 1-2:15PM, Open, ECS-411, Afzali-Kusha A, Class instruction is: Face to Face - On Campus.
+CECS 225, DIGITAL LOGIC AND ASSEMBLY PRO, 3 Units, 01, 5193, NONE, NONE, 1, SEM, TuTh, 8-9:15AM, Open, HC-120, Nachawati S, Class instruction is: Face to Face - On Campus.
+CECS 225, DIGITAL LOGIC AND ASSEMBLY PRO, 3 Units, 02, 5194, NONE, NONE, 1, SEM, MW, 12:30-1:45PM, Open, KIN-059, Ghaforyfard P, Class instruction is: Face to Face - On Campus.
+CECS 225, DIGITAL LOGIC AND ASSEMBLY PRO, 3 Units, 04, 11795, NONE, NONE, NONE, SEM, MW, 6-7:15PM, Open, ECS-416, Cregg D, Class instruction is: Face to Face - On Campus.
+CECS 228, DISCRETE STRUC-COMPUTING APPL, 3 Units, 01, 1141, NONE, NONE, 1, SEM, Sa, 1-3:45PM, Open, ECS-105, Mehrnia A, Class instruction is: Face to Face - On Campus.
+CECS 228, DISCRETE STRUC-COMPUTING APPL, 3 Units, 02, 1142, NONE, NONE, 1, SEM, MW, 8-9:15AM, Open, KIN-059, Maples T, Class instruction is: Face to Face - On Campus.Class offered with CECS-228H-01
+CECS 228, DISCRETE STRUC-COMPUTING APPL, 3 Units, 03, 9967, NONE, NONE, NONE, SEM, TuTh, 12:30-1:45PM, Open, ECS-414, Hu D, Class instruction is: Face to Face - On Campus.
+CECS 228H, DISCRETE STRUC-COMPUTING APPL, 3 Units, 01, 7743, NONE, NONE, NONE, SEM, MW, 8-9:15AM, Open, KIN-059, Maples T, Class instruction is: Face to Face - On Campus.Class offered with CECS-228-02
+CECS 229, DISCRETE STRUCT COMP APPLIC II, 3 Units, 01, 5191, NONE, NONE, 1, SEM, F, 12-2:30PM, Open, ECS-308, Nguyen K, Class instruction is: Face to Face - On Campus.
+CECS 229, DISCRETE STRUCT COMP APPLIC II, 3 Units, 02, 5192, NONE, NONE, 1, SEM, TuTh, 2-3:15PM, Open, COB-140A, Varela K, Class instruction is: Face to Face - On Campus.
+CECS 262, INTRO TO EMBEDDED SYST PROG, 3 Units, 01, 3834, NONE, NONE, 1, SEM, F, 8-9:40AM, Open, ECS-411, Hernandez E, Class instruction is: Face to Face - On Campus.
+CECS 262, INTRO TO EMBEDDED SYST PROG, 3 Units, 02, 3835, NONE, NONE, 1, LAB, F, 10-12:30PM, Open, ECS-411, Hernandez E, Class instruction is: Face to Face - On Campus.
+CECS 271, INTRO TO NUMERICAL METHODS, 3 Units, 01, 3019, NONE, NONE, 1, SEM, TuTh, 8-9:15PM, NONE, VEC-331, Nguyen M, Class instruction is: Face to Face - On Campus.
+CECS 274, DATA STRUCTURES, 3 Units, 01, 3393, NONE, NONE, 1, SEM, F, 8-9:40AM, Open, ECS-105, Varela K, Class instruction is: Face to Face - On Campus.
+CECS 274, DATA STRUCTURES, 3 Units, 02, 3394, NONE, NONE, 1, LAB, F, 10-12:30PM, Open, VEC-518, Staff, Class instruction is: Face to Face - On Campus.
+CECS 274, DATA STRUCTURES, 3 Units, 03, 3630, NONE, NONE, 1, LAB, F, 1-3:30PM, Open, VEC-518, Staff, Class instruction is: Face to Face - On Campus.
+CECS 274, DATA STRUCTURES, 3 Units, 04, 3631, NONE, NONE, 1, LAB, F, 1-3:30PM, Open, ECS-414, Staff, Class instruction is: Face to Face - On Campus.
+CECS 274, DATA STRUCTURES, 3 Units, 05, 4359, NONE, NONE, 1, SEM, TuTh, 12:30-1:20PM, Open, VEC-518, Nguyen K, Class instruction is: Face to Face - On Campus.
+CECS 274, DATA STRUCTURES, 3 Units, 06, 4360, NONE, NONE, 1, LAB, Tu, 9:30-12:15PM, Open, VEC-331, Staff, Class instruction is: Face to Face - On Campus.
+CECS 274, DATA STRUCTURES, 3 Units, 07, 5232, NONE, NONE, 1, LAB, Th, 9:30-12:15PM, Open, VEC-331, Staff, Class instruction is: Face to Face - On Campus.
+CECS 275, PROGRAMMING AND DATA STRUCTURE, 3 Units, 01, 7129, NONE, NONE, NONE, SEM, MW, 5:30-6:20PM, Open, ECS-308, Nguyen M, Class instruction is: Face to Face - On Campus.
+CECS 275, PROGRAMMING AND DATA STRUCTURE, 3 Units, 02, 7130, NONE, NONE, NONE, LAB, MW, 6:30-7:45PM, Open, ECS-403, Nguyen M, Class instruction is: Face to Face - On Campus.
+CECS 277, OBJ ORIENTED APPL DEVELOPMENT, 3 Units, 01, 2464, NONE, NONE, 1, SEM, TuTh, 9-9:50AM, Open, ECS-105, Cleary S, Class instruction is: Face to Face - On Campus.
+CECS 277, OBJ ORIENTED APPL DEVELOPMENT, 3 Units, 02, 2465, NONE, NONE, 1, LAB, TuTh, 10-11:15AM, Open, ECS-405, Staff, Class instruction is: Face to Face - On Campus.
+CECS 277, OBJ ORIENTED APPL DEVELOPMENT, 3 Units, 03, 2710, NONE, NONE, 1, LAB, TuTh, 10-11:15AM, Open, ECS-416, Staff, Class instruction is: Face to Face - On Campus.
+CECS 277, OBJ ORIENTED APPL DEVELOPMENT, 3 Units, 04, 2711, NONE, NONE, 1, LAB, TuTh, 12-1:15PM, Open, ECS-416, Staff, Class instruction is: Face to Face - On Campus.
+CECS 277, OBJ ORIENTED APPL DEVELOPMENT, 3 Units, 05, 4018, NONE, NONE, 1, LAB, TuTh, 12-1:15PM, Open, ECS-405, Staff, Class instruction is: Face to Face - On Campus.
+CECS 277, OBJ ORIENTED APPL DEVELOPMENT, 3 Units, 06, 4019, NONE, NONE, 1, SEM, MW, 8-8:50AM, Open, ECS-105, Cleary S, Class instruction is: Face to Face - On Campus.
+CECS 277, OBJ ORIENTED APPL DEVELOPMENT, 3 Units, 07, 5802, NONE, NONE, 1, LAB, MW, 9-10:15AM, Open, ECS-403, Staff, Class instruction is: Face to Face - On Campus.
+CECS 277, OBJ ORIENTED APPL DEVELOPMENT, 3 Units, 08, 5803, NONE, NONE, 1, LAB, MW, 9-10:15AM, Open, ECS-404, Staff, Class instruction is: Face to Face - On Campus.
+CECS 277, OBJ ORIENTED APPL DEVELOPMENT, 3 Units, 09, 8436, NONE, NONE, 1, LAB, MW, 9-10:15AM, Open, ECS-407, Staff, Class instruction is: Face to Face - On Campus.
+CECS 301, COMPUTER LOGIC DESIGN II, 3 Units, 01, 1143, NONE, NONE, 1, SEM, TuTh, 2-2:50PM, Open, ECS-302, Staff, Class instruction is: Face to Face - On Campus.
+CECS 301, COMPUTER LOGIC DESIGN II, 3 Units, 02, 2329, NONE, NONE, 1, LAB, TuTh, 3-4:15PM, Open, ECS-405, Staff, Class instruction is: Face to Face - On Campus.
+CECS 302, INTRO TO COMPUTER FORENSICS, 3 Units, 01, 11797, NONE, NONE, NONE, SEM, MW, 6:30-7:20PM, Open, VEC-330, Uuh L, Class instruction is: Face to Face - On Campus.
+CECS 302, INTRO TO COMPUTER FORENSICS, 3 Units, 02, 11798, NONE, NONE, NONE, LAB, MW, 7:30-8:45PM, Open, VEC-330, Uuh L, Class instruction is: Face to Face - On Campus.
+CECS 303, NETWORKS AND NETWORK SECURITY, 3 Units, 03, 8297, NONE, NONE, 1, SEM, TuTh, 5-5:50PM, NONE, ECS-413, Samayoa C, Class instruction is: Face to Face - On Campus.
+CECS 303, NETWORKS AND NETWORK SECURITY, 3 Units, 04, 8298, NONE, NONE, 1, LAB, TuTh, 6-7:15PM, NONE, ECS-413, Samayoa C, Class instruction is: Face to Face - On Campus.
+CECS 311, PRIN OF COMPUTER ENGINEERNG II, 3 Units, 01, 4374, NONE, NONE, 1, SEM, MW, 8-8:50AM, Open, ECS-411, Hernandez E, Class instruction is: Face to Face - On Campus.
+CECS 311, PRIN OF COMPUTER ENGINEERNG II, 3 Units, 02, 4811, NONE, NONE, 1, LAB, MW, 9-10:15AM, Open, ECS-411, Hernandez E, Class instruction is: Face to Face - On Campus.
+CECS 323, DATABASE FUNDAMENTALS, 3 Units, 01, 4024, NONE, NONE, 1, SEM, MW, 3:30-4:45PM, Open, VEC-330, Brown D, Class instruction is: Face to Face - On Campus.
+CECS 323, DATABASE FUNDAMENTALS, 3 Units, 02, 4375, NONE, NONE, 1, SEM, TuTh, 3:30-4:45PM, NONE, ECS-412, Terrell N, Class instruction is: Face to Face - On Campus.
+CECS 323, DATABASE FUNDAMENTALS, 3 Units, 03, 4474, NONE, NONE, 1, SEM, MW, 12:30-1:45PM, Open, ECS-302, Brown D, Class instruction is: Face to Face - On Campus.
+CECS 323, DATABASE FUNDAMENTALS, 3 Units, 05, 7134, NONE, NONE, NONE, SEM, TuTh, 2-3:15PM, NONE, ECS-412, Terrell N, Class instruction is: Face to Face - On Campus.
+CECS 323, DATABASE FUNDAMENTALS, 3 Units, 07, 8249, NONE, NONE, 1, SEM, MW, 8-9:15AM, Open, ECS-414, Brown D, Class instruction is: Face to Face - On Campus.
+CECS 325, SYSTEM PROGRAMMING, 3 Units, 01, 7744, NONE, NONE, 1, SEM, MW, 6-7:15PM, Open, HC-120, Gold S, Class instruction is: Face to Face - On Campus.
+CECS 325, SYSTEM PROGRAMMING, 3 Units, 02, 7748, NONE, NONE, 1, SEM, TuTh, 5-6:15PM, Open, HSCI-102, Gold S, Class instruction is: Face to Face - On Campus.
+CECS 326, OPERATING SYSTEMS, 3 Units, 01, 1144, NONE, NONE, 1, SEM, TuTh, 5-6:15PM, Open, HC-120, Staff, Class instruction is: Face to Face - On Campus.
+CECS 326, OPERATING SYSTEMS, 3 Units, 02, 4376, NONE, NONE, 1, SEM, MW, 3:30-4:45PM, NONE, HC-120, Xu H, Class instruction is: Face to Face - On Campus.
+CECS 327, INTRO NETWORKS & DIST COMPUT, 3 Units, 01, 3020, NONE, NONE, 1, SEM, Tu, 3:30-6:15PM, Open, KIN-059, Luti M, Class instruction is: Face to Face - On Campus.Class offered with CECS-327H-01
+CECS 327, INTRO NETWORKS & DIST COMPUT, 3 Units, 02, 4377, NONE, NONE, 1, SEM, W, 4-6:30PM, Open, PSY-150, Luti M, Class instruction is: Face to Face - On Campus.
+CECS 327H, INTRO NETWORKS & DIST COMPUT, 3 Units, 01, 8160, NONE, NONE, 1, SEM, Tu, 3:30-6:15PM, Open, KIN-059, Luti M, Class instruction is: Face to Face - On Campus.Class offered with CECS-327-01
+CECS 328, ALGORITHMS, 3 Units, 01, 1145, NONE, NONE, 1, SEM, MW, 2-3:15PM, Open, DESN-112, Goldstein D, Class instruction is: Face to Face - On Campus.
+CECS 328, ALGORITHMS, 3 Units, 04, 8060, NONE, NONE, 1, SEM, MW, 6:30-7:45PM, Open, HC-100, Sharifian A, Class instruction is: Face to Face - On Campus.Class offered with CECS-328H-04
+CECS 328H, ALGORITHMS, 3 Units, 04, 8061, NONE, NONE, 1, SEM, MW, 6:30-7:45PM, Open, HC-100, Sharifian A, Class instruction is: Face to Face - On Campus.Class offered with CECS-328-04
+CECS 329, CONCEPTS COMPUTER SCI THEORY, 3 Units, 01, 7136, NONE, NONE, NONE, SEM, TuTh, 8-9:15AM, NONE, HC-100, Ebert T, Class instruction is: Face to Face - On Campus.
+CECS 329, CONCEPTS COMPUTER SCI THEORY, 3 Units, 02, 7137, NONE, NONE, NONE, SEM, TuTh, 5:30-6:45PM, NONE, VEC-418, Nguyen M, Class instruction is: Face to Face - On Campus.
+CECS 329, CONCEPTS COMPUTER SCI THEORY, 3 Units, 03, 8248, NONE, NONE, 1, SEM, MW, 12:30-1:45PM, NONE, ECS-308, Jurgensen C, Class instruction is: Face to Face - On Campus.
+CECS 329, CONCEPTS COMPUTER SCI THEORY, 3 Units, 04, 9968, NONE, NONE, NONE, SEM, MW, 9:30-10:45AM, NONE, ECS-412, Staff, Class instruction is: Face to Face - On Campus.
+CECS 341, COMPUTER ARCHITECT ORGANIZATIN, 3 Units, 01, 4025, NONE, NONE, 1, SEM, F, 1-3:45PM, Open, ECS-105, Sayadi H, Class instruction is: Face to Face - On Campus.
+CECS 341, COMPUTER ARCHITECT ORGANIZATIN, 3 Units, 02, 4026, NONE, NONE, 1, SEM, Sa, 8-10:45AM, Open, ECS-414, Seyyedhosseini M, Class instruction is: Face to Face - On Campus.
+CECS 341, COMPUTER ARCHITECT ORGANIZATIN, 3 Units, 03, 9992, NONE, NONE, 1, SEM, MW, 3:30-4:45PM, Open, ECS-412, Afzali-Kusha A, Class instruction is: Face to Face - On Campus.
+CECS 342, PRINCPLE PROGRAMMING LANGUAGE, 3 Units, 01, 7138, NONE, NONE, NONE, SEM, TuTh, 12:30-1:45PM, NONE, ECS-302, Jurgensen C, Class instruction is: Face to Face - On Campus.
+CECS 342, PRINCPLE PROGRAMMING LANGUAGE, 3 Units, 02, 7139, NONE, NONE, NONE, SEM, MW, 2-3:15PM, NONE, ECS-405, Jurgensen C, Class instruction is: Face to Face - On Campus.
+CECS 342, PRINCPLE PROGRAMMING LANGUAGE, 3 Units, 03, 7140, NONE, NONE, NONE, SEM, F, 1-3:45PM, Open, ECS-412, Terrell N, Class instruction is: Face to Face - On Campus.
+CECS 342, PRINCPLE PROGRAMMING LANGUAGE, 3 Units, 04, 7141, NONE, NONE, NONE, SEM, MW, 6-7:15PM, Open, ECS-411, Nguyen P, Class instruction is: Face to Face - On Campus.
+CECS 342, PRINCPLE PROGRAMMING LANGUAGE, 3 Units, 05, 7142, NONE, NONE, NONE, SEM, TuTh, 9:30-10:45AM, NONE, ECS-302, Jurgensen C, Class instruction is: Face to Face - On Campus.
+CECS 342, PRINCPLE PROGRAMMING LANGUAGE, 3 Units, 06, 7143, NONE, NONE, NONE, SEM, F, 9-11:45AM, Open, ECS-308, Jurgensen C, Class instruction is: Face to Face - On Campus.
+CECS 343, INTRO TO SOFTWARE ENGINEERING, 3 Units, 01, 2971, NONE, NONE, 1, SEM, MW, 5-6:15PM, Open, HC-100, Murgolo F, Class instruction is: Face to Face - On Campus.
+CECS 343, INTRO TO SOFTWARE ENGINEERING, 3 Units, 02, 9979, NONE, NONE, 1, SEM, TuTh, 5-6:15PM, Open, VEC-518, Link D, Class instruction is: Face to Face - On Campus.
+CECS 346, EMBEDDED SYSTEMS I, 3 Units, 03, 11736, NONE, NONE, 1, SEM, F, 10-11:50AM, Open, ECS-405, He M, Class instruction is: Face to Face - On Campus.Class offered with CECS-346H-03
+CECS 346, EMBEDDED SYSTEMS I, 3 Units, 04, 11737, NONE, NONE, 1, LAB, F, 12-2:45PM, Open, ECS-405, He M, Class instruction is: Face to Face - On Campus.Class offered with CECS-346H-04
+CECS 346H, EMBEDDED SYSTEMS I, 3 Units, 03, 11738, NONE, NONE, NONE, SEM, F, 10-11:50AM, Open, ECS-405, He M, Class instruction is: Face to Face - On Campus.Class offered with CECS-346-03
+CECS 346H, EMBEDDED SYSTEMS I, 3 Units, 04, 11739, NONE, NONE, NONE, LAB, F, 12-2:45PM, Open, ECS-405, He M, Class instruction is: Face to Face - On Campus.Class offered with CECS-346-04
+CECS 347, EMBEDDED SYSTEMS II, 3 Units, 01, 5678, NONE, NONE, 1, SEM, MW, 10-10:50AM, NONE, ECS-414, He M, Class instruction is: Face to Face - On Campus.
+CECS 347, EMBEDDED SYSTEMS II, 3 Units, 02, 5679, NONE, NONE, 1, LAB, MW, 11-12:15PM, NONE, ECS-414, He M, Class instruction is: Face to Face - On Campus.
+CECS 361, DIGITAL DESIGN TECH VERIFICATN, 3 Units, 03, 8062, NONE, NONE, 1, SEM, TuTh, 11-11:50AM, Open, ECS-412, Staff, Class instruction is: Face to Face - On Campus.
+CECS 361, DIGITAL DESIGN TECH VERIFICATN, 3 Units, 04, 8063, NONE, NONE, 1, LAB, TuTh, 12-1:15PM, Open, ECS-412, Staff, Class instruction is: Face to Face - On Campus.
+CECS 378, INTRO TO COMPUTER SECURITY PRI, 3 Units, 01, 5505, NONE, NONE, 1, SEM, TuTh, 11-12:15PM, NONE, VEC-518, Giacalone A, Class instruction is: Face to Face - On Campus.
+CECS 378, INTRO TO COMPUTER SECURITY PRI, 3 Units, 02, 5901, NONE, NONE, 1, SEM, TuTh, 5-6:15PM, NONE, ECS-404, Uuh L, Class instruction is: Face to Face - On Campus.
+CECS 378, INTRO TO COMPUTER SECURITY PRI, 3 Units, 03, 6862, NONE, NONE, 1, SEM, MW, 5:30-6:45PM, Open, VEC-518, Uuh L, Class instruction is: Face to Face - On Campus.
+CECS 378, INTRO TO COMPUTER SECURITY PRI, 3 Units, 04, 9997, NONE, NONE, 1, SEM, F, 9-11:45AM, NONE, ECS-404, Addington S, Class instruction is: Face to Face - On Campus.
+CECS 427, DYNAMIC NETWORKS, 3 Units, 02, 9972, NONE, NONE, NONE, SEM, TuTh, 2-3:15PM, NONE, ECS-413, Morales Ponce O, Class instruction is: Face to Face - On Campus.
+CECS 440, COMPUTER ARCHITECTURE, 3 Units, 01, 3376, NONE, NONE, 1, SEM, TuTh, 3:30-4:20PM, NONE, ECS-416, Shamsa K, Class instruction is: Face to Face - On Campus.Class offered with CECS-440H-01
+CECS 440, COMPUTER ARCHITECTURE, 3 Units, 02, 3377, NONE, NONE, 1, LAB, TuTh, 4:30-5:45PM, NONE, ECS-416, Shamsa K, Class instruction is: Face to Face - On Campus.Class offered with CECS-440H-02
+CECS 440H, COMPUTER ARCHITECTURE, 3 Units, 01, 5208, NONE, NONE, 1, SEM, TuTh, 3:30-4:20PM, Open, ECS-416, Shamsa K, Class instruction is: Face to Face - On Campus.Class offered with CECS-440-01
+CECS 440H, COMPUTER ARCHITECTURE, 3 Units, 02, 5209, NONE, NONE, 1, LAB, TuTh, 4:30-5:45PM, Open, ECS-416, Shamsa K, Class instruction is: Face to Face - On Campus.Class offered with CECS-440-02
+CECS 443, SOFTWARE PROJ MGMT AND TESTING, 3 Units, 01, 7149, NONE, NONE, NONE, SEM, TuTh, 6:30-7:45PM, NONE, ECS-308, Link D, Class instruction is: Face to Face - On Campus.
+CECS 447, EMBEDDED SYSTEMS III, 3 Units, 03, 8177, NONE, NONE, 1, SEM, MW, 2-2:50PM, NONE, ECS-414, He M, Class instruction is: Face to Face - On Campus.
+CECS 447, EMBEDDED SYSTEMS III, 3 Units, 04, 8178, NONE, NONE, 1, LAB, MW, 3-4:15PM, NONE, ECS-414, He M, Class instruction is: Face to Face - On Campus.
+CECS 448, USER INTERFACE DESIGN, 3 Units, 01, 5347, NONE, NONE, 1, SEM, TuTh, 11-12:15PM, NONE, ECS-302, Shamsa K, Class instruction is: Face to Face - On Campus.
+CECS 451, ARTIFICIAL INTELLIGENCE, 3 Units, 02, 9317, NONE, NONE, 1, SEM, TuTh, 9:30-10:45AM, NONE, ECS-308, Moon J, Class instruction is: Face to Face - On Campus.
+CECS 453, MOBILE APPLICATION DEVELOPMENT, 3 Units, 01, 7150, NONE, NONE, NONE, SEM, MW, 8-9:15AM, NONE, ECS-405, Nguyen P, Class instruction is: Face to Face - On Campus.
+CECS 455, INTRO TO GAME PROGRAMMING, 3 Units, 01, 9753, NONE, NONE, NONE, SEM, MW, 11-12:15PM, NONE, VEC-330, Goldstein D, Class instruction is: Face to Face - On Campus.
+CECS 456, MACHINE LEARNING, 3 Units, 03, 8250, NONE, NONE, 1, SEM, MW, 12:30-1:45PM, NONE, VEC-518, Zhang W, Class instruction is: Face to Face - On Campus.
+CECS 475, SOFTWARE DVLPMNT WITH FRAMWRKS, 3 Units, 01, 4089, NONE, NONE, 1, SEM, MW, 11-12:15PM, NONE, VEC-518, Nguyen P, Class instruction is: Face to Face - On Campus.
+CECS 478, INTRO TO COMPUTER SECURITY, 3 Units, 01, 4833, NONE, NONE, 1, SEM, MW, 11-12:15PM, NONE, ECS-308, Sodagari S, Class instruction is: Face to Face - On Campus.
+CECS 478, INTRO TO COMPUTER SECURITY, 3 Units, 02, 8176, NONE, NONE, 1, SEM, TuTh, 12:30-1:45PM, NONE, HC-120, Giacalone A, Class instruction is: Face to Face - On Campus.
+CECS 490A, COMP ENGR SNR PRJCT I, 3 Units, 01, 5210, NONE, NONE, 1, SEM, MW, 7:30-8:45PM, NONE, ECS-413, Cregg D, Class instruction is: Face to Face - On Campus.
+CECS 490B, COMPUTER ENGR SNR PROJECT II, 3 Units, 01, 4819, NONE, NONE, 1, SEM, MW, 12:30-1:45PM, Open, ECS-405, Hernandez E, Instructor Consent RequiredClass instruction is: Face to Face - On Campus.
+CECS 491A, COMPUTER SCI SENIOR PROJECT I, 3 Units, 01, 4850, NONE, NONE, 1, SEM, TuTh, 11-12:15PM, NONE, ECS-407, Hoffman F, Class instruction is: Face to Face - On Campus.
+CECS 491A, COMPUTER SCI SENIOR PROJECT I, 3 Units, 02, 4907, NONE, NONE, 1, SEM, TuTh, 2-3:15PM, NONE, VEC-330, Hoffman F, Class instruction is: Face to Face - On Campus.
+CECS 491A, COMPUTER SCI SENIOR PROJECT I, 3 Units, 03, 5449, NONE, NONE, 1, SEM, TuTh, 5-6:15PM, NONE, ECS-308, Hoffman F, Class instruction is: Face to Face - On Campus.
+CECS 491A, COMPUTER SCI SENIOR PROJECT I, 3 Units, 04, 8130, NONE, NONE, NONE, SEM, TuTh, 3:30-4:45PM, NONE, ECS-302, Hoffman F, Class instruction is: Face to Face - On Campus.
+CECS 491B, COMPUTER SCI SENIOR PROJECT II, 3 Units, 01, 6206, NONE, NONE, 1, SEM, MW, 2-3:15PM, Open, ECS-308, Murgolo F, Instructor Consent RequiredClass instruction is: Face to Face - On Campus.
+CECS 491B, COMPUTER SCI SENIOR PROJECT II, 3 Units, 02, 7786, NONE, NONE, 1, SEM, TuTh, 12:30-1:45PM, Open, ECS-403, Hoffman F, Instructor Consent RequiredClass instruction is: Face to Face - On Campus.
+CECS 491B, COMPUTER SCI SENIOR PROJECT II, 3 Units, 03, 9139, NONE, NONE, NONE, SEM, TuTh, 7:30-8:45PM, Open, ECS-413, Shahnawaz I, Instructor Consent RequiredClass instruction is: Face to Face - On Campus.
+CECS 491B, COMPUTER SCI SENIOR PROJECT II, 3 Units, 04, 11224, NONE, NONE, NONE, SEM, MW, 11-12:15PM, Open, ECS-404, Albinali F, Instructor Consent RequiredClass instruction is: Face to Face - On Campus.
+CECS 497, DIRECTED STUDIES, 1-3 Units, 01, 1146, NONE, NONE, 3,180, SUP, TBA, NA, Open, NA, Staff, Instructor Consent RequiredClass instruction is: Face to Face - On Campus.
+CECS 497, DIRECTED STUDIES, 1-3 Units, 18, 3389, NONE, NONE, 3,180, SUP, TBA, NA, Open, NA, Staff, Instructor Consent RequiredClass instruction is: Face to Face - On Campus.
+CECS 497, DIRECTED STUDIES, 1-3 Units, 19, 7031, NONE, NONE, 1, SUP, TBA, NA, Open, NA, Staff, Instructor Consent RequiredClass instruction is: Face to Face - On Campus.
+CECS 497, DIRECTED STUDIES, 1-3 Units, 20, 8225, NONE, NONE, 3,180, SUP, TBA, NA, Open, NA, Staff, Instructor Consent RequiredClass instruction is: Face to Face - On Campus.
+CECS 497, DIRECTED STUDIES, 1-3 Units, 21, 8400, NONE, NONE, 1,3, SUP, TBA, NA, Open, NA, Staff, Instructor Consent RequiredClass instruction is: Face to Face - On Campus.
+CECS 524, ADV TOPICS IN PROGRAMMING LANG, 3 Units, 02, 6791, NONE, NONE, 311,1, SEM, F, 12-2:45PM, Open, HC-120, Hoffman M, Class instruction is: Hybrid (Face to Face & Online).
+CECS 524, ADV TOPICS IN PROGRAMMING LANG, 3 Units, 02, NONE, NONE, NONE, NONE, NONE, F, 12-2:45PM, NONE, ONLINE-ONLY, Staff, additional meeting detail
+CECS 528, ADV ANALYSIS OF ALGORITHMS, 3 Units, 01, 4165, NONE, NONE, 1, SEM, MW, 8-9:15AM, Open, HC-120, Ebert T, Class instruction is: Face to Face - On Campus.
+CECS 528, ADV ANALYSIS OF ALGORITHMS, 3 Units, 02, 8247, NONE, NONE, 1, SEM, MW, 5-6:15PM, Open, ECS-302, Fahim A, Class instruction is: Face to Face - On Campus.
+CECS 528, ADV ANALYSIS OF ALGORITHMS, 3 Units, 03, 9969, NONE, NONE, NONE, SEM, MW, 3:30-4:45PM, Open, ECS-302, Ghasemkhani A, Class instruction is: Face to Face - On Campus.
+CECS 530, ADV COMPUTER ARCHITECTURE I, 3 Units, 01, 8199, NONE, NONE, 1, SEM, Sa, 11-1:45PM, Open, ECS-306, Seyyedhosseini M, Class instruction is: Face to Face - On Campus.
+CECS 530, ADV COMPUTER ARCHITECTURE I, 3 Units, 02, 9970, NONE, NONE, NONE, SEM, TuTh, 8-9:15AM, Open, ECS-302, Wu X, Class instruction is: Face to Face - On Campus.
+CECS 530, ADV COMPUTER ARCHITECTURE I, 3 Units, 03, 9993, NONE, NONE, NONE, SEM, F, 3-5:45PM, Open, ECS-308, Wu X, Class instruction is: Face to Face - On Campus.
+CECS 532, MEMORY DESIGN IMPLEMENTATION, 3 Units, 01, 6772, NONE, NONE, 311,1, SEM, F, 9-11:45AM, NONE, ECS-302, Wu X, Class instruction is: Hybrid (Face to Face & Online).
+CECS 532, MEMORY DESIGN IMPLEMENTATION, 3 Units, 01, NONE, NONE, NONE, NONE, NONE, F, 9-11:45AM, NONE, ONLINE-ONLY, Staff, additional meeting detail
+CECS 543, ADVANCED SOFTWARE ENGINEERING, 3 Units, 01, 9974, NONE, NONE, 1, SEM, MW, 6:30-7:45PM, Open, ECS-407, Link D, Class instruction is: Face to Face - On Campus.
+CECS 543, ADVANCED SOFTWARE ENGINEERING, 3 Units, 02, 6918, NONE, NONE, 1, SEM, TuTh, 9:30-10:45AM, Open, HC-120, Basit A, Class instruction is: Face to Face - On Campus.
+CECS 547, SOFTWARE MAINT REENGIN & REUSE, 3 Units, 01, 8246, NONE, NONE, 1, SEM, TuTh, 5-6:15PM, NONE, ECS-414, Basit A, Class instruction is: Face to Face - On Campus.
+CECS 550, PATTERN RECOGNITION, 3 Units, 01, 8175, NONE, NONE, 1, SEM, MW, 6:30-7:45PM, Open, ECS-306, Ghazarian A, Class instruction is: Face to Face - On Campus.
+CECS 551, ADV ARTIFICIAL INTELLIGENCE, 3 Units, 01, 7752, NONE, NONE, 1,311, SEM, TuTh, 12:30-1:45PM, Open, COB-140A, Moon J, Class instruction is: Hybrid (Face to Face & Online).
+CECS 551, ADV ARTIFICIAL INTELLIGENCE, 3 Units, 01, NONE, NONE, NONE, NONE, NONE, TuTh, 12:30-1:45PM, NONE, ONLINE-ONLY, Staff, additional meeting detail
+CECS 552, COMPUTER SIMULATION & MODELING, 3 Units, 01, 8217, NONE, NONE, 1, SEM, Sa, 4-6:45PM, NONE, ECS-404, Mehrnia A, Class instruction is: Face to Face - On Campus.
+CECS 553, MACHINE VISION, 3 Units, 01, 11735, NONE, NONE, NONE, SEM, Sa, 11-1:45PM, NONE, ECS-403, Sodagari S, Class instruction is: Face to Face - On Campus.
+CECS 574, TOPICS DISTRIBUTED COMPUTING, 3 Units, 02, 8021, NONE, NONE, 1, SEM, Sa, 8-10:45AM, NONE, VEC-518, Yaghini P, Class instruction is: Face to Face - On Campus.
+CECS 577, BLOCKCHAIN TECHNOLOGY, 3 Units, 01, 9200, NONE, NONE, NONE, LEC, MW, 5-6:15PM, NONE, ECS-306, Golshani F, Class instruction is: Face to Face - On Campus.
+CECS 579, INFORMATION SECURITY, 3 Units, 02, 11613, NONE, NONE, NONE, SEM, Sa, 8-10:45AM, NONE, ECS-403, Sodagari S, Class instruction is: Face to Face - On Campus.
+CECS 697, DIRECTED RESEARCH, 1-3 Units, 14, 3661, NONE, NONE, 3,180, SUP, TBA, NA, Open, NA, Staff, Instructor Consent RequiredClass instruction is: Face to Face - On Campus.
+CECS 697, DIRECTED RESEARCH, 1-3 Units, 15, 4924, NONE, NONE, 1,3, SUP, TBA, NA, Open, NA, Staff, Instructor Consent RequiredClass instruction is: Face to Face - On Campus.
+CECS 697, DIRECTED RESEARCH, 1-3 Units, 16, 5025, NONE, NONE, 1,3, SUP, TBA, NA, Open, NA, Staff, Instructor Consent RequiredClass instruction is: Face to Face - On Campus.
+CECS 697, DIRECTED RESEARCH, 1-3 Units, 17, 5461, NONE, NONE, 1,3, SUP, TBA, NA, Open, NA, Staff, Instructor Consent RequiredClass instruction is: Face to Face - On Campus.
+CECS 697, DIRECTED RESEARCH, 1-3 Units, 18, 10068, NONE, NONE, 1,3, SUP, TBA, NA, Open, ECS-536, Staff, Instructor Consent RequiredClass instruction is: Face to Face - On Campus.
+CECS 698, THESIS OR INDUSTRIAL PROJECT, 3-6 Units, 01, 1154, NONE, NONE, 8,180, SUP, TBA, NA, Open, NA, Staff, Department Consent RequiredClass instruction is: Face to Face - On Campus.
+CECS 698, THESIS OR INDUSTRIAL PROJECT, 3-6 Units, 04, 10150, NONE, NONE, 8,180, SUP, TBA, NA, Open, ECS-536, Staff, Department Consent RequiredClass instruction is: Face to Face - On Campus.
+CECS 698, THESIS OR INDUSTRIAL PROJECT, 3-6 Units, 17, 3660, NONE, NONE, 8,180, SUP, TBA, NA, Open, NA, Staff, Department Consent RequiredClass instruction is: Face to Face - On Campus.
+CECS 698, THESIS OR INDUSTRIAL PROJECT, 3-6 Units, 18, 6116, NONE, NONE, 8,180, SUP, TBA, NA, Open, NA, Staff, Department Consent RequiredClass instruction is: Face to Face - On Campus.
+CECS 698, THESIS OR INDUSTRIAL PROJECT, 3-6 Units, 19, 10227, NONE, NONE, 8,180, SUP, TBA, NA, Open, ECS-539, Staff, Department Consent RequiredClass instruction is: Face to Face - On Campus.

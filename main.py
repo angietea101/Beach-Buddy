@@ -6,8 +6,13 @@ Description: Main function to run our script
 from csulb_course import CSULBCourse
 
 
-def read_data_in_file():
-    with open('scraped_data.txt', 'r') as file:
+def create_CSULBCourse_objects(file_name: str):
+    """
+    Creates CSULBCourse objects of all courses obtained in the given text file
+    file_name -- The file .txt that contains the scraped data
+    Return a list that contains all the objects
+    """
+    with open(file_name, 'r') as file:
         courses = []
         for line in file:
             data = line.strip().split(', ')
@@ -31,9 +36,10 @@ def read_data_in_file():
 
 
 def main():
-    courses = read_data_in_file()
+    courses = create_CSULBCourse_objects('cecs_scraped_data.txt')
     # Print each course
-    user_course = input("Enter course to check open sections: ")
+    user_course = input("Enter course number: ")
+    print("Courses currently open:\n")
     for course in courses:
         user_course.upper()
         if course.course_abr == user_course and course.open_seats is True:
