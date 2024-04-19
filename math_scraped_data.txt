@@ -1,0 +1,356 @@
+MATH 92A, FOUNDATIONS FOR ESSENTIAL ALG, 1 Unit, 02, 6072, NONE, NONE, NONE, ACT, M, 8-9:50AM, Open, LA5-171, Staff, Class instruction is: Face to Face - On Campus.
+MATH 92A, FOUNDATIONS FOR ESSENTIAL ALG, 1 Unit, 03, 6073, NONE, NONE, NONE, ACT, M, 10-11:50AM, Open, LA5-171, Staff, Class instruction is: Face to Face - On Campus.
+MATH 92A, FOUNDATIONS FOR ESSENTIAL ALG, 1 Unit, 04, 6074, NONE, NONE, NONE, ACT, M, 12-1:50PM, Open, LA5-171, Staff, Class instruction is: Face to Face - On Campus.
+MATH 92A, FOUNDATIONS FOR ESSENTIAL ALG, 1 Unit, 05, 6075, NONE, NONE, NONE, ACT, M, 2-3:50PM, Open, HSCI-107, Staff, Class instruction is: Face to Face - On Campus.
+MATH 92A, FOUNDATIONS FOR ESSENTIAL ALG, 1 Unit, 09, 7192, NONE, NONE, NONE, ACT, M, 8-9:50AM, Open, LA5-243, Staff, Class instruction is: Face to Face - On Campus.
+MATH 92A, FOUNDATIONS FOR ESSENTIAL ALG, 1 Unit, 11, 6477, NONE, NONE, NONE, ACT, M, 10-11:50AM, Open, LA5-243, Staff, Class instruction is: Face to Face - On Campus.
+MATH 92A, FOUNDATIONS FOR ESSENTIAL ALG, 1 Unit, 12, 6976, NONE, NONE, NONE, ACT, M, 12-1:50PM, Open, LA5-243, Staff, Class instruction is: Face to Face - On Campus.
+MATH 92A, FOUNDATIONS FOR ESSENTIAL ALG, 1 Unit, 13, 6997, NONE, NONE, NONE, ACT, M, 2-3:50PM, Open, PH1-127, Staff, Class instruction is: Face to Face - On Campus.
+MATH 92A, FOUNDATIONS FOR ESSENTIAL ALG, 1 Unit, 15, 7304, NONE, NONE, NONE, ACT, Tu, 8-9:50AM, Open, LA5-263, Staff, Class instruction is: Face to Face - On Campus.
+MATH 92A, FOUNDATIONS FOR ESSENTIAL ALG, 1 Unit, 17, 7910, NONE, NONE, NONE, ACT, Tu, 10-11:50AM, Open, PH1-220, Staff, Class instruction is: Face to Face - On Campus.
+MATH 92A, FOUNDATIONS FOR ESSENTIAL ALG, 1 Unit, 18, 7911, NONE, NONE, NONE, ACT, Tu, 12-1:50PM, Open, HC-122, Staff, Class instruction is: Face to Face - On Campus.
+MATH 92A, FOUNDATIONS FOR ESSENTIAL ALG, 1 Unit, 19, 7912, NONE, NONE, NONE, ACT, Tu, 2-3:50PM, Open, HC-122, Staff, Class instruction is: Face to Face - On Campus.
+MATH 92A, FOUNDATIONS FOR ESSENTIAL ALG, 1 Unit, 20, 7913, NONE, NONE, NONE, ACT, Tu, 8-9:50AM, NONE, PH1-227, Staff, Class instruction is: Face to Face - On Campus.
+MATH 92A, FOUNDATIONS FOR ESSENTIAL ALG, 1 Unit, 21, 10888, NONE, NONE, NONE, ACT, Tu, 10-11:50AM, NONE, PH1-227, Staff, Class instruction is: Face to Face - On Campus.
+MATH 92A, FOUNDATIONS FOR ESSENTIAL ALG, 1 Unit, 22, 10889, NONE, NONE, NONE, ACT, Tu, 12-1:50PM, NONE, PH1-227, Staff, Class instruction is: Face to Face - On Campus.
+MATH 92A, FOUNDATIONS FOR ESSENTIAL ALG, 1 Unit, 23, 10890, NONE, NONE, NONE, ACT, Tu, 2-3:50PM, NONE, PH1-227, Staff, Class instruction is: Face to Face - On Campus.
+MATH 93, FOUNDATION FOR PRECALC ALGEBRA, 1 Unit, 03, 9513, NONE, NONE, NONE, ACT, M, 8-9:50AM, Open, LA5-353, Staff, Class instruction is: Face to Face - On Campus.Must be enrolled in Math 113 (Any section)
+MATH 93, FOUNDATION FOR PRECALC ALGEBRA, 1 Unit, 04, 9514, NONE, NONE, NONE, ACT, M, 10-11:50AM, Open, LA5-353, Staff, Class instruction is: Face to Face - On Campus.Must be enrolled in Math 113 (Any section)
+MATH 93, FOUNDATION FOR PRECALC ALGEBRA, 1 Unit, 05, 9515, NONE, NONE, NONE, ACT, M, 12-1:50PM, Open, LA5-353, Staff, Class instruction is: Face to Face - On Campus.Must be enrolled in Math 113 (Any section)
+MATH 93, FOUNDATION FOR PRECALC ALGEBRA, 1 Unit, 06, 9516, NONE, NONE, NONE, ACT, M, 2-3:50PM, Open, VEC-501, Staff, Class instruction is: Face to Face - On Campus.
+MATH 93, FOUNDATION FOR PRECALC ALGEBRA, 1 Unit, 07, 9517, NONE, NONE, NONE, ACT, Tu, 8-9:50AM, Open, PH1-127, Staff, Class instruction is: Face to Face - On Campus.Must be enrolled in Math 113 (Any section)
+MATH 93, FOUNDATION FOR PRECALC ALGEBRA, 1 Unit, 11, 10199, NONE, NONE, NONE, ACT, Tu, 12-1:50PM, Open, PH1-127, Staff, Class instruction is: Face to Face - On Campus.
+MATH 93, FOUNDATION FOR PRECALC ALGEBRA, 1 Unit, 12, 10201, NONE, NONE, NONE, ACT, Tu, 2-3:50PM, Open, PH1-127, Staff, Class instruction is: Face to Face - On Campus.
+MATH 93, FOUNDATION FOR PRECALC ALGEBRA, 1 Unit, 13, 10891, NONE, NONE, NONE, ACT, M, 8-9:50AM, NONE, PH1-235, Staff, Class instruction is: Face to Face - On Campus.
+MATH 93, FOUNDATION FOR PRECALC ALGEBRA, 1 Unit, 15, 10893, NONE, NONE, NONE, ACT, M, 12-1:50PM, NONE, PH1-235, Staff, Class instruction is: Face to Face - On Campus.
+MATH 93, FOUNDATION FOR PRECALC ALGEBRA, 1 Unit, 16, 10894, NONE, NONE, NONE, ACT, M, 2-3:50PM, NONE, PH1-235, Staff, Class instruction is: Face to Face - On Campus.
+MATH 94, FOUNDATIONS QUANT REASONING, 1 Unit, 01, 6076, NONE, NONE, NONE, ACT, Tu, 8-9:50AM, Open, PH1-129, Staff, Class instruction is: Face to Face - On Campus.
+MATH 94, FOUNDATIONS QUANT REASONING, 1 Unit, 02, 6077, NONE, NONE, NONE, ACT, Tu, 10-11:50AM, Open, PH1-129, Staff, Class instruction is: Face to Face - On Campus.
+MATH 94, FOUNDATIONS QUANT REASONING, 1 Unit, 03, 6078, NONE, NONE, NONE, ACT, Tu, 8-9:50AM, Open, PH1-135, Staff, Class instruction is: Face to Face - On Campus.
+MATH 94, FOUNDATIONS QUANT REASONING, 1 Unit, 04, 6079, NONE, NONE, NONE, ACT, Tu, 10-11:50AM, Open, PH1-135, Staff, Class instruction is: Face to Face - On Campus.
+MATH 94, FOUNDATIONS QUANT REASONING, 1 Unit, 05, 6080, NONE, NONE, NONE, ACT, Tu, 12-1:50PM, Open, PH1-129, Staff, Class instruction is: Face to Face - On Campus.
+MATH 94, FOUNDATIONS QUANT REASONING, 1 Unit, 06, 6081, NONE, NONE, NONE, ACT, Tu, 2-3:50PM, Open, PH1-129, Staff, Class instruction is: Face to Face - On Campus.
+MATH 94, FOUNDATIONS QUANT REASONING, 1 Unit, 07, 7193, NONE, Open, NONE, ACT, W, 8-9:50AM, Open, LA5-259, Staff, Class instruction is: Face to Face - On Campus.Some seats are reserved for First Year Dance Students. Reserved seating expires August 26, 2024.
+MATH 94, FOUNDATIONS QUANT REASONING, 1 Unit, 08, 6255, NONE, NONE, NONE, ACT, W, 10-11:50AM, Open, LA5-259, Staff, Class instruction is: Face to Face - On Campus.
+MATH 94, FOUNDATIONS QUANT REASONING, 1 Unit, 09, 10895, NONE, NONE, NONE, ACT, Tu, 12-1:50PM, NONE, PH1-135, Staff, Class instruction is: Face to Face - On Campus.
+MATH 94, FOUNDATIONS QUANT REASONING, 1 Unit, 10, 10896, NONE, NONE, NONE, ACT, Tu, 2-3:50PM, NONE, PH1-135, Staff, Class instruction is: Face to Face - On Campus.
+MATH 95, FOUNDATIONS FOR BUSINESS CALC, 1 Unit, 01, 6066, NONE, NONE, NONE, ACT, M, 8-9:50AM, Open, LA5-259, Staff, Class instruction is: Face to Face - On Campus.
+MATH 95, FOUNDATIONS FOR BUSINESS CALC, 1 Unit, 02, 6067, NONE, NONE, NONE, ACT, M, 10-11:50AM, Open, LA5-259, Staff, Class instruction is: Face to Face - On Campus.
+MATH 95, FOUNDATIONS FOR BUSINESS CALC, 1 Unit, 04, 8395, NONE, NONE, NONE, ACT, M, 2-3:50PM, Open, PH1-135, Staff, Class instruction is: Face to Face - On Campus.
+MATH 95, FOUNDATIONS FOR BUSINESS CALC, 1 Unit, 05, 9911, NONE, NONE, NONE, ACT, Tu, 8-9:50AM, Open, PH1-209, Staff, Class instruction is: Face to Face - On Campus.
+MATH 95, FOUNDATIONS FOR BUSINESS CALC, 1 Unit, 06, 9912, NONE, NONE, NONE, ACT, Tu, 10-11:50AM, Open, PH1-209, Staff, Class instruction is: Face to Face - On Campus.
+MATH 95, FOUNDATIONS FOR BUSINESS CALC, 1 Unit, 07, 9913, NONE, NONE, NONE, ACT, Tu, 12-1:50PM, Open, PH1-209, Staff, Class instruction is: Face to Face - On Campus.
+MATH 95, FOUNDATIONS FOR BUSINESS CALC, 1 Unit, 08, 9914, NONE, NONE, NONE, ACT, Tu, 2-3:50PM, Open, PH1-209, Staff, Class instruction is: Face to Face - On Campus.
+MATH 95, FOUNDATIONS FOR BUSINESS CALC, 1 Unit, 09, 10898, NONE, NONE, NONE, ACT, Tu, 8-9:50AM, NONE, PH1-235, Staff, Class instruction is: Face to Face - On Campus.
+MATH 95, FOUNDATIONS FOR BUSINESS CALC, 1 Unit, 10, 10899, NONE, NONE, NONE, ACT, Tu, 10-11:50AM, NONE, PH1-235, Staff, Class instruction is: Face to Face - On Campus.
+MATH 95, FOUNDATIONS FOR BUSINESS CALC, 1 Unit, 11, 10900, NONE, NONE, NONE, ACT, Tu, 12-1:50PM, NONE, PH1-235, Staff, Class instruction is: Face to Face - On Campus.
+MATH 95, FOUNDATIONS FOR BUSINESS CALC, 1 Unit, 12, 10901, NONE, NONE, NONE, ACT, Tu, 2-3:50PM, NONE, PH1-235, Staff, Class instruction is: Face to Face - On Campus.
+MATH 104, THE POWER OF MATHEMATICS, 3 Units, 01A, 6010, NONE, NONE, NONE, LEC, MW, 8-8:50AM, Open, LH-150, Porter M, Class instruction is: Face to Face - On Campus.Some seats are reserved for MATH/MTED/STAT majors (including pre-majors). Reserved seating expires August 22, 2023.
+MATH 104, THE POWER OF MATHEMATICS, 3 Units, 02A1, 6011, NONE, NONE, NONE, ACT, Th, 8-9:50AM, Open, PH1-135, Porter M, Class instruction is: Face to Face - On Campus.
+MATH 104, THE POWER OF MATHEMATICS, 3 Units, 03A2, 6012, NONE, NONE, NONE, ACT, Th, 10-11:50AM, Open, PH1-135, Porter M, Class instruction is: Face to Face - On Campus.
+MATH 104, THE POWER OF MATHEMATICS, 3 Units, 04A3, 6013, NONE, NONE, NONE, ACT, F, 8-9:50AM, Open, PH1-135, Staff, Class instruction is: Face to Face - On Campus.
+MATH 104, THE POWER OF MATHEMATICS, 3 Units, 05A4, 6463, NONE, NONE, NONE, ACT, F, 10-11:50AM, Open, PH1-135, Staff, Class instruction is: Face to Face - On Campus.
+MATH 104, THE POWER OF MATHEMATICS, 3 Units, 06A5, 6014, NONE, NONE, NONE, ACT, F, 2-3:50PM, Open, LA5-169, Staff, Class instruction is: Face to Face - On Campus.
+MATH 104, THE POWER OF MATHEMATICS, 3 Units, 13C, 6021, NONE, Open, NONE, LEC, MW, 2-2:50PM, Open, ECS-105, Zipstein R, Class instruction is: Face to Face - On Campus.Some seats are reserved for First Year Dance Students. Reserved seating expires August 26, 2024.
+MATH 104, THE POWER OF MATHEMATICS, 3 Units, 14C1, 6022, NONE, NONE, NONE, ACT, W, 12-1:50PM, Open, LA5-357, Zipstein R, Class instruction is: Face to Face - On Campus.
+MATH 104, THE POWER OF MATHEMATICS, 3 Units, 15C2, 6023, NONE, NONE, NONE, ACT, Th, 12-1:50PM, Open, PH1-209, Staff, Class instruction is: Face to Face - On Campus.
+MATH 104, THE POWER OF MATHEMATICS, 3 Units, 16C3, 6024, NONE, NONE, NONE, ACT, Th, 2-3:50PM, Open, PH1-209, Staff, Class instruction is: Face to Face - On Campus.
+MATH 104, THE POWER OF MATHEMATICS, 3 Units, 17C4, 6025, NONE, NONE, NONE, ACT, F, 8-9:50AM, Open, PH1-209, Staff, Class instruction is: Face to Face - On Campus.Some seats are reserved for First Year Dance Students. Reserved seating expires August 26, 2024.
+MATH 104, THE POWER OF MATHEMATICS, 3 Units, 18C5, 6464, NONE, NONE, NONE, ACT, F, 10-11:50AM, Open, PH1-209, Staff, Class instruction is: Face to Face - On Campus.
+MATH 104, THE POWER OF MATHEMATICS, 3 Units, 19D, 6026, NONE, NONE, 306, LEC, TuTh, 12:30-1:20PM, Open, ONLINE-ONLY, Chang J, Class instruction is: Synch. Online - Meet Times.Some seats are reserved for MATH/MTED/STAT majors (including pre-majors). Reserved seating expires August 22, 2023.
+MATH 104, THE POWER OF MATHEMATICS, 3 Units, 20D1, 6027, NONE, NONE, 306, ACT, W, 12-1:50PM, Open, ONLINE-ONLY, Staff, Class instruction is: Synch. Online - Meet Times.
+MATH 104, THE POWER OF MATHEMATICS, 3 Units, 21D2, 6028, NONE, NONE, 306, ACT, W, 2-3:50PM, Open, ONLINE-ONLY, Staff, Class instruction is: Synch. Online - Meet Times.
+MATH 104, THE POWER OF MATHEMATICS, 3 Units, 22D3, 6029, NONE, NONE, 306, ACT, Th, 2-3:50PM, Open, ONLINE-ONLY, Chang J, Class instruction is: Synch. Online - Meet Times.
+MATH 104, THE POWER OF MATHEMATICS, 3 Units, 23D4, 6030, NONE, NONE, NONE, ACT, F, 8-9:50AM, Open, ONLINE-ONLY, Staff, Class instruction is: Synch. Online - Meet Times.
+MATH 104, THE POWER OF MATHEMATICS, 3 Units, 24D5, 6465, NONE, NONE, NONE, ACT, F, 10-11:50AM, Open, ONLINE-ONLY, Staff, Class instruction is: Synch. Online - Meet Times.
+MATH 104, THE POWER OF MATHEMATICS, 3 Units, 31F, 6031, NONE, NONE, NONE, LEC, TuTh, 3:30-4:20PM, Open, HSCI-100, Wukmer L, Class instruction is: Face to Face - On Campus.Some seats are reserved for MATH/MTED/STAT majors (including pre-majors). Reserved seating expires August 22, 2023.
+MATH 104, THE POWER OF MATHEMATICS, 3 Units, 32F1, 6032, NONE, NONE, NONE, ACT, W, 8-9:50AM, Open, LA5-357, Staff, Class instruction is: Face to Face - On Campus.
+MATH 104, THE POWER OF MATHEMATICS, 3 Units, 33F2, 6033, NONE, NONE, NONE, ACT, W, 10-11:50AM, Open, LA5-357, Staff, Class instruction is: Face to Face - On Campus.
+MATH 104, THE POWER OF MATHEMATICS, 3 Units, 34F3, 6466, NONE, NONE, NONE, ACT, Th, 12-1:50PM, Open, HSCI-101, Staff, Class instruction is: Face to Face - On Campus.
+MATH 104, THE POWER OF MATHEMATICS, 3 Units, 35F4, 6467, NONE, NONE, NONE, ACT, F, 10-11:50AM, Open, PH1-228, Staff, Class instruction is: Face to Face - On Campus.
+MATH 104, THE POWER OF MATHEMATICS, 3 Units, 36F5, 8711, NONE, NONE, NONE, ACT, F, 2-3:50PM, Open, PH1-228, Staff, Class instruction is: Face to Face - On Campus.
+MATH 104, THE POWER OF MATHEMATICS, 3 Units, 37G, 6558, NONE, NONE, 306, LEC, MW, 9-9:50AM, Open, ONLINE-ONLY, Sover C, Class instruction is: Synch. Online - Meet Times.Some seats are reserved for MATH/MTED/STAT majors (including pre-majors). Reserved seating expires August 22, 2023.
+MATH 104, THE POWER OF MATHEMATICS, 3 Units, 54G, 11647, NONE, NONE, 306, ACT, W, 10-11:50AM, Open, ONLINE-ONLY, Sover C, Class instruction is: Synch. Online - Meet Times.
+MATH 104, THE POWER OF MATHEMATICS, 3 Units, 39G2, 6560, NONE, NONE, NONE, ACT, Th, 8-9:50AM, Open, PH1-227, Staff, Class instruction is: Face to Face - On Campus.
+MATH 104, THE POWER OF MATHEMATICS, 3 Units, 40G3, 6561, NONE, NONE, NONE, ACT, Th, 10-11:50AM, Open, PH1-227, Staff, Class instruction is: Face to Face - On Campus.
+MATH 104, THE POWER OF MATHEMATICS, 3 Units, 41G4, 6562, NONE, NONE, NONE, ACT, F, 8-9:50AM, Open, HC-131, Staff, Class instruction is: Face to Face - On Campus.
+MATH 104, THE POWER OF MATHEMATICS, 3 Units, 42G5, 6563, NONE, NONE, NONE, ACT, F, 10-11:50AM, Open, HC-131, Staff, Class instruction is: Face to Face - On Campus.
+MATH 104, THE POWER OF MATHEMATICS, 3 Units, 46J, 8438, NONE, NONE, NONE, LEC, TuTh, 8-8:50AM, Open, COB-140, Acuna C, Class instruction is: Face to Face - On Campus.
+MATH 104, THE POWER OF MATHEMATICS, 3 Units, 47J1, 8648, NONE, NONE, NONE, ACT, W, 8-9:50AM, Open, PH1-135, Acuna C, Class instruction is: Face to Face - On Campus.
+MATH 104, THE POWER OF MATHEMATICS, 3 Units, 48J2, 8649, NONE, NONE, NONE, ACT, W, 10-11:50AM, Open, PH1-135, Acuna C, Class instruction is: Face to Face - On Campus.
+MATH 104, THE POWER OF MATHEMATICS, 3 Units, 49J3, 8650, NONE, NONE, NONE, ACT, Th, 2-3:50PM, Open, PH1-129, Acuna C, Class instruction is: Face to Face - On Campus.
+MATH 104, THE POWER OF MATHEMATICS, 3 Units, 50J4, 8651, NONE, NONE, NONE, ACT, F, 10-11:50AM, Open, PH1-129, Acuna C, Class instruction is: Face to Face - On Campus.
+MATH 104, THE POWER OF MATHEMATICS, 3 Units, 51J5, 11020, NONE, NONE, NONE, ACT, Th, 12-1:50PM, Open, LA5-261, Staff, Class instruction is: Face to Face - On Campus.
+MATH 104, THE POWER OF MATHEMATICS, 3 Units, 07B, 6015, NONE, NONE, NONE, LEC, MW, 10-10:50AM, NONE, COB-140, Porter M, Class instruction is: Face to Face - On Campus.Some seats are reserved for MATH/MTED/STAT majors (including pre-majors). Reserved seating expires August 22, 2023.
+MATH 104, THE POWER OF MATHEMATICS, 3 Units, 08B1, 6016, NONE, NONE, NONE, ACT, W, 8-9:50AM, NONE, PH1-127, Staff, Class instruction is: Face to Face - On Campus.
+MATH 104, THE POWER OF MATHEMATICS, 3 Units, 09B2, 6017, NONE, NONE, NONE, ACT, Th, 8-9:50AM, NONE, PH1-209, Staff, Class instruction is: Face to Face - On Campus.
+MATH 104, THE POWER OF MATHEMATICS, 3 Units, 10B3, 6018, NONE, NONE, NONE, ACT, Th, 10-11:50AM, NONE, PH1-209, Staff, Class instruction is: Face to Face - On Campus.
+MATH 104, THE POWER OF MATHEMATICS, 3 Units, 11B4, 6019, NONE, NONE, NONE, ACT, F, 8-9:50AM, NONE, PH1-220, Staff, Class instruction is: Face to Face - On Campus.
+MATH 104, THE POWER OF MATHEMATICS, 3 Units, 12B5, 6020, NONE, NONE, NONE, ACT, F, 10-11:50AM, NONE, PH1-220, Staff, Class instruction is: Face to Face - On Campus.
+MATH 111, PRECALCULUS TRIGONOMETRY, 3 Units, 01, 4208, NONE, NONE, 1,27,136, SEM, MW, 8-9:15AM, Open, LA5-263, Zipstein R, Class instruction is: Face to Face - On Campus.
+MATH 111, PRECALCULUS TRIGONOMETRY, 3 Units, 02, 4305, NONE, NONE, 1,27,136, SEM, MW, 9:30-10:45AM, Open, LA5-263, Geier G, Class instruction is: Face to Face - On Campus.
+MATH 111, PRECALCULUS TRIGONOMETRY, 3 Units, 03, 4306, NONE, NONE, 1,27,136, SEM, MW, 9:30-10:45AM, Open, LA5-347, Eldanaf D, Class instruction is: Face to Face - On Campus.
+MATH 111, PRECALCULUS TRIGONOMETRY, 3 Units, 04, 4307, NONE, NONE, 1,27,136, SEM, MW, 11-12:15PM, Open, LA5-347, Eldanaf D, Class instruction is: Face to Face - On Campus.
+MATH 111, PRECALCULUS TRIGONOMETRY, 3 Units, 06, 5078, NONE, NONE, 306,1,27,136, SEM, TuTh, 12:30-1:45PM, Open, ONLINE-ONLY, Araeipour A, Class instruction is: Synch. Online - Meet Times.
+MATH 111, PRECALCULUS TRIGONOMETRY, 3 Units, 07, 5714, NONE, NONE, NONE, SEM, TuTh, 11-12:15PM, Open, LA5-243, Wukmer L, Class instruction is: Face to Face - On Campus.
+MATH 111, PRECALCULUS TRIGONOMETRY, 3 Units, 09, 6473, NONE, NONE, NONE, SEM, TuTh, 2-3:15PM, Open, LA5-343, Faridpak F, Class instruction is: Face to Face - On Campus.
+MATH 111, PRECALCULUS TRIGONOMETRY, 3 Units, 13, 6953, NONE, NONE, NONE, SEM, TuTh, 11-12:15PM, Open, LA5-343, Faridpak F, Class instruction is: Face to Face - On Campus.
+MATH 111, PRECALCULUS TRIGONOMETRY, 3 Units, 14, 6991, NONE, NONE, NONE, SEM, TuTh, 8-9:15AM, Open, LA5-271, English C, Class instruction is: Face to Face - On Campus.
+MATH 111, PRECALCULUS TRIGONOMETRY, 3 Units, 15, 8237, NONE, NONE, 310, SEM, MW, 4-5:15PM, Open, PH1-127, Gray C, Class instruction is: Face to Face - On Campus.
+MATH 111, PRECALCULUS TRIGONOMETRY, 3 Units, 16, 8354, NONE, NONE, NONE, SEM, MW, 5:30-6:45PM, Open, PH1-127, Gray C, Class instruction is: Face to Face - On Campus.
+MATH 111, PRECALCULUS TRIGONOMETRY, 3 Units, 17, 9375, NONE, NONE, NONE, SEM, TuTh, 11-12:15PM, Open, LA5-151, Trinh H, Class instruction is: Face to Face - On Campus.
+MATH 111, PRECALCULUS TRIGONOMETRY, 3 Units, 18, 10392, NONE, NONE, NONE, SEM, MW, 12:30-1:45PM, Open, LA5-271, Li X, Class instruction is: Face to Face - On Campus.
+MATH 111, PRECALCULUS TRIGONOMETRY, 3 Units, 19, 11679, NONE, NONE, NONE, SEM, TuTh, 9:30-10:45AM, Open, COB-122, Wu B, Class instruction is: Face to Face - On Campus.
+MATH 112A, ESSENTIAL ALGEBRA A, 3 Units, 01A, 5845, NONE, NONE, NONE, LEC, MW, 10-10:50AM, Open, FCS-126, Staff, Class instruction is: Face to Face - On Campus.Some seats are reserved for MATH/MTED/STAT majors (including pre-majors). Reserved seating expires August 22, 2023.
+MATH 112A, ESSENTIAL ALGEBRA A, 3 Units, 04A3, 6921, NONE, NONE, NONE, ACT, Th, 8-9:50AM, Open, PH1-129, Staff, Class instruction is: Face to Face - On Campus.
+MATH 112A, ESSENTIAL ALGEBRA A, 3 Units, 05A4, 6922, NONE, NONE, NONE, ACT, F, 12-1:50PM, Open, LA5-151, Staff, Class instruction is: Face to Face - On Campus.
+MATH 112A, ESSENTIAL ALGEBRA A, 3 Units, 06A5, 11016, NONE, NONE, NONE, ACT, Th, 10-11:50AM, Open, PH1-129, Staff, Class instruction is: Face to Face - On Campus.
+MATH 112A, ESSENTIAL ALGEBRA A, 3 Units, 32A3, 11677, NONE, NONE, NONE, ACT, F, 10-11:50AM, Open, LA5-148, Staff, Class instruction is: Face to Face - On Campus.
+MATH 112A, ESSENTIAL ALGEBRA A, 3 Units, 13C, 6992, NONE, NONE, NONE, LEC, MW, 9-9:50AM, Open, ECS-105, Villalobos J, Class instruction is: Face to Face - On Campus.Some seats are reserved for MATH/MTED/STAT majors (including pre-majors). Reserved seating expires August 22, 2023.
+MATH 112A, ESSENTIAL ALGEBRA A, 3 Units, 15C2, 6994, NONE, NONE, NONE, ACT, Th, 10-11:50AM, Open, LA5-357, Staff, Class instruction is: Face to Face - On Campus.
+MATH 112A, ESSENTIAL ALGEBRA A, 3 Units, 16C3, 6995, NONE, NONE, NONE, ACT, F, 8-9:50AM, Open, LA5-357, Staff, Class instruction is: Face to Face - On Campus.
+MATH 112A, ESSENTIAL ALGEBRA A, 3 Units, 17C4, 11017, NONE, NONE, NONE, ACT, F, 10-11:50AM, Open, LA5-247, Staff, Class instruction is: Face to Face - On Campus.
+MATH 112A, ESSENTIAL ALGEBRA A, 3 Units, 18C5, 6974, NONE, NONE, NONE, ACT, F, 12-1:50PM, Open, LA5-357, Staff, Class instruction is: Face to Face - On Campus.
+MATH 112A, ESSENTIAL ALGEBRA A, 3 Units, 19D, 7906, NONE, NONE, NONE, LEC, TuTh, 2-2:50PM, Open, COB-139A, Ghafoori M, Class instruction is: Face to Face - On Campus.Some seats are reserved for MATH/MTED/STAT majors (including pre-majors). Reserved seating expires August 22, 2023.
+MATH 112A, ESSENTIAL ALGEBRA A, 3 Units, 20D1, 7907, NONE, NONE, NONE, ACT, Th, 8-9:50AM, Open, LA5-263, Staff, Class instruction is: Face to Face - On Campus.
+MATH 112A, ESSENTIAL ALGEBRA A, 3 Units, 21D2, 11018, NONE, NONE, NONE, ACT, W, 10-11:50AM, Open, PH1-127, Staff, Class instruction is: Face to Face - On Campus.
+MATH 112A, ESSENTIAL ALGEBRA A, 3 Units, 22D3, 7908, NONE, NONE, NONE, ACT, Th, 10-11:50AM, Open, LA5-263, Staff, Class instruction is: Face to Face - On Campus.
+MATH 112A, ESSENTIAL ALGEBRA A, 3 Units, 23D4, 11019, NONE, NONE, NONE, ACT, W, 12-1:50PM, Open, LA5-243, Staff, Class instruction is: Face to Face - On Campus.
+MATH 112A, ESSENTIAL ALGEBRA A, 3 Units, 24D5, 7909, NONE, NONE, NONE, ACT, W, 2-3:50PM, Open, LA5-261, Staff, Class instruction is: Face to Face - On Campus.
+MATH 112A, ESSENTIAL ALGEBRA A, 3 Units, 25E, 7957, NONE, NONE, NONE, LEC, MW, 1-1:50PM, Open, LA5-151, Dam L, Class instruction is: Face to Face - On Campus.Some seats are reserved for MATH/MTED/STAT majors (including pre-majors). Reserved seating expires August 22, 2023.
+MATH 112A, ESSENTIAL ALGEBRA A, 3 Units, 28E3, 8031, NONE, NONE, NONE, ACT, F, 8-9:50AM, Open, LA5-151, Dam L, Class instruction is: Face to Face - On Campus.
+MATH 112A, ESSENTIAL ALGEBRA A, 3 Units, 29E4, 7958, NONE, NONE, NONE, ACT, F, 10-11:50AM, Open, LA5-151, Dam L, Class instruction is: Face to Face - On Campus.
+MATH 112A, ESSENTIAL ALGEBRA A, 3 Units, 07B, 6005, NONE, NONE, NONE, LEC, TuTh, 2-2:50PM, Open, HSCI-102, Winberg K, Class instruction is: Face to Face - On Campus.Some seats are reserved for MATH/MTED/STAT majors (including pre-majors). Reserved seating expires August 22, 2023.
+MATH 112A, ESSENTIAL ALGEBRA A, 3 Units, 08B1, 6923, NONE, NONE, NONE, ACT, W, 12-1:50PM, Open, PH1-135, Staff, Class instruction is: Face to Face - On Campus.
+MATH 112A, ESSENTIAL ALGEBRA A, 3 Units, 09B2, 6373, NONE, NONE, NONE, ACT, W, 2-3:50PM, Open, HSCI-107, Winberg K, Class instruction is: Face to Face - On Campus.
+MATH 112A, ESSENTIAL ALGEBRA A, 3 Units, 10B3, 6374, NONE, NONE, NONE, ACT, F, 8-9:50AM, Open, LA5-347, Staff, Class instruction is: Face to Face - On Campus.
+MATH 112A, ESSENTIAL ALGEBRA A, 3 Units, 11B4, 6375, NONE, NONE, NONE, ACT, F, 10-11:50AM, Open, LA5-347, Staff, Class instruction is: Face to Face - On Campus.
+MATH 112A, ESSENTIAL ALGEBRA A, 3 Units, 12B5, 6376, NONE, NONE, NONE, ACT, F, 12-1:50PM, Open, LA5-347, Staff, Class instruction is: Face to Face - On Campus.
+MATH 112B, ESSENTIAL ALGEBRA B, 3 Units, 01, 6555, NONE, NONE, NONE, LEC, TuTh, 3:30-4:20PM, Open, DESN-112, Dam L, Class instruction is: Face to Face - On Campus.
+MATH 112B, ESSENTIAL ALGEBRA B, 3 Units, 02, 6848, NONE, NONE, NONE, ACT, Tu, 4:30-6:20PM, Open, DESN-112, Dam L, Class instruction is: Face to Face - On Campus.
+MATH 112B, ESSENTIAL ALGEBRA B, 3 Units, 03, 6849, NONE, NONE, NONE, ACT, Th, 4:30-6:20PM, Open, DESN-112, Dam L, Class instruction is: Face to Face - On Campus.
+MATH 113, PRECALCULUS ALGEBRA, 3 Units, 01, 3896, NONE, NONE, 1,27,136, SEM, MW, 12:30-1:45PM, Open, LH-150, Geier G, Class instruction is: Face to Face - On Campus.Some seats are reserved for MATH/MTED/STAT majors (including pre-majors). Reserved seating expires August 22, 2023.
+MATH 113, PRECALCULUS ALGEBRA, 3 Units, 02, 4672, NONE, NONE, 1,27,136, SEM, TuTh, 8-9:15AM, Open, LA5-245, Villalobos J, Class instruction is: Face to Face - On Campus.Some seats are reserved for MATH/MTED/STAT majors (including pre-majors). Reserved seating expires August 22, 2023.
+MATH 113, PRECALCULUS ALGEBRA, 3 Units, 03, 7194, NONE, NONE, NONE, SEM, MW, 9:30-10:45AM, Open, LH-151, Li X, Class instruction is: Face to Face - On Campus.
+MATH 113, PRECALCULUS ALGEBRA, 3 Units, 04, 6292, NONE, NONE, NONE, SEM, MW, 2-3:15PM, Open, PSY-150, Whelan C, Class instruction is: Face to Face - On Campus.
+MATH 113, PRECALCULUS ALGEBRA, 3 Units, 09, 7198, NONE, NONE, NONE, SEM, MW, 11-12:15PM, Open, HC-100, Villalobos J, Class instruction is: Face to Face - On Campus.
+MATH 113, PRECALCULUS ALGEBRA, 3 Units, 11, 8439, NONE, NONE, NONE, SEM, TuTh, 11-12:15PM, Open, HC-100, Villalobos J, Class instruction is: Face to Face - On Campus.
+MATH 113, PRECALCULUS ALGEBRA, 3 Units, 13, 8440, NONE, NONE, NONE, SEM, TuTh, 2-3:15PM, Open, ECS-105, Yu A, Class instruction is: Face to Face - On Campus.
+MATH 113, PRECALCULUS ALGEBRA, 3 Units, 15, 9507, NONE, NONE, NONE, SEM, MW, 3:30-4:45PM, Open, HSCI-100, Whelan C, Class instruction is: Face to Face - On Campus.
+MATH 115, CALCULUS FOR BUSINESS, 3 Units, 13C, 3799, NONE, NONE, 1,27,136, LEC, TuTh, 2-2:50PM, Open, COB-139, Hasenjager K, Class instruction is: Face to Face - On Campus.
+MATH 115, CALCULUS FOR BUSINESS, 3 Units, 15C2, 3802, NONE, NONE, 27, ACT, W, 2-3:50PM, Open, PH1-209, Staff, Class instruction is: Face to Face - On Campus.
+MATH 115, CALCULUS FOR BUSINESS, 3 Units, 16C3, 6458, NONE, NONE, NONE, ACT, F, 10-11:50AM, Open, LA5-357, Staff, Class instruction is: Face to Face - On Campus.
+MATH 115, CALCULUS FOR BUSINESS, 3 Units, 17C4, 3801, NONE, NONE, 27, ACT, F, 12-1:50PM, Open, LA5-243, Staff, Class instruction is: Face to Face - On Campus.
+MATH 115, CALCULUS FOR BUSINESS, 3 Units, 18C5, 6459, NONE, NONE, NONE, ACT, F, 2-3:50PM, Open, LA5-243, Staff, Class instruction is: Face to Face - On Campus.
+MATH 115, CALCULUS FOR BUSINESS, 3 Units, 19D, 5516, NONE, NONE, 1,27,136, LEC, TuTh, 8-8:50AM, Open, ECS-105, Khoddam K, Class instruction is: Face to Face - On Campus.Some seats are reserved for MATH/MTED/STAT majors (including pre-majors). Reserved seating expires August 22, 2023.
+MATH 115, CALCULUS FOR BUSINESS, 3 Units, 20D1, 5517, NONE, NONE, 27, ACT, W, 8-9:50AM, Open, LA5-353, Staff, Class instruction is: Face to Face - On Campus.
+MATH 115, CALCULUS FOR BUSINESS, 3 Units, 21D2, 5518, NONE, NONE, 27, ACT, W, 10-11:50AM, Open, LA5-353, Staff, Class instruction is: Face to Face - On Campus.
+MATH 115, CALCULUS FOR BUSINESS, 3 Units, 22D3, 8084, NONE, NONE, NONE, ACT, Tu, 12-1:50PM, Open, KIN-063, Khoddam K, Class instruction is: Face to Face - On Campus.
+MATH 115, CALCULUS FOR BUSINESS, 3 Units, 23D4, 5519, NONE, NONE, 27, ACT, F, 8-9:50AM, Open, LA5-243, Staff, Class instruction is: Face to Face - On Campus.
+MATH 115, CALCULUS FOR BUSINESS, 3 Units, 24D5, 5520, NONE, NONE, 27, ACT, F, 10-11:50AM, Open, LA5-243, Staff, Class instruction is: Face to Face - On Campus.
+MATH 115, CALCULUS FOR BUSINESS, 3 Units, 25E, 5844, NONE, NONE, NONE, LEC, TuTh, 11-11:50AM, Open, COB-140A, Khoddam K, Class instruction is: Face to Face - On Campus.Some seats are reserved for MATH/MTED/STAT majors (including pre-majors). Reserved seating expires August 22, 2023.
+MATH 115, CALCULUS FOR BUSINESS, 3 Units, 26E1, 5521, NONE, NONE, 27, ACT, W, 8-9:50AM, Open, LA5-261, Staff, Class instruction is: Face to Face - On Campus.
+MATH 115, CALCULUS FOR BUSINESS, 3 Units, 27E2, 5974, NONE, NONE, NONE, ACT, W, 10-11:50AM, Open, LA5-265, Staff, Class instruction is: Face to Face - On Campus.
+MATH 115, CALCULUS FOR BUSINESS, 3 Units, 28E3, 5975, NONE, NONE, NONE, ACT, Th, 2-3:50PM, Open, LAB-114, Staff, Class instruction is: Face to Face - On Campus.
+MATH 115, CALCULUS FOR BUSINESS, 3 Units, 29E4, 5976, NONE, NONE, NONE, ACT, F, 12-1:50PM, Open, LA5-257, Staff, Class instruction is: Face to Face - On Campus.
+MATH 115, CALCULUS FOR BUSINESS, 3 Units, 30E5, 6460, NONE, NONE, NONE, ACT, F, 2-3:50PM, Open, LA5-257, Staff, Class instruction is: Face to Face - On Campus.
+MATH 115, CALCULUS FOR BUSINESS, 3 Units, 37G, 8443, NONE, NONE, NONE, LEC, MW, 1-1:50PM, Open, HSCI-102, Hamidian A, Class instruction is: Face to Face - On Campus.Some seats are reserved for MATH/MTED/STAT majors (including pre-majors). Reserved seating expires August 22, 2023.
+MATH 115, CALCULUS FOR BUSINESS, 3 Units, 38G1, 8655, NONE, NONE, NONE, ACT, W, 2-3:50PM, Open, PH1-135, Hamidian A, Class instruction is: Face to Face - On Campus.
+MATH 115, CALCULUS FOR BUSINESS, 3 Units, 39G2, 8656, NONE, NONE, NONE, ACT, Th, 12-1:50PM, Open, PH1-135, Staff, Class instruction is: Face to Face - On Campus.
+MATH 115, CALCULUS FOR BUSINESS, 3 Units, 40G3, 8657, NONE, NONE, NONE, ACT, Th, 2-3:50PM, Open, PH1-135, Staff, Class instruction is: Face to Face - On Campus.
+MATH 115, CALCULUS FOR BUSINESS, 3 Units, 41G4, 8658, NONE, NONE, NONE, ACT, F, 8-9:50AM, Open, LA5-259, Staff, Class instruction is: Face to Face - On Campus.
+MATH 115, CALCULUS FOR BUSINESS, 3 Units, 42G5, 8659, NONE, NONE, NONE, ACT, F, 10-11:50AM, Open, LA5-259, Staff, Class instruction is: Face to Face - On Campus.
+MATH 115, CALCULUS FOR BUSINESS, 3 Units, 43H, 8444, NONE, NONE, NONE, LEC, TuTh, 10-10:50AM, Open, ECS-105, Bonnand C, Class instruction is: Face to Face - On Campus.Some seats are reserved for MATH/MTED/STAT majors (including pre-majors). Reserved seating expires August 22, 2023.
+MATH 115, CALCULUS FOR BUSINESS, 3 Units, 44H1, 8660, NONE, NONE, NONE, ACT, W, 12-1:50PM, Open, PH1-129, Bonnand C, Class instruction is: Face to Face - On Campus.
+MATH 115, CALCULUS FOR BUSINESS, 3 Units, 45H2, 8661, NONE, NONE, NONE, ACT, W, 2-3:50PM, Open, PH1-129, Bonnand C, Class instruction is: Face to Face - On Campus.
+MATH 115, CALCULUS FOR BUSINESS, 3 Units, 46H3, 8662, NONE, NONE, NONE, ACT, Th, 12-1:50PM, Open, PH1-129, Bonnand C, Class instruction is: Face to Face - On Campus.
+MATH 115, CALCULUS FOR BUSINESS, 3 Units, 47H4, 8663, NONE, NONE, NONE, ACT, F, 8-9:50AM, Open, HC-122, Bonnand C, Class instruction is: Face to Face - On Campus.
+MATH 115, CALCULUS FOR BUSINESS, 3 Units, 48H5, 8664, NONE, NONE, NONE, ACT, F, 10-11:50AM, Open, HC-122, Bonnand C, Class instruction is: Face to Face - On Campus.
+MATH 115, CALCULUS FOR BUSINESS, 3 Units, 55I, 10367, NONE, NONE, NONE, LEC, MW, 11-11:50AM, Open, HSCI-100, Staff, Class instruction is: Face to Face - On Campus.
+MATH 115, CALCULUS FOR BUSINESS, 3 Units, 56I1, 10404, NONE, NONE, NONE, ACT, Th, 10-11:50AM, Open, UTC-109, Staff, Class instruction is: Face to Face - On Campus.
+MATH 115, CALCULUS FOR BUSINESS, 3 Units, 57I2, 10405, NONE, NONE, NONE, ACT, W, 12-1:50PM, Open, PH1-235, Staff, Class instruction is: Face to Face - On Campus.
+MATH 115, CALCULUS FOR BUSINESS, 3 Units, 58I3, 10406, NONE, NONE, NONE, ACT, W, 8-9:50AM, Open, PH1-235, Staff, Class instruction is: Face to Face - On Campus.
+MATH 115, CALCULUS FOR BUSINESS, 3 Units, 59I4, 10407, NONE, NONE, NONE, ACT, F, 8-9:50AM, Open, PH1-127, Staff, Class instruction is: Face to Face - On Campus.
+MATH 115, CALCULUS FOR BUSINESS, 3 Units, 60I5, 10408, NONE, NONE, NONE, ACT, F, 10-11:50AM, Open, PH1-127, Staff, Class instruction is: Face to Face - On Campus.
+MATH 115, CALCULUS FOR BUSINESS, 3 Units, 61J, 10368, NONE, NONE, NONE, LEC, MW, 10-10:50AM, Open, LH-150, Staff, Class instruction is: Face to Face - On Campus.
+MATH 115, CALCULUS FOR BUSINESS, 3 Units, 62J1, 10916, NONE, NONE, NONE, ACT, W, 2-3:50PM, Open, PH1-235, Staff, Class instruction is: Face to Face - On Campus.
+MATH 115, CALCULUS FOR BUSINESS, 3 Units, 63J2, 10917, NONE, NONE, NONE, ACT, Th, 12-1:50PM, Open, PH1-235, Staff, Class instruction is: Face to Face - On Campus.
+MATH 115, CALCULUS FOR BUSINESS, 3 Units, 64J3, 10918, NONE, NONE, NONE, ACT, Th, 2-3:50PM, Open, PH1-235, Staff, Class instruction is: Face to Face - On Campus.
+MATH 115, CALCULUS FOR BUSINESS, 3 Units, 65J4, 10919, NONE, NONE, NONE, ACT, F, 8-9:50AM, Open, PH1-235, Staff, Class instruction is: Face to Face - On Campus.
+MATH 115, CALCULUS FOR BUSINESS, 3 Units, 66J5, 10920, NONE, NONE, NONE, ACT, F, 10-11:50AM, Open, PH1-235, Staff, Class instruction is: Face to Face - On Campus.
+MATH 115, CALCULUS FOR BUSINESS, 3 Units, 67K, 10369, NONE, NONE, NONE, LEC, TuTh, 2-2:50PM, Open, HC-100, Staff, Class instruction is: Face to Face - On Campus.
+MATH 115, CALCULUS FOR BUSINESS, 3 Units, 68K1, 10921, NONE, NONE, NONE, ACT, W, 10-11:50AM, Open, PH1-235, Staff, Class instruction is: Face to Face - On Campus.
+MATH 115, CALCULUS FOR BUSINESS, 3 Units, 69K2, 10922, NONE, NONE, NONE, ACT, Th, 8-9:50AM, Open, PH1-235, Staff, Class instruction is: Face to Face - On Campus.
+MATH 115, CALCULUS FOR BUSINESS, 3 Units, 70K3, 10923, NONE, NONE, NONE, ACT, Th, 10-11:50AM, Open, PH1-235, Staff, Class instruction is: Face to Face - On Campus.
+MATH 115, CALCULUS FOR BUSINESS, 3 Units, 71K4, 10924, NONE, NONE, NONE, ACT, F, 12-1:50PM, Open, PH1-235, Staff, Class instruction is: Face to Face - On Campus.
+MATH 115, CALCULUS FOR BUSINESS, 3 Units, 72K5, 10925, NONE, NONE, NONE, ACT, F, 2-3:50PM, Open, PH1-235, Staff, Class instruction is: Face to Face - On Campus.
+MATH 119A, SURVEY OF CALCULUS I, 3 Units, 01, 1686, NONE, NONE, 306,1,27,136, SEM, MWF, 8-8:50AM, Open, ONLINE-ONLY, Araeipour A, Class instruction is: Synch. Online - Meet Times.
+MATH 119A, SURVEY OF CALCULUS I, 3 Units, 02, 1687, NONE, NONE, 1,27,136, SEM, MW, 2-3:15PM, Open, LA5-271, Geier G, Class instruction is: Face to Face - On Campus.
+MATH 119A, SURVEY OF CALCULUS I, 3 Units, 04, 3254, NONE, NONE, 306,1,27,136, SEM, MWF, 10-10:50AM, Open, ONLINE-ONLY, Araeipour A, Class instruction is: Synch. Online - Meet Times.
+MATH 119A, SURVEY OF CALCULUS I, 3 Units, 05, 3875, NONE, NONE, 1,27,136, SEM, TuTh, 8-9:15AM, Open, LA5-171, Rodriguez L, Class instruction is: Face to Face - On Campus.
+MATH 119A, SURVEY OF CALCULUS I, 3 Units, 06, 4716, NONE, NONE, 306,1,27,136, SEM, MW, 11-12:15PM, Open, ONLINE-ONLY, Araeipour A, Class instruction is: Synch. Online - Meet Times.
+MATH 119A, SURVEY OF CALCULUS I, 3 Units, 09, 6291, NONE, NONE, NONE, SEM, TuTh, 12:30-1:45PM, Open, SPA-210, Rodriguez L, Class instruction is: Face to Face - On Campus.
+MATH 119A, SURVEY OF CALCULUS I, 3 Units, 11, 9377, NONE, NONE, NONE, SEM, MW, 2-3:15PM, Open, LA5-171, Hasenjager K, Class instruction is: Face to Face - On Campus.
+MATH 122, CALCULUS I, 4 Units, 01, 1690, NONE, NONE, 1,27, SEM, MW, 8-9:15AM, Open, LA5-245, Trinh H, Class instruction is: Face to Face - On Campus.
+MATH 122, CALCULUS I, 4 Units, 02, 1691, NONE, NONE, 27, ACT, F, 8-9:50AM, Open, LA5-261, Trinh H, Class instruction is: Face to Face - On Campus.
+MATH 122, CALCULUS I, 4 Units, 03, 1692, NONE, NONE, 27, ACT, F, 10-11:50AM, Open, LA5-261, Trinh H, Class instruction is: Face to Face - On Campus.
+MATH 122, CALCULUS I, 4 Units, 10, 1695, NONE, NONE, 1,27, SEM, MW, 11-12:15PM, Open, LA5-343, Ziemer W, Class instruction is: Face to Face - On Campus.
+MATH 122, CALCULUS I, 4 Units, 11, 1696, NONE, NONE, 27, ACT, Tu, 8-9:50AM, Open, LA5-153, Ziemer W, Class instruction is: Face to Face - On Campus.
+MATH 122, CALCULUS I, 4 Units, 12, 1697, NONE, NONE, 27, ACT, Tu, 10-11:50AM, Open, LA5-153, Ziemer W, Class instruction is: Face to Face - On Campus.
+MATH 122, CALCULUS I, 4 Units, 16, 1698, NONE, NONE, 1,27, SEM, TuTh, 8-9:15AM, Open, LA5-147, Igolnikov M, Class instruction is: Face to Face - On Campus.
+MATH 122, CALCULUS I, 4 Units, 17, 1699, NONE, NONE, 27, ACT, F, 12-1:50PM, Open, LA5-147, Igolnikov M, Class instruction is: Face to Face - On Campus.
+MATH 122, CALCULUS I, 4 Units, 18, 8464, NONE, NONE, NONE, ACT, F, 2-3:50PM, Open, LA5-147, Igolnikov M, Class instruction is: Face to Face - On Campus.
+MATH 122, CALCULUS I, 4 Units, 28, 5549, NONE, NONE, 27, SEM, TuTh, 11-12:15PM, Open, COB-111, Wu B, Class instruction is: Face to Face - On Campus.
+MATH 122, CALCULUS I, 4 Units, 29, 8116, NONE, NONE, 310,27, ACT, W, 12-1:50PM, Open, LA5-153, Wu B, Class instruction is: Face to Face - On Campus.
+MATH 122, CALCULUS I, 4 Units, 30, 8117, NONE, NONE, 310,27, ACT, W, 2-3:50PM, Open, LA5-153, Wu B, Class instruction is: Face to Face - On Campus.
+MATH 122, CALCULUS I, 4 Units, 31, 5971, NONE, Open, 34, SEM, TuTh, 9:30-10:45AM, Open, VEC-516A, Blair R, Honors SectionClass instruction is: Face to Face - On Campus.
+MATH 122, CALCULUS I, 4 Units, 32, 8333, NONE, NONE, 34, ACT, W, 10-11:50AM, Open, PH1-129, Blair R, Honors SectionClass instruction is: Face to Face - On Campus.
+MATH 122, CALCULUS I, 4 Units, 40, 6293, NONE, NONE, NONE, SEM, TuTh, 12:30-1:45PM, Open, LA5-243, Wukmer L, Class instruction is: Face to Face - On Campus.
+MATH 122, CALCULUS I, 4 Units, 41, 6294, NONE, NONE, NONE, ACT, M, 2-3:50PM, Open, PSY-320, Wukmer L, Class instruction is: Face to Face - On Campus.
+MATH 122, CALCULUS I, 4 Units, 42, 6295, NONE, NONE, NONE, ACT, M, 4-5:50PM, Open, PSY-320, Wukmer L, Class instruction is: Face to Face - On Campus.
+MATH 122, CALCULUS I, 4 Units, 43, 6303, NONE, NONE, NONE, SEM, MW, 3:30-4:45PM, Open, PH1-227, Morales E, Class instruction is: Face to Face - On Campus.
+MATH 122, CALCULUS I, 4 Units, 44, 6304, NONE, NONE, NONE, ACT, F, 12-1:50PM, Open, HC-134, Morales E, Class instruction is: Face to Face - On Campus.
+MATH 122, CALCULUS I, 4 Units, 45, 6454, NONE, NONE, NONE, ACT, F, 2-3:50PM, Open, HC-134, Morales E, Class instruction is: Face to Face - On Campus.
+MATH 122, CALCULUS I, 4 Units, 46, 6311, NONE, NONE, NONE, SEM, MW, 5-6:15PM, Open, LA5-149, Morales E, Class instruction is: Face to Face - On Campus.
+MATH 122, CALCULUS I, 4 Units, 47, 6312, NONE, NONE, NONE, ACT, M, 6:30-8:20PM, Open, LA5-149, Morales E, Class instruction is: Face to Face - On Campus.
+MATH 122, CALCULUS I, 4 Units, 48, 6313, NONE, NONE, NONE, ACT, W, 6:30-8:20PM, Open, LA5-149, Morales E, Class instruction is: Face to Face - On Campus.
+MATH 122, CALCULUS I, 4 Units, 67, 8465, NONE, NONE, NONE, SEM, TuTh, 2-3:15PM, Open, LA5-151, Igolnikov M, Class instruction is: Face to Face - On Campus.
+MATH 122, CALCULUS I, 4 Units, 68, 8466, NONE, NONE, NONE, ACT, Tu, 3:30-5:20PM, Open, LA5-151, Igolnikov M, Class instruction is: Face to Face - On Campus.
+MATH 122, CALCULUS I, 4 Units, 69, 8467, NONE, NONE, NONE, ACT, Th, 3:30-5:20PM, Open, LA5-151, Igolnikov M, Class instruction is: Face to Face - On Campus.
+MATH 122, CALCULUS I, 4 Units, 07, 1689, NONE, Open, 1,27,34, SEM, TuTh, 9:30-10:45AM, Open, LA5-171, Ghafoori M, Honors SectionClass instruction is: Face to Face - On Campus.
+MATH 122, CALCULUS I, 4 Units, 08, 9294, NONE, NONE, 27,34, ACT, Tu, 12-1:50PM, Open, LA5-357, Ghafoori M, Honors SectionClass instruction is: Face to Face - On Campus.
+MATH 122, CALCULUS I, 4 Units, 81, 10107, NONE, NONE, NONE, SEM, TuTh, 9:30-10:45AM, Open, LA5-243, Acuna C, Class instruction is: Face to Face - On Campus.
+MATH 122, CALCULUS I, 4 Units, 82, 10108, NONE, NONE, NONE, ACT, F, 8-9:50AM, Open, LA5-169, Acuna C, Class instruction is: Face to Face - On Campus.
+MATH 122, CALCULUS I, 4 Units, 83, 10109, NONE, NONE, NONE, SEM, MW, 2-3:15PM, Open, LA5-245, Dam L, Class instruction is: Face to Face - On Campus.
+MATH 122, CALCULUS I, 4 Units, 84, 10110, NONE, NONE, NONE, ACT, F, 2-3:50PM, Open, LA5-151, Dam L, Class instruction is: Face to Face - On Campus.
+MATH 122, CALCULUS I, 4 Units, 87, 10123, NONE, NONE, NONE, SEM, TuTh, 2-3:15PM, Open, LA5-171, Trinh H, Class instruction is: Face to Face - On Campus.
+MATH 122, CALCULUS I, 4 Units, 88, 10124, NONE, NONE, NONE, ACT, Tu, 3:30-5:20PM, Open, LA5-171, Trinh H, Class instruction is: Face to Face - On Campus.
+MATH 122, CALCULUS I, 4 Units, 89, 10125, NONE, NONE, NONE, ACT, Th, 3:30-5:20PM, Open, LA5-171, Trinh H, Class instruction is: Face to Face - On Campus.
+MATH 122, CALCULUS I, 4 Units, 90, 10132, NONE, NONE, NONE, SEM, MW, 2-3:15PM, Open, LA5-353, Nguyen O, Class instruction is: Face to Face - On Campus.
+MATH 122, CALCULUS I, 4 Units, 91, 10133, NONE, NONE, NONE, ACT, Th, 4-5:50PM, Open, LA5-243, Nguyen O, Class instruction is: Face to Face - On Campus.
+MATH 123, CALCULUS II, 4 Units, 01, 1700, NONE, NONE, 1,27, SEM, MW, 8-9:15AM, Open, LA5-347, Rodriguez L, Class instruction is: Face to Face - On Campus.
+MATH 123, CALCULUS II, 4 Units, 02, 1701, NONE, NONE, 27, ACT, Th, 4-5:50PM, Open, PH1-129, Rodriguez L, Class instruction is: Face to Face - On Campus.
+MATH 123, CALCULUS II, 4 Units, 10, 2874, NONE, NONE, 1,27, SEM, MW, 9:30-10:45AM, Open, LA5-151, Acosta V, Class instruction is: Face to Face - On Campus.
+MATH 123, CALCULUS II, 4 Units, 11, 2875, NONE, NONE, 27, ACT, Th, 8-9:50AM, Open, LA5-153, Acosta V, Class instruction is: Face to Face - On Campus.
+MATH 123, CALCULUS II, 4 Units, 12, 2876, NONE, NONE, 27, ACT, Th, 10-11:50AM, Open, LA5-153, Acosta V, Class instruction is: Face to Face - On Campus.
+MATH 123, CALCULUS II, 4 Units, 13, 2659, NONE, NONE, 1,27, SEM, MW, 4-5:15PM, Open, PH1-135, Pham T, Class instruction is: Face to Face - On Campus.
+MATH 123, CALCULUS II, 4 Units, 14, 2660, NONE, NONE, 27, ACT, Th, 12-1:50PM, Open, LA5-153, Pham T, Class instruction is: Face to Face - On Campus.
+MATH 123, CALCULUS II, 4 Units, 15, 2661, NONE, NONE, 27, ACT, Th, 2-3:50PM, Open, LA5-153, Pham T, Class instruction is: Face to Face - On Campus.
+MATH 123, CALCULUS II, 4 Units, 19, 3318, NONE, NONE, 1,27, SEM, MW, 5:30-6:45PM, Open, PH1-135, Pham T, Class instruction is: Face to Face - On Campus.
+MATH 123, CALCULUS II, 4 Units, 20, 3319, NONE, NONE, 27, ACT, Tu, 12-1:50PM, Open, LA5-153, Pham T, Class instruction is: Face to Face - On Campus.
+MATH 123, CALCULUS II, 4 Units, 21, 4064, NONE, NONE, 27, ACT, Tu, 2-3:50PM, Open, LA5-153, Pham T, Class instruction is: Face to Face - On Campus.
+MATH 123, CALCULUS II, 4 Units, 22, 3882, NONE, NONE, 1,27, SEM, MW, 3:30-4:45PM, Open, PSY-202, Eldanaf D, Class instruction is: Face to Face - On Campus.
+MATH 123, CALCULUS II, 4 Units, 23, 3883, NONE, NONE, 27, ACT, M, 5-6:50PM, Open, PSY-203, Eldanaf D, Class instruction is: Face to Face - On Campus.
+MATH 123, CALCULUS II, 4 Units, 24, 3884, NONE, NONE, 27, ACT, W, 5-6:50PM, Open, PSY-203, Eldanaf D, Class instruction is: Face to Face - On Campus.
+MATH 123, CALCULUS II, 4 Units, 25, 4138, NONE, NONE, 1,27, SEM, TuTh, 8-9:15AM, Open, LA5-353, Weber R, Class instruction is: Face to Face - On Campus.
+MATH 123, CALCULUS II, 4 Units, 26, 4139, NONE, NONE, 27, ACT, F, 12-1:50PM, Open, LA5-353, Weber R, Class instruction is: Face to Face - On Campus.
+MATH 123, CALCULUS II, 4 Units, 27, 4140, NONE, NONE, 27, ACT, F, 2-3:50PM, Open, LA5-353, Weber R, Class instruction is: Face to Face - On Campus.
+MATH 123, CALCULUS II, 4 Units, 28, 4557, NONE, NONE, 1,27, SEM, TuTh, 11-12:15PM, Open, LA5-353, Nguyen B, Class instruction is: Face to Face - On Campus.
+MATH 123, CALCULUS II, 4 Units, 29, 4558, NONE, NONE, 27, ACT, F, 12-1:50PM, Open, LA5-153, Nguyen B, Class instruction is: Face to Face - On Campus.
+MATH 123, CALCULUS II, 4 Units, 30, 4559, NONE, NONE, 27, ACT, F, 2-3:50PM, Open, LA5-153, Nguyen B, Class instruction is: Face to Face - On Campus.
+MATH 123, CALCULUS II, 4 Units, 31, 4858, NONE, NONE, 1,27, SEM, TuTh, 12:30-1:45PM, Open, LA5-353, Nguyen B, Class instruction is: Face to Face - On Campus.
+MATH 123, CALCULUS II, 4 Units, 32, 4859, NONE, NONE, 27, ACT, M, 12-1:50PM, Open, LA5-153, Nguyen B, Class instruction is: Face to Face - On Campus.
+MATH 123, CALCULUS II, 4 Units, 33, 4860, NONE, NONE, 27, ACT, M, 2-3:50PM, Open, LA5-153, Nguyen B, Class instruction is: Face to Face - On Campus.
+MATH 123, CALCULUS II, 4 Units, 34, 4945, NONE, NONE, 1,27, SEM, TuTh, 3:30-4:45PM, Open, LA5-271, McCormick K, Class instruction is: Face to Face - On Campus.
+MATH 123, CALCULUS II, 4 Units, 35, 4946, NONE, NONE, 27, ACT, W, 2-3:50PM, Open, LA5-357, McCormick K, Class instruction is: Face to Face - On Campus.
+MATH 123, CALCULUS II, 4 Units, 04, 1702, NONE, NONE, 1,27, SEM, MW, 8-9:15AM, Open, LA5-151, Acosta V, Class instruction is: Face to Face - On Campus.
+MATH 123, CALCULUS II, 4 Units, 05, 1703, NONE, NONE, 27, ACT, F, 8-9:50AM, Open, LA5-153, Acosta V, Class instruction is: Face to Face - On Campus.
+MATH 123, CALCULUS II, 4 Units, 06, 8463, NONE, NONE, NONE, ACT, F, 10-11:50AM, Open, LA5-153, Acosta V, Class instruction is: Face to Face - On Campus.
+MATH 123, CALCULUS II, 4 Units, 40, 5550, NONE, NONE, 1,27, SEM, TuTh, 12:30-1:45PM, Open, LA5-151, Nguyen M, Class instruction is: Face to Face - On Campus.
+MATH 123, CALCULUS II, 4 Units, 41, 5551, NONE, NONE, 27, ACT, M, 2-3:50PM, Open, LA5-261, Nguyen M, Class instruction is: Face to Face - On Campus.
+MATH 123, CALCULUS II, 4 Units, 42, 5552, NONE, NONE, 27, ACT, W, 2-3:50PM, Open, HSCI-101, Nguyen M, Class instruction is: Face to Face - On Campus.
+MATH 123, CALCULUS II, 4 Units, 43, 6453, NONE, NONE, NONE, SEM, TuTh, 3:30-4:45PM, Open, LA5-259, English C, Class instruction is: Face to Face - On Campus.
+MATH 123, CALCULUS II, 4 Units, 44, 7956, NONE, NONE, NONE, ACT, Tu, 5-6:50PM, Open, LA5-259, English C, Class instruction is: Face to Face - On Campus.
+MATH 123, CALCULUS II, 4 Units, 45, 8032, NONE, NONE, NONE, ACT, Th, 5-6:50PM, Open, LA5-259, English C, Class instruction is: Face to Face - On Campus.
+MATH 123, CALCULUS II, 4 Units, 46, 8139, NONE, NONE, 1,27, SEM, MW, 4-5:15PM, Open, LA5-171, Nguyen M, Class instruction is: Face to Face - On Campus.
+MATH 123, CALCULUS II, 4 Units, 47, 8140, NONE, NONE, 27, ACT, Tu, 2-3:50PM, Open, LA5-243, Nguyen M, Class instruction is: Face to Face - On Campus.
+MATH 123, CALCULUS II, 4 Units, 48, 9378, NONE, NONE, 1,27, SEM, MW, 8-9:15AM, Open, LA5-271, English C, Class instruction is: Face to Face - On Campus.
+MATH 123, CALCULUS II, 4 Units, 49, 9379, NONE, NONE, 27, ACT, F, 8-9:50AM, Open, LA5-263, English C, Class instruction is: Face to Face - On Campus.
+MATH 123, CALCULUS II, 4 Units, 50, 9380, NONE, NONE, 27, ACT, F, 10-11:50AM, Open, LA5-263, English C, Class instruction is: Face to Face - On Campus.
+MATH 123, CALCULUS II, 4 Units, 51, 9401, NONE, NONE, NONE, SEM, MW, 8-9:15AM, Open, LA5-169, Valentini R, Class instruction is: Face to Face - On Campus.
+MATH 123, CALCULUS II, 4 Units, 52, 9402, NONE, NONE, NONE, ACT, F, 8-9:50AM, Open, LA5-171, Valentini R, Class instruction is: Face to Face - On Campus.
+MATH 123, CALCULUS II, 4 Units, 53, 9403, NONE, NONE, NONE, ACT, F, 10-11:50AM, Open, LA5-171, Valentini R, Class instruction is: Face to Face - On Campus.
+MATH 123, CALCULUS II, 4 Units, 07, 1704, NONE, NONE, 1,27, SEM, MW, 9:30-10:45AM, Open, LA5-169, Moon H, Class instruction is: Face to Face - On Campus.
+MATH 123, CALCULUS II, 4 Units, 08, 1705, NONE, NONE, 27, ACT, F, 12-1:50PM, Open, LA5-169, Moon H, Class instruction is: Face to Face - On Campus.
+MATH 224, CALCULUS III, 4 Units, 13, 1708, NONE, NONE, 1,27, SEM, MW, 11-12:15PM, Open, LA5-271, Lee C, Class instruction is: Face to Face - On Campus.
+MATH 224, CALCULUS III, 4 Units, 14, 2857, NONE, NONE, 27, ACT, F, 8-9:50AM, Open, LA5-271, Lee C, Class instruction is: Face to Face - On Campus.
+MATH 224, CALCULUS III, 4 Units, 16, 3730, NONE, NONE, 1,27, SEM, TuTh, 9:30-10:45AM, Open, LA5-271, Sack J, Class instruction is: Face to Face - On Campus.
+MATH 224, CALCULUS III, 4 Units, 17, 3731, NONE, NONE, 27, ACT, F, 12-1:50PM, Open, LA5-245, Sack J, Class instruction is: Face to Face - On Campus.
+MATH 224, CALCULUS III, 4 Units, 19, 4070, NONE, NONE, 1,27, SEM, MW, 12:30-1:45PM, Open, LA5-245, Gao T, Class instruction is: Face to Face - On Campus.
+MATH 224, CALCULUS III, 4 Units, 20, 4071, NONE, NONE, 27, ACT, F, 10-11:50AM, Open, LA5-245, Gao T, Class instruction is: Face to Face - On Campus.
+MATH 224, CALCULUS III, 4 Units, 25, 5528, NONE, NONE, 1,27, SEM, TuTh, 12:30-1:45PM, Open, LA5-271, Ding Y, Class instruction is: Face to Face - On Campus.
+MATH 224, CALCULUS III, 4 Units, 26, 5529, NONE, NONE, 27, ACT, M, 12-1:50PM, Open, LA5-265, Ding Y, Class instruction is: Face to Face - On Campus.
+MATH 224, CALCULUS III, 4 Units, 28, 7276, NONE, NONE, NONE, SEM, MW, 11-12:15PM, Open, LA5-147, Xu W, Class instruction is: Face to Face - On Campus.
+MATH 224, CALCULUS III, 4 Units, 29, 7277, NONE, NONE, NONE, ACT, Tu, 2-3:50PM, Open, LA5-357, Xu W, Class instruction is: Face to Face - On Campus.
+MATH 224, CALCULUS III, 4 Units, 34, 7013, NONE, NONE, NONE, SEM, MW, 5:30-6:45PM, Open, LA5-169, Newberger F, Class instruction is: Face to Face - On Campus.
+MATH 224, CALCULUS III, 4 Units, 35, 7014, NONE, NONE, NONE, ACT, Tu, 4-5:50PM, Open, LA5-343, Newberger F, Class instruction is: Face to Face - On Campus.
+MATH 224, CALCULUS III, 4 Units, 07, 3092, NONE, NONE, 1,27, SEM, MW, 4-5:15PM, Open, LA5-243, Wang L, Class instruction is: Face to Face - On Campus.
+MATH 224, CALCULUS III, 4 Units, 08, 3093, NONE, NONE, 27, ACT, Tu, 4-5:50PM, Open, LA5-243, Wang L, Class instruction is: Face to Face - On Campus.
+MATH 233, FUND CON ADV MATH, 3 Units, 01, 1709, NONE, NONE, 1,27, SEM, TuTh, 11-12:15PM, Open, LA5-271, Sack J, Class instruction is: Face to Face - On Campus.
+MATH 233, FUND CON ADV MATH, 3 Units, 02, 6870, Open, NONE, 1,27, SEM, MW, 2-3:15PM, Open, LA5-265, Pair J, Class instruction is: Face to Face - On Campus.
+MATH 233, FUND CON ADV MATH, 3 Units, 03, 7022, NONE, NONE, NONE, SEM, TuTh, 8-9:15AM, Open, LA5-169, Katz B, Class instruction is: Face to Face - On Campus.
+MATH 247, INTRODUCTION LINEAR ALGEBRA, 3 Units, 01, 5522, NONE, NONE, 1,27,136, SEM, TuTh, 9:30-10:45AM, Open, LA5-353, Weber R, Class instruction is: Face to Face - On Campus.
+MATH 247, INTRODUCTION LINEAR ALGEBRA, 3 Units, 02, 6975, NONE, NONE, NONE, SEM, TuTh, 3:30-4:45PM, Open, LA5-263, Ziemer W, Class instruction is: Face to Face - On Campus.
+MATH 247, INTRODUCTION LINEAR ALGEBRA, 3 Units, 03, 9624, NONE, NONE, 1,27,136, SEM, MW, 12:30-1:45PM, Open, LA5-147, Newberger F, Class instruction is: Face to Face - On Campus.
+MATH 309, COMPLEXITY AND EMERGENCE, 3 Units, 01, 5915, NONE, NONE, NONE, SEM, TuTh, 2-3:15PM, Open, LA5-259, Crass S, Class instruction is: Face to Face - On Campus.
+MATH 310, HISTORY OF EARLY MATHEMATICS, 3 Units, 01, 7971, NONE, NONE, 1,27, SEM, TuTh, 9:30-10:45AM, Open, LA5-343, Chesler J, Class instruction is: Face to Face - On Campus.
+MATH 323, INTRO TO NUMERICAL ANALYSIS, 4 Units, 01, 4704, NONE, NONE, 1,27, SEM, MW, 12:30-1:45PM, Open, LA5-343, Law Y, Class instruction is: Face to Face - On Campus.
+MATH 323, INTRO TO NUMERICAL ANALYSIS, 4 Units, 02, 4705, NONE, NONE, 27, ACT, Tu, 2-3:50PM, Open, LA5-349, Law Y, Class instruction is: Face to Face - On Campus.
+MATH 323, INTRO TO NUMERICAL ANALYSIS, 4 Units, 03, 4706, NONE, NONE, 27, ACT, Tu, 4-5:50PM, Open, LA5-349, Law Y, Class instruction is: Face to Face - On Campus.
+MATH 323, INTRO TO NUMERICAL ANALYSIS, 4 Units, 04, 6173, NONE, NONE, 1,27, SEM, TuTh, 12:30-1:45PM, Open, LA5-245, Sun P, Class instruction is: Face to Face - On Campus.Some seats have been reserved for incoming Study Abroad Students.
+MATH 323, INTRO TO NUMERICAL ANALYSIS, 4 Units, 05, 6174, NONE, NONE, 27, ACT, W, 10-11:50AM, Open, LA5-349, Sun P, Class instruction is: Face to Face - On Campus.Some seats have been reserved for incoming Study Abroad Students.
+MATH 323, INTRO TO NUMERICAL ANALYSIS, 4 Units, 06, 8230, NONE, NONE, 27, ACT, W, 12-1:50PM, Open, LA5-349, Sun P, Class instruction is: Face to Face - On Campus.
+MATH 341, NUMBER THEORY, 3 Units, 01, 1710, NONE, NONE, 1,27, SEM, MW, 2-3:15PM, Open, LA5-169, Brevik J, Class instruction is: Face to Face - On Campus.
+MATH 341, NUMBER THEORY, 3 Units, 02, 4707, NONE, NONE, 1,27, SEM, TuTh, 9:30-10:45AM, Open, LA5-169, Ding Y, Class instruction is: Face to Face - On Campus.
+MATH 355, COLLEGE GEOMETRY, 3 Units, 01, 1711, NONE, NONE, 1,27, SEM, MW, 4-5:15PM, Open, LA5-265, Pair J, Class instruction is: Face to Face - On Campus.
+MATH 361A, INTRO MATH ANALYSIS I, 3 Units, 01, 4708, NONE, NONE, 1,27, SEM, MW, 4-5:15PM, Open, LA5-271, Katz B, Class instruction is: Face to Face - On Campus.
+MATH 361A, INTRO MATH ANALYSIS I, 3 Units, 02, 7195, NONE, NONE, NONE, SEM, TuTh, 8-9:15AM, Open, LA5-151, De Santiago R, Class instruction is: Face to Face - On Campus.
+MATH 361B, INTRO MATH ANALYSIS II, 3 Units, 01, 1712, NONE, NONE, 1,27, SEM, MW, 4-5:15PM, Open, LA5-263, Viet N, Class instruction is: Face to Face - On Campus.
+MATH 361B, INTRO MATH ANALYSIS II, 3 Units, 02, 7256, NONE, NONE, NONE, SEM, TuTh, 9:30-10:45AM, Open, LA5-151, De Santiago R, Class instruction is: Face to Face - On Campus.
+MATH 364A, ORDINARY DIFFERENTL EQUATNS I, 3 Units, 01, 1713, NONE, NONE, 1,27, SEM, TuTh, 2-3:15PM, Open, LA5-265, Porter M, Class instruction is: Face to Face - On Campus.
+MATH 364A, ORDINARY DIFFERENTL EQUATNS I, 3 Units, 02, 4416, NONE, NONE, 1,27, SEM, MW, 9:30-10:45AM, Open, LA5-343, Lax M, Class instruction is: Face to Face - On Campus.
+MATH 364A, ORDINARY DIFFERENTL EQUATNS I, 3 Units, 03, 5523, NONE, NONE, 1,27, SEM, MW, 2-3:15PM, Open, LA5-243, Wang L, Class instruction is: Face to Face - On Campus.
+MATH 364B, ORDINARY DIFFERENTL EQUATNS II, 3 Units, 01, 4709, NONE, NONE, 1,27, SEM, TuTh, 2-3:15PM, Open, LA5-263, Ziemer W, Class instruction is: Face to Face - On Campus.
+MATH 370A, APPLIED MATH I, 3 Units, 01, 1714, NONE, NONE, 1,27,136, SEM, MW, 8-9:15AM, Open, LA5-343, Faridpak F, Class instruction is: Face to Face - On Campus.
+MATH 370A, APPLIED MATH I, 3 Units, 02, 1715, NONE, NONE, 1,27,136, SEM, MW, 11-12:15PM, Open, LA5-263, Hamza H, Class instruction is: Face to Face - On Campus.
+MATH 370A, APPLIED MATH I, 3 Units, 04, 7257, NONE, NONE, NONE, SEM, MW, 8-9:15AM, Open, LA5-147, Igolnikov M, Class instruction is: Face to Face - On Campus.
+MATH 370A, APPLIED MATH I, 3 Units, 05, 2909, NONE, NONE, 1,27,136, SEM, TuTh, 8-9:15AM, Open, LA5-343, Faridpak F, Class instruction is: Face to Face - On Campus.
+MATH 370A, APPLIED MATH I, 3 Units, 06, 3255, NONE, NONE, 1,27,136, SEM, TuTh, 4-5:15PM, NONE, LA5-265, Nguyen B, Class instruction is: Face to Face - On Campus.
+MATH 370A, APPLIED MATH I, 3 Units, 07, 3603, NONE, NONE, 1,27,136, SEM, MW, 11-12:15PM, Open, LA5-151, Acosta V, Class instruction is: Face to Face - On Campus.
+MATH 370A, APPLIED MATH I, 3 Units, 08, 4710, NONE, NONE, 1,27,136, SEM, TuTh, 12:30-1:45PM, Open, LA5-343, Faridpak F, Class instruction is: Face to Face - On Campus.
+MATH 370A, APPLIED MATH I, 3 Units, 09, 6478, NONE, NONE, NONE, SEM, TuTh, 2-3:15PM, Open, LA5-169, Chaderjian B, Class instruction is: Face to Face - On Campus.
+MATH 370A, APPLIED MATH I, 3 Units, 10, 6776, NONE, NONE, 1,27,136, SEM, MW, 4-5:15PM, Open, LA5-343, Lax M, Class instruction is: Face to Face - On Campus.
+MATH 370A, APPLIED MATH I, 3 Units, 11, 8030, NONE, NONE, NONE, SEM, MW, 2-3:15PM, Open, LA5-263, Viet N, Class instruction is: Face to Face - On Campus.
+MATH 370A, APPLIED MATH I, 3 Units, 12, 9404, NONE, NONE, NONE, SEM, MW, 4-5:15PM, Open, LA5-245, Gao T, Class instruction is: Face to Face - On Campus.
+MATH 370A, APPLIED MATH I, 3 Units, 13, 10632, NONE, NONE, NONE, SEM, MW, 9:30-10:45AM, NONE, LA5-245, Staff, Class instruction is: Face to Face - On Campus.
+MATH 370A, APPLIED MATH I, 3 Units, 15, 10720, NONE, NONE, NONE, SEM, TuTh, 8-9:15AM, NONE, LA5-243, Staff, Class instruction is: Face to Face - On Campus.
+MATH 370A, APPLIED MATH I, 3 Units, 16, 10908, NONE, NONE, NONE, SEM, MW, 9:30-10:45AM, NONE, PH1-227, Staff, Class instruction is: Face to Face - On Campus.
+MATH 370A, APPLIED MATH I, 3 Units, 17, 10909, NONE, NONE, NONE, SEM, MW, 11-12:15PM, NONE, PH1-227, Staff, Class instruction is: Face to Face - On Campus.
+MATH 370A, APPLIED MATH I, 3 Units, 18, 10910, NONE, NONE, NONE, SEM, MW, 12:30-1:45PM, NONE, PH1-227, Staff, Class instruction is: Face to Face - On Campus.
+MATH 370A, APPLIED MATH I, 3 Units, 19, 10911, NONE, NONE, NONE, SEM, MW, 2-3:15PM, NONE, PH1-227, Staff, Class instruction is: Face to Face - On Campus.
+MATH 370A, APPLIED MATH I, 3 Units, 20, 11648, NONE, NONE, 1,27,136, SEM, MW, 8-9:15AM, Open, LA5-244, Hamza H, Class instruction is: Face to Face - On Campus.
+MATH 380, PROBABILITY AND STATISTICS, 3 Units, 01, 9297, NONE, NONE, 27, SEM, TuTh, 11-12:15PM, Open, LA5-245, Kim Park Y, Class instruction is: Face to Face - On Campus.
+MATH 380, PROBABILITY AND STATISTICS, 3 Units, 02, 6777, NONE, NONE, 1,27, SEM, MW, 2-3:15PM, Open, LA5-151, Safer A, Class instruction is: Face to Face - On Campus.
+MATH 380, PROBABILITY AND STATISTICS, 3 Units, 03, 9387, NONE, NONE, 1,27, SEM, TuTh, 5:30-6:45PM, Open, LA5-245, Le R, Class instruction is: Face to Face - On Campus.
+MATH 444, INTRODUCTION ABSTRACT ALGEBRA, 3 Units, 01, 6447, NONE, NONE, NONE, SEM, TuTh, 2-3:15PM, Open, LA5-271, Ding Y, Class instruction is: Face to Face - On Campus.
+MATH 456, DYNAMICS AND GEOMETRY OF CHAOS, 3 Units, 01, 8138, NONE, NONE, NONE, SEM, TuTh, 4-5:15PM, Open, LA5-153, Crass S, Class instruction is: Face to Face - On Campus.
+MATH 463, MULTIVARIABLE CALCULUS, 3 Units, 01, 4066, NONE, NONE, 1,27, SEM, MW, 9:30-10:45AM, Open, LA5-271, Lee C, Class instruction is: Face to Face - On Campus.
+MATH 470, INTRO PARTIAL DIFFERL EQUATION, 3 Units, 01, 7970, NONE, NONE, 1,27, SEM, MW, 2-3:15PM, Open, LA5-147, Xu W, Class instruction is: Face to Face - On Campus.
+MATH 491, HONORS SEM IN PROBLEM SOLVING, 1 Unit, 02, 10027, NONE, Open, 1,27,34, SEM, W, 4-4:50PM, Open, HSCI-101, Bennett C, Instructor Consent RequiredHonors SectionClass instruction is: Face to Face - On Campus.
+MATH 497, DIRECTED STUDIES, 1-6 Units, 01, 1717, NONE, NONE, 1,3, SUP, TBA, NA, Open, FO3-217, Sack J, Instructor Consent RequiredClass instruction is: Face to Face - On Campus.
+MATH 497, DIRECTED STUDIES, 1-6 Units, 04, 10221, NONE, NONE, NONE, SUP, TBA, NA, Open, FO3-213, Blair R, Instructor Consent RequiredClass instruction is: Face to Face - On Campus.
+MATH 540, ELEMENTS OF ABSTRACT ALGEBRA, 3 Units, 01, 5359, NONE, NONE, 1,27, SEM, MW, 4-5:15PM, Open, LA5-169, Brevik J, Class instruction is: Face to Face - On Campus.
+MATH 550, ELEMENTS OF TOPOLOGY, 3 Units, 01, 5065, NONE, NONE, 1,27, SEM, TuTh, 4-5:15PM, Open, LA5-169, Blair R, Class instruction is: Face to Face - On Campus.
+MATH 563, APPLIED ANALYSIS, 3 Units, 01, 8468, NONE, NONE, NONE, SEM, MW, 4-5:15PM, Open, LA5-153, Xu W, Class instruction is: Face to Face - On Campus.
+MATH 564, APPLD NONLIN ORD DIFF EQUATNS, 3 Units, 01, 8038, NONE, NONE, NONE, SEM, TuTh, 4-5:15PM, Open, LA5-245, Sun P, Class instruction is: Face to Face - On Campus.
+MATH 565, TOPICS IN REAL ANALYSIS, 3 Units, 01, 4788, NONE, NONE, 1,27, SEM, TuTh, 5:30-6:45PM, Open, LA5-271, McCormick K, Class instruction is: Face to Face - On Campus.
+MATH 566, TOPICS IN COMPLEX ANALYSIS, 3 Units, 01, 10377, NONE, NONE, NONE, SEM, MW, 5:30-6:45PM, Open, LA5-243, Wang L, Class instruction is: Face to Face - On Campus.
+MATH 576, NUMERICAL ANALYSIS, 3 Units, 01, 4711, NONE, NONE, 1,27, SEM, TuTh, 5:30-6:45PM, Open, LA5-169, Chaderjian B, Class instruction is: Face to Face - On Campus.Some seats have been reserved for incoming Study Abroad Students.
+MATH 578, NUMERICAL LINEAR ALGEBRA, 3 Units, 01, 10378, NONE, NONE, NONE, SEM, MW, 5:30-6:45PM, Open, LA5-245, Gao T, Class instruction is: Face to Face - On Campus.
+MATH 697, DIRECTED STUDY, 1-6 Units, 01, 8311, NONE, NONE, NONE, SUP, TBA, NA, Open, FO3-117, Sun P, Class instruction is: Face to Face - On Campus.
+MATH 697, DIRECTED STUDY, 1-6 Units, 02, 8347, NONE, NONE, NONE, SUP, TBA, NA, Open, FO3-200, Wang L, Class instruction is: Face to Face - On Campus.
+MATH 697, DIRECTED STUDY, 1-6 Units, 04, 8399, NONE, NONE, NONE, SUP, TBA, NA, Open, FO3-219, McCormick K, Class instruction is: Face to Face - On Campus.
+MATH 697, DIRECTED STUDY, 1-6 Units, 05, 9950, NONE, NONE, NONE, SUP, TBA, NA, Open, FO3-114, Lee C, Class instruction is: Face to Face - On Campus.
+MATH 697, DIRECTED STUDY, 1-6 Units, 06, 10204, NONE, NONE, NONE, SUP, TBA, NA, Open, FO3-219, McCormick K, Class instruction is: Face to Face - On Campus.
+MATH 697, DIRECTED STUDY, 1-6 Units, 07, 10220, NONE, NONE, NONE, SUP, TBA, NA, Open, FO3-213, Blair R, Class instruction is: Face to Face - On Campus.
+MATH 698, THESIS OR PROJECT, 1-6 Units, 01, 10222, NONE, NONE, NONE, SUP, TBA, NA, Open, FO3-219, McCormick K, Class instruction is: Face to Face - On Campus.
