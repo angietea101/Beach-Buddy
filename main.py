@@ -6,7 +6,7 @@ Description: Main function to run our script
 from csulb_course import CSULBCourse
 
 
-def scrape_data_to_file():
+def read_data_in_file():
     with open('scraped_data.txt', 'r') as file:
         courses = []
         for line in file:
@@ -31,7 +31,7 @@ def scrape_data_to_file():
 
 
 def main():
-    courses = scrape_data_to_file()
+    courses = read_data_in_file()
     # Print each course
     user_course = input("Enter course to check open sections: ")
     for course in courses:
