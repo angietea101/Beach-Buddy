@@ -29,3 +29,66 @@ class CSULBCourse:
                 f'Reserved Seats: {self._reserved_cap} Open Seats: {self._open_seats}\n'
                 f'Location: {self._location} Days: {self._days} Time: {self._time}\n'
                 f'Additional Notes: {self._comment}\n')
+
+    @property
+    def course_abr(self):
+        return self._course_abr
+
+    @property
+    def course_name(self):
+        return self._course_name
+
+    @property
+    def course_section(self):
+        return self._course_section
+
+    @property
+    def course_number(self):
+        return self._course_number
+
+    @property
+    def reserved_cap(self):
+        return self.reserved_cap
+
+    @property
+    def class_notes(self):
+        return self.class_notes
+
+    @property
+    def type(self):
+        return self._type
+
+    @property
+    def days(self):
+        return self._days
+
+    @property
+    def time(self):
+        return self._time
+
+    @property
+    def open_seats(self):
+        return self._open_seats
+
+    @open_seats.setter
+    def open_seats(self, open_seats: str):
+        if open_seats == "NONE":
+            self._open_seats = False
+        else:
+            self._open_seats = True
+
+    @property
+    def location(self):
+        return self._location
+
+    @property
+    def instructor(self):
+        return self._instructor
+
+    @instructor.setter
+    def instructor(self, new_instructor):
+        self._instructor = new_instructor
+
+    @property
+    def comment(self):
+        return self._comment
