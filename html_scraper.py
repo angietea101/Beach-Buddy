@@ -28,9 +28,9 @@ def write_data_to_file(subject, course_blocks):
                             # If an image is found, append 'Open' to indicate open seats
                             row_data.append("OPEN")
                         elif div_tag and div_tag.find('img') and div_tag.img.get('title') == "Reserve Capacity" and div_tag.img.get('width') == "55":
-                            row_data.append('Reserved Seats')
+                            row_data.append('RESERVED SEATS')
                         elif div_tag and div_tag.find('img') and div_tag.img.get('title') == "Reserve Capacity":
-                            row_data.append('ALMOST FULL')
+                            row_data.append('OPEN (RESERVED)')
                         elif cell.text.strip() == '':
                             # If the cell is empty, replace it with 'NONE'
                             row_data.append("NONE")
