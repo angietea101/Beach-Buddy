@@ -36,13 +36,13 @@ def create_CSULBCourse_objects(file_name: str):
 
 
 def main():
-    courses = create_CSULBCourse_objects('cecs_scraped_data.txt')
+    courses = create_CSULBCourse_objects('biol_scraped_data.txt')
     # Print each course
     user_course = input("Enter course number: ")
     print("Courses currently open:\n")
     for course in courses:
         user_course.upper()
-        if course.course_abr == user_course and course.open_seats is True:
+        if course.course_abr == user_course:
             print(course)
 
 
