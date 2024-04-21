@@ -23,9 +23,14 @@ def write_data_to_file(subject, course_blocks):
                     # Extract and organize data from each row
                     row_data = [course_code, course_title, units]
                     for cell in cells:
-                        if cell.find('img'):
+                        div_tag = cell.find('div')
+                        if div_tag and div_tag.find('img') and div_tag.img.get('title') == "Seats available":
                             # If an image is found, append 'Open' to indicate open seats
-                            row_data.append("Open")
+                            row_data.append("OPEN")
+                        elif div_tag and div_tag.find('img') and div_tag.img.get('title') == "Reserve Capacity" and div_tag.img.get('width') == "55":
+                            row_data.append('Reserved Seats')
+                        elif div_tag and div_tag.find('img') and div_tag.img.get('title') == "Reserve Capacity":
+                            row_data.append('ALMOST FULL')
                         elif cell.text.strip() == '':
                             # If the cell is empty, replace it with 'NONE'
                             row_data.append("NONE")
