@@ -18,6 +18,7 @@ def create_CSULBCourse_objects(file_name: str):
             data = line.strip().split(', ')
             course_abr = data[0]
             course_name = data[1]
+            units = data[2]
             section = data[3]
             number = data[4]
             reserved_cap = data[5]
@@ -30,7 +31,7 @@ def create_CSULBCourse_objects(file_name: str):
             instructor = data[13]
             comment = data[14]
             courses.append(
-                CSULBCourse(course_abr, course_name, section, number, reserved_cap, class_notes, class_type, days, time,
+                CSULBCourse(course_abr, course_name, units, section, number, reserved_cap, class_notes, class_type, days, time,
                             open_seats, location, instructor, comment))
     return courses
 

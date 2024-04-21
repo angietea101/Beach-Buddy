@@ -1,8 +1,9 @@
 class CSULBCourse:
-    def __init__(self, course_abr, course_name, section, number, reserved_cap, class_notes, class_type, days, time,
+    def __init__(self, course_abr, course_name, units, section, number, reserved_cap, class_notes, class_type, days, time,
                  open_seats, location, instructor, comment):
         self._course_abr = course_abr
         self._course_name = course_name
+        self._units = units
         self._course_section = section
         self._course_number = number
         self._reserved_cap = reserved_cap
@@ -18,7 +19,7 @@ class CSULBCourse:
     def __str__(self):
         if self._open_seats == 'NONE':
             self._open_seats = 'CLOSED'
-        return (f'{self._course_abr}: {self._course_name}: {self._type}\n'
+        return (f'{self._course_abr}: {self._course_name}: {self._type} ({self._units})\n'
                 f'Professor: {self._instructor}\n'
                 f'Section number: {self._course_section}\t\tCourse Number: {self._course_number}\n'
                 f'Reserved Seats: {self._reserved_cap}\tOpen Seats: {self._open_seats}\n'
