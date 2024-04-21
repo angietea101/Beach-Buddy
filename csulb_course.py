@@ -6,7 +6,10 @@ class CSULBCourse:
         self._units = units
         self._course_section = section
         self._course_number = number
-        self._reserved_cap = reserved_cap
+        if reserved_cap == "RESERVED SEATS":
+            self._reserved_cap = True
+        else:
+            self._reserved_cap = False
         self._class_notes = class_notes
         self._type = class_type
         self._days = days
