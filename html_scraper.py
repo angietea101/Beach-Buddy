@@ -45,7 +45,7 @@ def main():
     # Check if response was successful
     if response.status_code == 200:
         html_content = response.text
-        soup = BeautifulSoup(response.text, 'html.parser')
+        soup = BeautifulSoup(html_content, 'html.parser')
         course_blocks = soup.find_all('div', class_='courseBlock')
     else:
         print("Error: This subject does not exist. Make sure the abbreviation is typed correctly.\n"
