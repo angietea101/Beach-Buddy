@@ -16,13 +16,13 @@ class CSULBCourse:
         self._comment = comment
 
     def __str__(self):
-        if not self._open_seats == 'NONE':
+        if self._open_seats == 'NONE':
             self._open_seats = 'CLOSED'
         return (f'{self._course_abr}: {self._course_name}: {self._type}\n'
                 f'Professor: {self._instructor}\n'
-                f'Section number: {self._course_section} Course Number: {self._course_number}\n'
-                f'Reserved Seats: {self._reserved_cap} Open Seats: {self._open_seats}\n'
-                f'Location: {self._location} Days: {self._days} Time: {self._time}\n'
+                f'Section number: {self._course_section}\t\tCourse Number: {self._course_number}\n'
+                f'Reserved Seats: {self._reserved_cap}\tOpen Seats: {self._open_seats}\n'
+                f'Location: {self._location}\t\tDays: {self._days}\t\t\tTime: {self._time}\n'
                 f'Additional Notes: {self._comment}\n')
 
     @property
