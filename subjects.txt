@@ -60,7 +60,7 @@ Enrollment Services, ES
 Environmental Engineering, ENV
 Environmental Science & Policy, ESzP
 Equity, Educ, & Social Justice, EESJ
-Fashion Merchandising & Design (FMD)
+Fashion Merchandising & Design, FMD
 Filipino, FIL
 Finance, FIN
 Food Science, FSCI
@@ -91,7 +91,7 @@ Latin, LAT
 Liberal Arts, College of, CxLA
 Liberal Studies, LxST
 Linguistics, LING
-Management (MGMT)
+Management, MGMT
 Marketing, MKTG
 Mathematics, MATH
 Mathematics Education, MTED
