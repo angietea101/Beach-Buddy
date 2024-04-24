@@ -12,7 +12,7 @@ def scrape_fall():
         for line in file:
             data = line.strip().split(', ')
             # gets rid of  - in subject names in order to name the files properly
-            course_name = data[0].replace('-', '')
+            course_name = data[0].replace('-', '').lower()
             course_abr = data[1]
 
             # link to request html
