@@ -57,7 +57,7 @@ def main():
     response = requests.get(url)
     file_name = str(f"{subject.lower()}_scraped_data.txt")
     write_data_to_file(file_name, url)
-ove
+
 
 if __name__ == "__main__":
     main()
