@@ -2,10 +2,19 @@ from bs4 import BeautifulSoup
 import requests
 
 
-def write_data_to_file(subject, course_blocks):
-    file_name = str(f"{subject.lower()}_scraped_data.txt")
+def write_data_to_file(subject, url):
+    response = requests.get(url)
+    course_blocks = ""
+    if response.status_code == 200:
+        html_content = response.text
+        soup = BeautifulSoup(html_content, 'html.parser')
+        course_blocks = soup.find_all('div', class_='courseBlock')
+    else:
+        print("Error: This subject does not exist. Make sure the abbreviation is typed correctly.\n"
+              "Example: CECS, MATH, or BIOL")
+        return
 
-    with open(file_name, 'w') as file:
+    with open(subject, 'w') as file:
         for course_block in course_blocks:
             course_code = course_block.find('span', class_='courseCode').text
             course_title = course_block.find('span', class_='courseTitle').text
@@ -46,19 +55,9 @@ def main():
     subject = input("Subject abbreviation: ").upper()
     url = 'http://web.csulb.edu/depts/enrollment/registration/class_schedule/Fall_2024/By_Subject/' + subject + '.html'
     response = requests.get(url)
-
-    # Check if response was successful
-    if response.status_code == 200:
-        html_content = response.text
-        soup = BeautifulSoup(html_content, 'html.parser')
-        course_blocks = soup.find_all('div', class_='courseBlock')
-    else:
-        print("Error: This subject does not exist. Make sure the abbreviation is typed correctly.\n"
-              "Example: CECS, MATH, or BIOL")
-        return
-
-    write_data_to_file(subject, course_blocks)
-
+    file_name = str(f"{subject.lower()}_scraped_data.txt")
+    write_data_to_file(file_name, url)
+ove
 
 if __name__ == "__main__":
     main()
