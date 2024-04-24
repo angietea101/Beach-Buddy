@@ -21,7 +21,6 @@ with open(file_name, 'r') as file:
         links.append(subject_html)
         file_paths.append(path)
 
-
-print(links)
-print(file_paths)
+for i in range(len(links)):
+    html_scraper.write_data_to_file(file_paths[i], links[i])
 
