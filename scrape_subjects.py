@@ -2,11 +2,9 @@ import html_scraper
 import os.path
 import time
 
-file_name = "subjects.txt"
 
-
-def scrape_fall():
-    with open(file_name, 'r') as file:
+def scrape_fall(subjects_file):
+    with open(subjects_file, 'r') as file:
         links = []
         file_paths = []
         for line in file:
@@ -28,8 +26,8 @@ def scrape_fall():
     for i in range(len(links)):
         html_scraper.write_data_to_file(file_paths[i], links[i])
 
-def scrape_summer():
-    with open(file_name, 'r') as file:
+def scrape_summer(subjects_file):
+    with open(subjects_file, 'r') as file:
         links = []
         file_paths = []
         for line in file:
@@ -53,8 +51,9 @@ def scrape_summer():
 
 
 def main():
-    scrape_fall()
-    scrape_summer()
+    subjects_file = "subjects.txt"
+    scrape_fall(subjects_file)
+    scrape_summer(subjects_file)
 
 
 if __name__ == "__main__":
