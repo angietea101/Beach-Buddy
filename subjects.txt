@@ -16,7 +16,7 @@ Athletics, ATHL
 Biology, BIOL
 Biomedical Engineering, BME
 Business Law, BLAW
-Business, College of (pre F24), (CBA)
+Business College of (pre F24), CBA
 Cambodian, KHMR
 Chemical Engineering, CHzE
 Chemistry & Biochemistry, CHEM
@@ -59,7 +59,7 @@ English, ENGL
 Enrollment Services, ES
 Environmental Engineering, ENV
 Environmental Science & Policy, ESzP
-Equity, Educ, & Social Justice, EESJ
+Equity Educ & Social Justice, EESJ
 Fashion Merchandising & Design, FMD
 Filipino, FIL
 Finance, FIN
@@ -88,7 +88,7 @@ Journalism, JOUR
 Kinesiology, KIN
 Korean, KOR
 Latin, LAT
-Liberal Arts, College of, CxLA
+Liberal Arts, CxLA
 Liberal Studies, LxST
 Linguistics, LING
 Management, MGMT
