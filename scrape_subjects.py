@@ -27,6 +27,7 @@ def scrape_fall(subjects_file):
     for i in range(len(links)):
         html_scraper.write_data_to_file(file_paths[i], links[i])
 
+
 def scrape_summer(subjects_file):
     with open(subjects_file, 'r') as file:
         links = []

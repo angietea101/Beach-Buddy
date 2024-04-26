@@ -6,18 +6,16 @@ Description: Main function to run our script
 import discord
 from discord import app_commands
 from discord.ext import commands
-from utils import csv_to_dictionary
+from utils import csv_to_dictionary, get_csv_path, get_course_codes
 from config import BOT_TOKEN
 from typing import Literal
+
 
 intents = discord.Intents.all()
 bot = commands.Bot(command_prefix="/", intents=intents)
 
-fall_path = "seasons/fall_2024"
-summer_path = "seasons/summer_2024"
 subjects_csv = "subjects.csv"
 subjects_abbreviation = csv_to_dictionary(subjects_csv)
-subjects_keys_list = list(subjects_abbreviation.keys())
 
 
 @bot.event
@@ -38,13 +36,24 @@ async def ping(ctx, test: Literal['PONG', 'PANG']):
 
 
 @bot.hybrid_command()
-async def search(ctx: commands.Context, abbreviation: str, code: int):
+async def search(ctx: commands.Context, season: Literal["Fall 2024", "Summer 2024"], abbreviation: str, code: str):
     abbreviation = abbreviation.upper()
-    if abbreviation not in subjects_abbreviation:
+    if season == "Fall 2024":
+        season = "fall_2024"
+    else:
+        season = "summer_2024"
+    if abbreviation in subjects_abbreviation:
+        await ctx.send(f"Valid abbreviation")
+    else:
         await ctx.send(f"Invalid abbreviation. Examples: MATH, CECS, or BIOL")
         return
+    csv_path = get_csv_path(season, abbreviation, subjects_abbreviation)
+    code_list = (get_course_codes(csv_path))
+    if code in code_list:
+        await ctx.send(f"Valid code.")
     else:
-        await ctx.send(f"Valid abbreviation.")
+        await ctx.send(f"Invalid code.")
+        return
 
 
 bot.run(BOT_TOKEN)
