@@ -6,7 +6,7 @@ Description: Main function to run our script
 import discord
 from discord import app_commands
 from discord.ext import commands
-from utils import csv_to_dictionary, get_csv_path, get_course_codes
+from utils import csv_to_dictionary, get_csv_path, get_course_codes, get_class_infos
 from config import BOT_TOKEN
 from typing import Literal
 
@@ -42,18 +42,21 @@ async def search(ctx: commands.Context, season: Literal["Fall 2024", "Summer 202
         season = "fall_2024"
     else:
         season = "summer_2024"
-    if abbreviation in subjects_abbreviation:
-        await ctx.send(f"Valid abbreviation")
-    else:
+    if abbreviation not in subjects_abbreviation:
         await ctx.send(f"Invalid abbreviation. Examples: MATH, CECS, or BIOL")
         return
     csv_path = get_csv_path(season, abbreviation, subjects_abbreviation)
     code_list = (get_course_codes(csv_path))
-    if code in code_list:
-        await ctx.send(f"Valid code.")
-    else:
+    if code not in code_list:
         await ctx.send(f"Invalid code.")
         return
+    course_infos = get_class_infos(season, abbreviation, subjects_abbreviation, code)
+    response = ""
+    # Turn the course list into a long string to be sent back to user
+    for course in course_infos:
+        response += str(f"{course}\n")
+    await ctx.send(response)
+    return
 
 
 bot.run(BOT_TOKEN)
