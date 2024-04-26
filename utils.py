@@ -8,11 +8,22 @@ import pandas as pd
 import numpy as np
 
 
+def get_csv_path(season: str, abbreviation: str, csv_dictionary: dict):
+    """
+    Get the .csv file name given the abbreviation
+    abbreviation -- The abbreviation of the course
+    Returns the name of the file
+    """
+    full_name = csv_dictionary[abbreviation]
+    csv_path = f"seasons/{season}/{full_name}_scraped_data.csv"
+    return csv_path
+
+
 def get_course_codes(subject_file: str):
     column_to_read = [0]
     dataframe = pd.read_csv(subject_file, usecols=column_to_read)
     data_array = dataframe.to_numpy()
-    data_list = list(np.ravel(data_array))
+    data_list = set(np.ravel(data_array))
     codes = [course.split()[1] for course in data_list]
     return codes
 
@@ -69,9 +80,8 @@ def main():
     subjects_csv = "subjects.csv"
     subjects_abbreviation = csv_to_dictionary(subjects_csv)
     subjects_keys_list = list(subjects_abbreviation.keys())
-    subject = "/accountancy_scraped_data.csv"
-    file_path = fall_path + subject
-    print(get_course_codes(file_path))
+    csv_path = get_csv_path("fall_2024", "CECS", subjects_abbreviation)
+    print(get_course_codes(csv_path))
 
 
 if __name__ == "__main__":
