@@ -4,6 +4,17 @@ Author: Angie Tran and Diego Cid
 Description: Utility file that includes any utility functions and helper functions
 """
 from csulb_course import CSULBCourse
+import pandas as pd
+import numpy as np
+
+
+def get_course_codes(subject_file: str):
+    column_to_read = [0]
+    dataframe = pd.read_csv(subject_file, usecols=column_to_read)
+    data_array = dataframe.to_numpy()
+    data_list = list(np.ravel(data_array))
+    codes = [course.split()[1] for course in data_list]
+    return codes
 
 
 def reformat_course_name(course_name):
@@ -58,11 +69,9 @@ def main():
     subjects_csv = "subjects.csv"
     subjects_abbreviation = csv_to_dictionary(subjects_csv)
     subjects_keys_list = list(subjects_abbreviation.keys())
-    subjects_keys_list_100 = subjects_keys_list[:25]
-    print(len(subjects_keys_list_100))
-    quoted_subjects_list = [f"'{item}'" for item in subjects_keys_list_100]
-    subjects_string = ', '.join(quoted_subjects_list)
-    print(subjects_string)
+    subject = "/accountancy_scraped_data.csv"
+    file_path = fall_path + subject
+    print(get_course_codes(file_path))
 
 
 if __name__ == "__main__":
