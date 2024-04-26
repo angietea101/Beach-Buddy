@@ -46,7 +46,7 @@ def write_data_to_file(subject, url):
                         else:
                             # Otherwise, extract and append the text from the cell
                             text = cell.text.strip()
-                            text = text.remove(',', '')
+                            text = text.replace(',', '')
                             row_data.append(text)
                     # Write the row data into the file with comma-separated values
                     if len(row_data) > 3:
