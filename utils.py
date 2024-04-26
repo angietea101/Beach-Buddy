@@ -12,8 +12,10 @@ import csv
 def get_csv_path(season: str, abbreviation: str, subjects_abbreviation: dict):
     """
     Get the .csv file name given the abbreviation
-    abbreviation -- The abbreviation of the course
-    Returns the name of the file
+    :season: season of the desired course
+    :abbreviation: the abbreviation of the course
+    :subjects_abbreviation: dictionary of the subjects with key abbreviation and value full name
+    :return: string name of the file path
     """
     full_name = subjects_abbreviation[abbreviation]
     csv_path = f"seasons/{season}/{full_name}_scraped_data.csv"
@@ -21,6 +23,11 @@ def get_csv_path(season: str, abbreviation: str, subjects_abbreviation: dict):
 
 
 def get_course_codes(subject_file: str):
+    """
+    Get a set of all available course codes given a subject
+    :param subject_file: the subject file with all course sections
+    :return: a list of valid course codes
+    """
     column_to_read = [0]
     dataframe = pd.read_csv(subject_file, usecols=column_to_read)
     data_array = dataframe.to_numpy()
@@ -30,6 +37,14 @@ def get_course_codes(subject_file: str):
 
 
 def get_class_infos(season: str, abbreviation: str, csv_dictionary: dict, code: str):
+    """
+    Get all class section information given a course
+    :param season: the season of the course
+    :param abbreviation: the abbreviation i.e. CECS, MATH, BIOL
+    :param csv_dictionary: a dictionary with the abbreviation as the key and the full name of the course as the value
+    :param code: the course code i.e. 100, 329, 491A
+    :return: list of objects with all sections of the course
+    """
     csv_file = get_csv_path(season, abbreviation, csv_dictionary)
     course = f"{abbreviation} {code}"
     all_courses = []
@@ -42,12 +57,20 @@ def get_class_infos(season: str, abbreviation: str, csv_dictionary: dict, code: 
     return all_courses
 
 
-def reformat_course_name(course_name):
+def reformat_course_name(course_name: str):
+    """
+    :param course_name: the full course name
+    :return: string of the full course name reformatted to file naming name
+    """
     course_renamed = course_name.replace('-', '').replace(' ', '_').lower()
     return course_renamed
 
 
-def csv_to_dictionary(subjects_csv):
+def csv_to_dictionary(subjects_csv: str):
+    """
+    :param subjects_csv: subjects.csv file of all available subjects full name and the corresponding abbreviation
+    :return: dictionary of abbreviation as the key and the full name as the value
+    """
     subjects_dict = {}
     with open(subjects_csv, 'r') as file:
         for line in file:
@@ -59,9 +82,9 @@ def csv_to_dictionary(subjects_csv):
 
 def create_CSULBCourse_object(course: str):
     """
-    Creates CSULBCourse objects of all courses obtained in the given text file
-    file_name -- The file .txt that contains the scraped data
-    Return a list that contains all the objects
+    Create CSULBCourse object of course string
+    :course: A string with all the course information separated by commas
+    :return: a CSULBCourse object
     """
     data = course.strip().split(', ')
     course_abr = data[0]
