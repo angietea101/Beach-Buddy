@@ -1,5 +1,6 @@
 import html_scraper
 import os.path
+import csv
 import time
 
 
@@ -51,7 +52,7 @@ def scrape_summer(subjects_file):
 
 
 def main():
-    subjects_file = "subjects.txt"
+    subjects_file = "subjects.csv"
     scrape_fall(subjects_file)
     scrape_summer(subjects_file)
 
