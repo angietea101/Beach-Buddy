@@ -50,3 +50,20 @@ def create_CSULBCourse_objects(file_name: str):
                             days, time,
                             open_seats, location, instructor, comment))
     return courses
+
+
+def main():
+    fall_path = "seasons/fall_2024"
+    summer_path = "seasons/summer_2024"
+    subjects_csv = "subjects.csv"
+    subjects_abbreviation = csv_to_dictionary(subjects_csv)
+    subjects_keys_list = list(subjects_abbreviation.keys())
+    subjects_keys_list_100 = subjects_keys_list[:25]
+    print(len(subjects_keys_list_100))
+    quoted_subjects_list = [f"'{item}'" for item in subjects_keys_list_100]
+    subjects_string = ', '.join(quoted_subjects_list)
+    print(subjects_string)
+
+
+if __name__ == "__main__":
+    main()
