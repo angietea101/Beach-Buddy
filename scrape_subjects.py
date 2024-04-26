@@ -18,7 +18,7 @@ def scrape_fall(subjects_file):
             subject_html = "http://web.csulb.edu/depts/enrollment/registration/class_schedule/Fall_2024/By_Subject/" \
                            + course_abr + ".html"
             # os path to the folders
-            path = os.path.join("seasons/fall_2024", course_name.replace(' ', '_') + "_scraped_data.txt")
+            path = os.path.join("seasons/fall_2024", course_name.replace(' ', '_') + "_scraped_data.csv")
 
             # add the data to a list
             links.append(subject_html)
