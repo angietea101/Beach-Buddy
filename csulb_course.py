@@ -1,6 +1,6 @@
 class CSULBCourse:
-    def __init__(self, course_abr, course_name, units, section, number, reserved_cap, class_notes, class_type, days, time,
-                 open_seats, location, instructor, comment):
+    def __init__(self, course_abr, course_name, units, section, number, reserved_cap, class_notes, class_type, days,
+                 time, open_seats, location, instructor, comment):
         self._course_abr = course_abr
         self._course_name = course_name
         self._units = units
@@ -22,7 +22,7 @@ class CSULBCourse:
     def __str__(self):
         if self._open_seats == 'NONE':
             self._open_seats = 'CLOSED'
-        return (f'{self._course_abr}: {self._course_name}: {self._type} ({self._units})\n'
+        return (f'{self._course_abr}: {self._course_name} {self._type} ({self._units})\n'
                 f'Professor: {self._instructor}\n'
                 f'Section number: {self._course_section}\t\tCourse Number: {self._course_number}\n'
                 f'Reserved Seats: {self._reserved_cap}\tOpen Seats: {self._open_seats}\n'
@@ -38,6 +38,10 @@ class CSULBCourse:
         return self._course_name
 
     @property
+    def units(self):
+        return self._units
+
+    @property
     def course_section(self):
         return self._course_section
 
@@ -47,7 +51,10 @@ class CSULBCourse:
 
     @property
     def reserved_cap(self):
-        return self.reserved_cap
+        if self._reserved_cap is True:
+            return "True"
+        else:
+            return "False"
 
     @property
     def class_notes(self):

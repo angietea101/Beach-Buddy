@@ -9,6 +9,7 @@ from discord.ext import commands
 from utils import csv_to_dictionary, get_csv_path, get_course_codes, get_class_infos
 from config import BOT_TOKEN
 from typing import Literal
+from paginator import PaginatorView
 
 
 intents = discord.Intents.all()
@@ -38,6 +39,7 @@ async def ping(ctx, test: Literal['PONG', 'PANG']):
 @bot.hybrid_command()
 async def search(ctx: commands.Context, season: Literal["Fall 2024", "Summer 2024"], abbreviation: str, code: str,
                  opened_only: Literal["True", "False"]):
+    embeds = []
     abbreviation = abbreviation.upper()
     if season == "Fall 2024":
         season = "fall_2024"
@@ -52,20 +54,43 @@ async def search(ctx: commands.Context, season: Literal["Fall 2024", "Summer 202
         await ctx.send(f"Invalid code.")
         return
     course_infos = get_class_infos(season, abbreviation, subjects_abbreviation, code)
-    response = ""
     # Turn the course list into a long string to be sent back to user
     if opened_only == "True":
         for course in course_infos:
             course_stripped = course.open_seats.strip()
             if course_stripped != "NONE":
-                response += str(f"{course}\n")
+                embed = discord.Embed(title=f"{course.course_abr}: {course.course_name} {course.type} ({course.units})",
+                                      color=discord.Color.dark_blue())
+                embed.add_field(name="Professor:", value=f"{course.instructor}")
+                embed.add_field(name="Section Number:", value=f"{course.course_section}")
+                embed.add_field(name="Course Number:", value=f"{course.course_number}")
+                embed.add_field(name="Reserved Seats:", value=f"{course.reserved_cap}")
+                embed.add_field(name="Open Seats:", value=f"{course.open_seats}")
+                embed.add_field(name="Location:", value=f"{course.location}")
+                embed.add_field(name="Days:", value=f"{course.days}")
+                embed.add_field(name="Time:", value=f"{course.time}")
+                embed.add_field(name="Additional Notes:", value=f"{course.comment}")
+                embeds.append(embed)
     else:
         for course in course_infos:
-            response += str(f"{course}\n")
-    if len(response) == 0:
+            embed = discord.Embed(title=f"{course.course_abr}: {course.course_name} {course.type} ({course.units})",
+                                  color=discord.Color.dark_blue())
+            embed.add_field(name="Professor:", value=f"{course.instructor}")
+            embed.add_field(name="Section Number:", value=f"{course.course_section}")
+            embed.add_field(name="Course Number:", value=f"{course.course_number}")
+            embed.add_field(name="Reserved Seats:", value=f"{course.reserved_cap}")
+            embed.add_field(name="Open Seats:", value=f"{course.open_seats}")
+            embed.add_field(name="Location:", value=f"{course.location}")
+            embed.add_field(name="Days:", value=f"{course.days}")
+            embed.add_field(name="Time:", value=f"{course.time}")
+            embed.add_field(name="Additional Notes:", value=f"{course.comment}")
+            embeds.append(embed)
+    if len(embeds) == 0:
         await ctx.send("No results were found.")
     else:
-        await ctx.send(response)
+        view = PaginatorView(embeds)
+        await ctx.send(embed=view.initial, view=view)
+
 
 
 bot.run(BOT_TOKEN)

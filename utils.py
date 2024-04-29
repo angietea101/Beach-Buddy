@@ -112,8 +112,10 @@ def main():
     subjects_abbreviation = csv_to_dictionary(subjects_csv)
     subjects_keys_list = list(subjects_abbreviation.keys())
     csv_path = get_csv_path("fall_2024", "CECS", subjects_abbreviation)
-    course_infos = get_class_infos("summer_2024", "CECS", subjects_abbreviation, "326")
-    print(course_infos)
+    course_infos = get_class_infos("fall_2024", "CECS", subjects_abbreviation, "491A")
+    for course in course_infos:
+        pass
+
 
 
 if __name__ == "__main__":
