@@ -31,7 +31,7 @@ class PaginatorView(discord.ui.View):
 
         await interaction.message.edit(view=self)
 
-    @discord.ui.button(style=discord.ButtonStyle.danger, emoji="⏪")
+    @discord.ui.button(style=discord.ButtonStyle.danger, label="PREVIOUS")
     async def previous(self, interaction: discord.Interaction, _):
         self._queue.rotate(-1)
         embed = self._queue[0]
@@ -39,7 +39,7 @@ class PaginatorView(discord.ui.View):
         await self.update_buttons(interaction)
         await interaction.response.edit_message(embed=embed)
 
-    @discord.ui.button(style=discord.ButtonStyle.success, emoji="⏩")
+    @discord.ui.button(style=discord.ButtonStyle.success, label="NEXT")
     async def next(self, interaction: discord.Interaction, _):
         self._queue.rotate(1)
         embed = self._queue[0]
