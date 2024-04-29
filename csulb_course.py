@@ -6,7 +6,7 @@ class CSULBCourse:
         self._units = units
         self._course_section = section
         self._course_number = number
-        if reserved_cap == "RESERVED SEATS":
+        if reserved_cap.strip() == "RESERVED SEATS":
             self._reserved_cap = True
         else:
             self._reserved_cap = False
