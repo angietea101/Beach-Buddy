@@ -22,6 +22,8 @@ class CSULBCourse:
     def __str__(self):
         if self._open_seats == 'NONE':
             self._open_seats = 'CLOSED'
+        if self._open_seats == 'OPEN (RESERVED)':
+            self._open_seats = 'OPEN'
         return (f'{self._course_abr}: {self._course_name} {self._type} ({self._units})\n'
                 f'Professor: {self._instructor}\n'
                 f'Section number: {self._course_section}\t\tCourse Number: {self._course_number}\n'
@@ -52,7 +54,7 @@ class CSULBCourse:
     @property
     def reserved_cap(self):
         if self._reserved_cap is True:
-            return "True"
+            return "TRUE"
         else:
             return "False"
 
