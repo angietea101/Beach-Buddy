@@ -36,7 +36,8 @@ async def ping(ctx, test: Literal['PONG', 'PANG']):
 
 
 @bot.hybrid_command()
-async def search(ctx: commands.Context, season: Literal["Fall 2024", "Summer 2024"], abbreviation: str, code: str):
+async def search(ctx: commands.Context, season: Literal["Fall 2024", "Summer 2024"], abbreviation: str, code: str,
+                 opened_only: Literal["True", "False"]):
     abbreviation = abbreviation.upper()
     if season == "Fall 2024":
         season = "fall_2024"
@@ -53,10 +54,18 @@ async def search(ctx: commands.Context, season: Literal["Fall 2024", "Summer 202
     course_infos = get_class_infos(season, abbreviation, subjects_abbreviation, code)
     response = ""
     # Turn the course list into a long string to be sent back to user
-    for course in course_infos:
-        response += str(f"{course}\n")
-    await ctx.send(response)
-    return
+    if opened_only == "True":
+        for course in course_infos:
+            course_stripped = course.open_seats.strip()
+            if course_stripped != "NONE":
+                response += str(f"{course}\n")
+    else:
+        for course in course_infos:
+            response += str(f"{course}\n")
+    if len(response) == 0:
+        await ctx.send("No results were found.")
+    else:
+        await ctx.send(response)
 
 
 bot.run(BOT_TOKEN)
