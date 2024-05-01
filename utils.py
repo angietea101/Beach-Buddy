@@ -4,6 +4,7 @@ Author: Angie Tran and Diego Cid
 Description: Utility file that includes any utility functions and helper functions
 """
 from csulb_course import CSULBCourse
+import discord
 import pandas as pd
 import numpy as np
 import csv
@@ -105,6 +106,25 @@ def create_CSULBCourse_object(course: str):
                        class_type, days, time, open_seats, location, instructor, comment)
 
 
+def create_embed(course: CSULBCourse):
+    """
+    :param course: A CSULBCourse object
+    :return: The formatted Discord embed message
+    """
+    embed = discord.Embed(title=f"{course.course_abr}: {course.course_name} {course.type} ({course.units})",
+                          color=discord.Color.dark_blue())
+    embed.add_field(name="Professor", value=f"{course.instructor}")
+    embed.add_field(name="Section Number", value=f"{course.course_section}")
+    embed.add_field(name="Course Number", value=f"{course.course_number}")
+    embed.add_field(name="Reserved Seats", value=f"{course.reserved_cap}")
+    embed.add_field(name="Open Seats", value=f"{course.open_seats}")
+    embed.add_field(name="Location", value=f"{course.location}")
+    embed.add_field(name="Days", value=f"{course.days}")
+    embed.add_field(name="Time", value=f"{course.time}")
+    embed.add_field(name="Additional Notes", value=f"{course.comment}")
+    return embed
+
+
 def main():
     fall_path = "seasons/fall_2024"
     summer_path = "seasons/summer_2024"
@@ -115,7 +135,6 @@ def main():
     course_infos = get_class_infos("fall_2024", "CECS", subjects_abbreviation, "491A")
     for course in course_infos:
         pass
-
 
 
 if __name__ == "__main__":
