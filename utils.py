@@ -136,10 +136,10 @@ def main():
     subjects_abbreviation = csv_to_dictionary(subjects_csv)
     subjects_keys_list = list(subjects_abbreviation.keys())
     csv_path = get_csv_path("fall_2024", "CECS", subjects_abbreviation)
-    course_infos = get_class_infos("fall_2024", "CECS", subjects_abbreviation, "491A")
-    print(get_course_codes(csv_path))
+    course_infos = get_class_infos("fall_2024", "ACCT", subjects_abbreviation, "202")
+    # course_infos.sort(key=lambda x: x.course_section)
     for course in course_infos:
-        pass
+        print(course)
 
 
 if __name__ == "__main__":
