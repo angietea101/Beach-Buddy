@@ -14,16 +14,15 @@ class CSULBCourse:
         self._type = class_type
         self._days = days
         self._time = time
-        self._open_seats = open_seats
+        if open_seats.strip() == 'NONE':
+            self._open_seats = 'CLOSED'
+        else:
+            self._open_seats = 'OPEN'
         self._location = location
         self._instructor = instructor
         self._comment = comment
 
     def __str__(self):
-        if self._open_seats == 'NONE':
-            self._open_seats = 'CLOSED'
-        if self._open_seats == 'OPEN (RESERVED)':
-            self._open_seats = 'OPEN'
         return (f'{self._course_abr}: {self._course_name} {self._type} ({self._units})\n'
                 f'Professor: {self._instructor}\n'
                 f'Section number: {self._course_section}\t\tCourse Number: {self._course_number}\n'
