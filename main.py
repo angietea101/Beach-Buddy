@@ -25,7 +25,7 @@ def scheduled_scrape():
     threading.Timer(1, scheduled_scrape).start()
     now = datetime.now()
     current_time = now.strftime("%H:%M:%S")
-    if (current_time == '17:04:30'):
+    if (current_time == '05:03:30'):
         print("Scraping...")
         subjects_file = "subjects.csv"
         scrape_fall(subjects_file)
