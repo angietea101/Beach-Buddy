@@ -10,7 +10,10 @@ from utils import csv_to_dictionary, get_csv_path, get_course_codes, get_class_i
 from config import BOT_TOKEN
 from typing import Literal
 from paginator import PaginatorView
-
+from datetime import datetime
+from scrape_subjects import scrape_fall
+from scrape_subjects import scrape_summer
+import threading
 
 intents = discord.Intents.all()
 bot = commands.Bot(command_prefix="/", intents=intents)
@@ -18,6 +21,18 @@ bot = commands.Bot(command_prefix="/", intents=intents)
 subjects_csv = "subjects.csv"
 subjects_abbreviation = csv_to_dictionary(subjects_csv)
 
+def scheduled_scrape():
+    threading.Timer(1, scheduled_scrape).start()
+    now = datetime.now()
+    current_time = now.strftime("%H:%M:%S")
+    if (current_time == '17:04:30'):
+        print("Scraping...")
+        subjects_file = "subjects.csv"
+        scrape_fall(subjects_file)
+        scrape_summer(subjects_file)
+        print("Complete")
+
+scheduled_scrape()
 
 @bot.event
 async def on_ready():
