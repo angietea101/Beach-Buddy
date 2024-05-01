@@ -32,8 +32,12 @@ def get_course_codes(subject_file: str):
     column_to_read = [0]
     dataframe = pd.read_csv(subject_file, usecols=column_to_read)
     data_array = dataframe.to_numpy()
-    data_list = set(np.ravel(data_array))
-    codes = [course.split()[1] for course in data_list]
+    data_list = np.ravel(data_array)
+    data_list_unique = []
+    for code in data_list:
+        if code not in data_list_unique:
+            data_list_unique.append(code)
+    codes = [course.split()[1] for course in data_list_unique]
     return codes
 
 
@@ -133,6 +137,7 @@ def main():
     subjects_keys_list = list(subjects_abbreviation.keys())
     csv_path = get_csv_path("fall_2024", "CECS", subjects_abbreviation)
     course_infos = get_class_infos("fall_2024", "CECS", subjects_abbreviation, "491A")
+    print(get_course_codes(csv_path))
     for course in course_infos:
         pass
 

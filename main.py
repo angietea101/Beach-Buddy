@@ -4,7 +4,6 @@ Author: Angie Tran and Diego Cid
 Description: Main function to run our script
 """
 import discord
-from discord import app_commands
 from discord.ext import commands
 from utils import csv_to_dictionary, get_csv_path, get_course_codes, get_class_infos, create_embed
 from config import BOT_TOKEN
