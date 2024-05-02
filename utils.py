@@ -139,7 +139,9 @@ def main():
     course_infos = get_class_infos("fall_2024", "ACCT", subjects_abbreviation, "202")
     # course_infos.sort(key=lambda x: x.course_section)
     for course in course_infos:
-        print(course)
+        # course_stripped = course.open_seats.strip()
+        if course.open_seats != "CLOSED":
+            print(course)
 
 
 if __name__ == "__main__":

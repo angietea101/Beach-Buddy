@@ -72,8 +72,7 @@ async def search(ctx: commands.Context, season: Literal["Fall 2024", "Summer 202
     # Turn the course list into a long string to be sent back to user
     if opened_only == "True":
         for course in course_infos:
-            course_stripped = course.open_seats.strip()
-            if course_stripped != "NONE":
+            if course.open_seats != "CLOSED":
                 embed = create_embed(course)
                 embeds.append(embed)
     else:
