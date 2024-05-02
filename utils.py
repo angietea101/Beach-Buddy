@@ -8,7 +8,7 @@ import discord
 import pandas as pd
 import numpy as np
 import csv
-
+from datetime import datetime
 
 def get_csv_path(season: str, abbreviation: str, subjects_abbreviation: dict):
     """
@@ -127,7 +127,14 @@ def create_embed(course: CSULBCourse):
     embed.add_field(name="Time", value=f"{course.time}")
     embed.add_field(name="Additional Notes", value=f"{course.comment}")
     return embed
+def save_notif_channel(guild_id, channel_id):
+    with open('notif.txt', 'w') as file:
+        file.write(f"{str(guild_id)}, {str(channel_id)}")
 
+def get_time():
+    now = datetime.now()
+    current_time = now.strftime("%H:%M:%S")
+    return current_time
 
 def main():
     fall_path = "seasons/fall_2024"
