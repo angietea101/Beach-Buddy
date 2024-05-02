@@ -10,7 +10,10 @@ class PaginatorView(discord.ui.View):
         self._current_page = 1
         self._max_page = len(embeds)
         self._initial.set_footer(text=f"Page {self._current_page}/{self._max_page}")
-        # Disables the previous button at initial page
+        # children[0] refers to previous button and [1] refers to next button
+        if self._current_page == self._max_page:
+            self.children[0].disabled = True
+            self.children[1].disabled = True
         self.children[0].disabled = True
 
     def get_current_embed(self):
@@ -55,3 +58,7 @@ class PaginatorView(discord.ui.View):
         embed = self.next_page()
         await self.update_buttons(interaction)
         await interaction.response.edit_message(embed=embed, view=self)
+
+    @property
+    def initial(self):
+        return self._initial
