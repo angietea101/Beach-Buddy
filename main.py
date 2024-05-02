@@ -69,7 +69,7 @@ async def search(ctx: commands.Context, season: Literal["Fall 2024", "Summer 202
         await ctx.send(f"Invalid code.")
         return
     course_infos = get_class_infos(season, abbreviation, subjects_abbreviation, code)
-    # Turn the course list into a long string to be sent back to user
+    # Turn the course list into a list of embeds to be relayed back to user
     if opened_only == "True":
         for course in course_infos:
             if course.open_seats != "CLOSED":
