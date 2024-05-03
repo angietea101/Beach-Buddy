@@ -60,12 +60,14 @@ async def sync(ctx: commands.Context):
 async def ping(ctx, test: Literal['PONG', 'PANG']):
     await ctx.send(f"{test}")
 
+
 @bot.hybrid_command()
 async def notify(ctx, channel: discord.TextChannel):
     channel_id = channel.id
     guild_id = ctx.guild.id
     save_notif_channel(guild_id, channel_id)
     await ctx.send(f"Notification channel set to {channel.mention}")
+
 
 @tasks.loop(seconds = 1)
 async def notify_scrape():
@@ -82,6 +84,8 @@ async def notify_scrape():
                         await channel.send("Schedule Updated")
         except Exception as e:
             print(f"An error occured: {e}")
+
+
 @bot.hybrid_command()
 async def search(ctx: commands.Context, season: Literal["Fall 2024", "Summer 2024"], abbreviation: str, code: str,
                  opened_only: Literal["True", "False"]):
