@@ -48,7 +48,6 @@ def get_course_codes(subject_file: str):
     """
     column_to_read = [0]
     dataframe = pd.read_csv(subject_file, usecols=column_to_read)
-    print(dataframe)
     data_array = dataframe.to_numpy()
     data_list = np.ravel(data_array)
     data_list_unique = []
