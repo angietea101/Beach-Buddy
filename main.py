@@ -21,12 +21,14 @@ Description: Main function to run our script
 """
 import discord
 from discord.ext import commands, tasks
-from utils import csv_to_dictionary, get_csv_path, get_course_codes, get_class_infos, create_embed, get_time, save_notif_channel
+from utils import csv_to_dictionary, get_csv_path, get_course_codes, get_class_infos, create_embed, get_time, \
+    save_notif_channel
 from config import BOT_TOKEN
 from typing import Literal
 from paginator import PaginatorView
 from scrape_subjects import scrape_fall
 from scrape_subjects import scrape_summer
+import time
 
 intents = discord.Intents.all()
 bot = commands.Bot(command_prefix="/", intents=intents)
@@ -36,11 +38,13 @@ subjects_abbreviation = csv_to_dictionary(subjects_csv)
 
 
 def scheduled_scrape():
+    start_time = time.time()
     print("Scraping...")
     subjects_file = "subjects.csv"
     scrape_fall(subjects_file)
     scrape_summer(subjects_file)
     print("Complete")
+    print("--- %s seconds ---" % (time.time() - start_time))
 
 
 @bot.event
@@ -69,7 +73,7 @@ async def notify(ctx, channel: discord.TextChannel):
     await ctx.send(f"Notification channel set to {channel.mention}")
 
 
-@tasks.loop(seconds = 1)
+@tasks.loop(seconds=1)
 async def notify_scrape():
     current_time = get_time()
     if current_time == '05:03:30':
