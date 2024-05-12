@@ -46,7 +46,7 @@ def get_course_codes(subject_file: str):
     :param subject_file: the subject file with all course sections
     :return: a list of valid course codes
     """
-    column_to_read = [1]
+    column_to_read = [0]
     dataframe = pd.read_csv(subject_file, usecols=column_to_read)
     data_array = dataframe.to_numpy()
     data_list = np.ravel(data_array)
@@ -54,7 +54,7 @@ def get_course_codes(subject_file: str):
     for code in data_list:
         if code not in data_list_unique:
             data_list_unique.append(code)
-    codes = [course.strip() for course in data_list_unique]
+    codes = [course.split()[1] for course in data_list_unique]
     return codes
 
 
@@ -164,10 +164,10 @@ def main():
     subjects_abbreviation = csv_to_dictionary(subjects_csv)
     subjects_keys_list = list(subjects_abbreviation.keys())
     # print(subjects_abbreviation)
-    csv_path = get_csv_path("fall_2024", "E E", subjects_abbreviation)
+    csv_path = get_csv_path("fall_2024", "EE", subjects_abbreviation)
     print(csv_path)
-    course_infos = get_class_infos("fall_2024", "E E", subjects_abbreviation, "381")
-    print(get_course_codes(subjects_csv))
+    course_infos = get_class_infos("fall_2024", "EE", subjects_abbreviation, "381")
+    print(get_course_codes(csv_path))
     # course_infos.sort(key=lambda x: x.course_section)
     for course in course_infos:
         # course_stripped = course.open_seats.strip()
