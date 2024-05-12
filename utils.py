@@ -164,9 +164,9 @@ def main():
     subjects_abbreviation = csv_to_dictionary(subjects_csv)
     subjects_keys_list = list(subjects_abbreviation.keys())
     # print(subjects_abbreviation)
-    csv_path = get_csv_path("fall_2024", "EzE", subjects_abbreviation)
+    csv_path = get_csv_path("fall_2024", "E E", subjects_abbreviation)
     print(csv_path)
-    course_infos = get_class_infos("fall_2024", "EzE", subjects_abbreviation, "381")
+    course_infos = get_class_infos("fall_2024", "E E", subjects_abbreviation, "381")
     print(get_course_codes(subjects_csv))
     # course_infos.sort(key=lambda x: x.course_section)
     for course in course_infos:
