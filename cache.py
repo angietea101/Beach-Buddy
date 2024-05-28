@@ -1,5 +1,4 @@
 from utils import *
-from pandas import *
 
 SUMMER_PATH = "seasons/summer_2024.csv"
 FALL_PATH = "seasons/fall_2024.csv"
@@ -29,6 +28,4 @@ def create_cache_fall():
                 CLASS_CACHE_FALL[line[0]] = []
             CLASS_CACHE_FALL[line[0]].append(create_CSULBCourse_object(course_string))
     print(CLASS_CACHE_FALL)
-
-
-create_cache_fall()
+    
