@@ -20,6 +20,7 @@ Author: Angie Tran and Diego Cid
 Description: Main function to run our script
 """
 import discord
+from discord import app_commands
 from discord.ext import commands, tasks
 from utils import csv_to_dictionary, get_csv_path, get_course_codes, get_class_infos, create_embed, get_time, \
     save_notif_channel
@@ -106,7 +107,13 @@ async def notify_scrape():
             print(f"An error occured: {e}")
 
 
-@bot.hybrid_command()
+@bot.hybrid_command(name="search", description="Search for course information")
+@app_commands.describe(
+    season="The academic season",
+    abbreviation="The abbreviation of the course. Exclude slashes & spaces.",
+    code="The course code",
+    opened_only="Show only opened courses"
+)
 async def search(ctx: commands.Context, season: Literal["Fall 2024", "Summer 2024"], abbreviation: str, code: str,
                  opened_only: Literal["True", "False"]):
     embeds = []
