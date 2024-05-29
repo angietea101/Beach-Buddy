@@ -29,6 +29,7 @@ from paginator import PaginatorView
 from scrape_subjects import scrape_fall
 from scrape_subjects import scrape_summer
 import time
+import threading
 
 intents = discord.Intents.all()
 bot = commands.Bot(command_prefix="/", intents=intents)
@@ -38,13 +39,29 @@ subjects_abbreviation = csv_to_dictionary(subjects_csv)
 
 
 def scheduled_scrape():
-    start_time = time.time()
-    print("Scraping...")
-    subjects_file = "subjects.csv"
-    scrape_fall(subjects_file)
-    scrape_summer(subjects_file)
-    print("Complete")
-    print("--- %s seconds ---" % (time.time() - start_time))
+    current_time = get_time()
+
+    if '05:03:00' <= current_time <= '05:04:00':
+        start_time = time.time()
+        print("Scraping...")
+        subjects_file = "subjects.csv"
+        scrape_fall(subjects_file)
+        scrape_summer(subjects_file)
+        print("Complete")
+        scrape_time = time.time() - start_time
+        print("--- %s seconds ---" % (scrape_time))
+        schedule_next_scrape(scrape_time)
+    else:
+        schedule_next_check()
+def schedule_next_check():
+    threading.Timer(1, scheduled_scrape).start()
+
+
+def schedule_next_scrape(delay):
+    threading.Timer((86400-(delay+10)), scheduled_scrape).start()
+
+schedule_next_check()
+
 
 
 @bot.event
@@ -77,7 +94,6 @@ async def notify(ctx, channel: discord.TextChannel):
 async def notify_scrape():
     current_time = get_time()
     if current_time == '05:03:30':
-        scheduled_scrape()
         try:
             with open('notif.txt', 'r') as file:
                 for line in file:
