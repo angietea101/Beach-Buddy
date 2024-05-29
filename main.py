@@ -31,6 +31,7 @@ from scrape_subjects import scrape_fall
 from scrape_subjects import scrape_summer
 import time
 import threading
+from cache import *
 
 intents = discord.Intents.all()
 bot = commands.Bot(command_prefix="/", intents=intents)
@@ -50,10 +51,12 @@ def scheduled_scrape():
         scrape_summer(subjects_file)
         print("Complete")
         scrape_time = time.time() - start_time
-        print("--- %s seconds ---" % (scrape_time))
+        print("--- %s seconds for scrape ---" % scrape_time)
         schedule_next_scrape(scrape_time)
     else:
         schedule_next_check()
+
+
 def schedule_next_check():
     threading.Timer(1, scheduled_scrape).start()
 
@@ -61,14 +64,14 @@ def schedule_next_check():
 def schedule_next_scrape(delay):
     threading.Timer((86400-(delay+10)), scheduled_scrape).start()
 
-schedule_next_check()
-
-
 
 @bot.event
 async def on_ready():
     print("Beach Buddy is awake!")
     notify_scrape.start()
+    scheduled_scrape()
+    create_cache_fall()
+    create_cache_summer()
 
 
 @bot.hybrid_command()
@@ -94,7 +97,7 @@ async def notify(ctx, channel: discord.TextChannel):
 @tasks.loop(seconds=1)
 async def notify_scrape():
     current_time = get_time()
-    if current_time == '05:03:30':
+    if '05:03:00' <= current_time <= '05:04:00':
         try:
             with open('notif.txt', 'r') as file:
                 for line in file:
@@ -104,7 +107,7 @@ async def notify_scrape():
                         channel = guild.get_channel(int(data[1]))
                         await channel.send("Schedule Updated")
         except Exception as e:
-            print(f"An error occured: {e}")
+            print(f"An error occurred: {e}")
 
 
 @bot.hybrid_command(name="search", description="Search for course information")
@@ -116,6 +119,7 @@ async def notify_scrape():
 )
 async def search(ctx: commands.Context, season: Literal["Fall 2024", "Summer 2024"], abbreviation: str, code: str,
                  opened_only: Literal["True", "False"]):
+    start_time = time.time()
     embeds = []
     abbreviation = abbreviation.upper()
     if season == "Fall 2024":
@@ -130,7 +134,13 @@ async def search(ctx: commands.Context, season: Literal["Fall 2024", "Summer 202
     if code not in code_list:
         await ctx.send(f"Invalid code.")
         return
-    course_infos = get_class_infos(season, abbreviation, subjects_abbreviation, code)
+    course_infos = []
+    if season == "fall_2024":
+        course_infos = CLASS_CACHE_FALL[f"{abbreviation} {code}"]
+    elif season == "summer_2024":
+        course_infos = CLASS_CACHE_SUMMER[f"{abbreviation} {code}"]
+    else:
+        print("An unexpected error occurred while getting course infos")
     # Turn the course list into a list of embeds to be relayed back to user
     if opened_only == "True":
         for course in course_infos:
@@ -144,6 +154,8 @@ async def search(ctx: commands.Context, season: Literal["Fall 2024", "Summer 202
     if len(embeds) == 0:
         await ctx.send("No results were found.")
     else:
+        command_time = time.time() - start_time
+        print("--- %s seconds for search command ---" % command_time)
         view = PaginatorView(embeds)
         await ctx.send(embed=view.initial, view=view)
 
