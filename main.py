@@ -19,13 +19,14 @@ File: main.py
 Author: Angie Tran and Diego Cid
 Description: Main function to run our script
 """
-import discord
-from discord import app_commands
-from discord.ext import commands, tasks
-import time
 import threading
 from typing import Literal
+from discord import app_commands
+from discord.ext import commands, tasks
 from config import BOT_TOKEN
+from cache_system import *
+from course_utils import *
+from discord_utils import *
 from utils import *
 from paginator import PaginatorView
 from scrape_subjects import *
