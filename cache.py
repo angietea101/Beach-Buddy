@@ -1,5 +1,3 @@
-import timeit
-
 from utils import *
 
 SUMMER_PATH = "seasons/summer_2024.csv"
@@ -30,3 +28,12 @@ def create_cache_fall():
                 CLASS_CACHE_FALL[line[0]] = []
             CLASS_CACHE_FALL[line[0]].append(create_CSULBCourse_object(course_string))
     print("Successfully created fall cache.")
+
+
+def main():
+    create_cache_fall()
+    create_cache_summer()
+
+
+if __name__ == "__main__":
+    main()
