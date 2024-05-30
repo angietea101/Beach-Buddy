@@ -1,4 +1,5 @@
 from utils import *
+import csv
 
 SUMMER_PATH = "seasons/summer_2024.csv"
 FALL_PATH = "seasons/fall_2024.csv"

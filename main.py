@@ -22,22 +22,18 @@ Description: Main function to run our script
 import discord
 from discord import app_commands
 from discord.ext import commands, tasks
-from utils import csv_to_dictionary, get_csv_path, get_course_codes, get_class_infos, create_embed, get_time, \
-    save_notif_channel
-from config import BOT_TOKEN
-from typing import Literal
-from paginator import PaginatorView
-from scrape_subjects import scrape_fall
-from scrape_subjects import scrape_summer
 import time
 import threading
-from cache import *
+from typing import Literal
+from config import BOT_TOKEN
+from utils import *
+from paginator import PaginatorView
+from scrape_subjects import *
 
 intents = discord.Intents.all()
 bot = commands.Bot(command_prefix="/", intents=intents)
 
 subjects_csv = "subjects.csv"
-subjects_abbreviation = csv_to_dictionary(subjects_csv)
 
 
 def scheduled_scrape():
@@ -70,8 +66,7 @@ async def on_ready():
     print("Beach Buddy is awake!")
     notify_scrape.start()
     scheduled_scrape()
-    create_cache_fall()
-    create_cache_summer()
+    initialize_caches()
 
 
 @bot.hybrid_command()

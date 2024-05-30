@@ -27,6 +27,9 @@ import csv
 from cache import *
 from datetime import datetime
 
+CLASS_CACHE_SUMMER = {}
+CLASS_CACHE_FALL = {}
+
 
 def get_csv_path(season: str, abbreviation: str, subjects_abbreviation: dict):
     """
@@ -41,11 +44,15 @@ def get_csv_path(season: str, abbreviation: str, subjects_abbreviation: dict):
     return csv_path
 
 
+def ensure_cache_initialized():
+    if not CLASS_CACHE_FALL or not CLASS_CACHE_SUMMER:
+        raise RuntimeError("Cache has not been created.")
+
+
 def get_course_codes(season, abbreviation):
     course_codes = []
-    if len(CLASS_CACHE_FALL) == 0 or len(CLASS_CACHE_SUMMER) == 0:
-        print("WARNING: The cache has not been created.")
-    elif season == "fall_2024":
+    ensure_cache_initialized()
+    if season == "fall_2024":
         for key in CLASS_CACHE_FALL.items():
             if abbreviation in key[0]:
                 to_string = str(key[0])
@@ -64,10 +71,8 @@ def get_course_codes(season, abbreviation):
 
 
 def check_existing_abbreviation(season, abbreviation):
-    if len(CLASS_CACHE_FALL) == 0 or len(CLASS_CACHE_SUMMER) == 0:
-        print("WARNING: The cache has not been created.")
-        return
-    elif season == "fall_2024":
+    ensure_cache_initialized()
+    if season == "fall_2024":
         for key in CLASS_CACHE_FALL.items():
             if abbreviation in key[0]:
                 return True
@@ -191,14 +196,30 @@ def get_time():
     return current_time
 
 
+def create_cache(cache_dict, file_path):
+    with open(file_path, 'r') as file:
+        reader = csv.reader(file)
+        for line in reader:
+            course_string = ', '.join(map(str, line))
+            if line[0] not in cache_dict:
+                cache_dict[line[0]] = []
+            cache_dict[line[0]].append(create_CSULBCourse_object(course_string))
+    print(f"Successfully created cache in {file_path}.")
+
+
+def initialize_caches():
+    # key: abbreviation + course code, value: CSULBCourse object
+    create_cache(CLASS_CACHE_FALL, "seasons/fall_2024.csv")
+    create_cache(CLASS_CACHE_SUMMER, "seasons/summer_2024.csv")
+
+
 def main():
     fall = "fall_2024"
     summer = "summer_2024"
-    create_cache_fall()
-    create_cache_summer()
-    print(get_course_codes(fall, "CECS"))
-    print(check_existing_abbreviation(fall, "CECS"))
-    print(check_existing_abbreviation(fall, "1SDFG"))
+    # key: abbreviation + course code, value: CSULBCourse object
+    initialize_caches()
+    # print(get_course_codes(fall, "CECS"))
+    # print(check_existing_abbreviation(fall, "CECS"))
 
 
 if __name__ == "__main__":
