@@ -1,3 +1,5 @@
+import timeit
+
 from utils import *
 
 SUMMER_PATH = "seasons/summer_2024.csv"

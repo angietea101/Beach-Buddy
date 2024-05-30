@@ -126,11 +126,10 @@ async def search(ctx: commands.Context, season: Literal["Fall 2024", "Summer 202
         season = "fall_2024"
     else:
         season = "summer_2024"
-    if abbreviation not in subjects_abbreviation:
-        await ctx.send(f"Invalid abbreviation. Examples: MATH, CECS, or BIOL")
+    if not check_existing_abbreviation(season, abbreviation):
+        await ctx.send(f"Invalid abbreviation or this subject does not exist in this season")
         return
-    csv_path = get_csv_path(season, abbreviation, subjects_abbreviation)
-    code_list = (get_course_codes(csv_path))
+    code_list = (get_course_codes(season, abbreviation))
     if code not in code_list:
         await ctx.send(f"Invalid code.")
         return

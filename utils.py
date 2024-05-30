@@ -24,6 +24,7 @@ import discord
 import pandas as pd
 import numpy as np
 import csv
+from cache import *
 from datetime import datetime
 
 
@@ -40,22 +41,44 @@ def get_csv_path(season: str, abbreviation: str, subjects_abbreviation: dict):
     return csv_path
 
 
-def get_course_codes(subject_file: str):
-    """
-    Get a set of all available course codes given a subject
-    :param subject_file: the subject file with all course sections
-    :return: a list of valid course codes
-    """
-    column_to_read = [0]
-    dataframe = pd.read_csv(subject_file, usecols=column_to_read)
-    data_array = dataframe.to_numpy()
-    data_list = np.ravel(data_array)
-    data_list_unique = []
-    for code in data_list:
-        if code not in data_list_unique:
-            data_list_unique.append(code)
-    codes = [course.split()[-1] for course in data_list_unique]
-    return codes
+def get_course_codes(season, abbreviation):
+    course_codes = []
+    if len(CLASS_CACHE_FALL) == 0 or len(CLASS_CACHE_SUMMER) == 0:
+        print("WARNING: The cache has not been created.")
+    elif season == "fall_2024":
+        for key in CLASS_CACHE_FALL.items():
+            if abbreviation in key[0]:
+                to_string = str(key[0])
+                stripped = to_string.split(" ", 1)[1]
+                course_codes.append(stripped)
+    elif season == "summer_2024":
+        for key in CLASS_CACHE_SUMMER.items():
+            if abbreviation in key[0]:
+                to_string = str(key[0])
+                stripped = to_string.split(" ", 1)[1]
+                course_codes.append(stripped)
+    else:
+        print("An unexpected error occurred")
+        return
+    return course_codes
+
+
+def check_existing_abbreviation(season, abbreviation):
+    if len(CLASS_CACHE_FALL) == 0 or len(CLASS_CACHE_SUMMER) == 0:
+        print("WARNING: The cache has not been created.")
+        return
+    elif season == "fall_2024":
+        for key in CLASS_CACHE_FALL.items():
+            if abbreviation in key[0]:
+                return True
+    elif season == "summer_2024":
+        for key in CLASS_CACHE_SUMMER.items():
+            if abbreviation in key[0]:
+                return True
+    else:
+        print("An unexpected error occurred")
+        return
+    return False
 
 
 def get_class_infos(season: str, abbreviation: str, csv_dictionary: dict, code: str):
@@ -158,20 +181,13 @@ def get_time():
 
 
 def main():
-    fall_path = "seasons/fall_2024"
-    summer_path = "seasons/summer_2024"
-    subjects_csv = "subjects.csv"
-    subjects_abbreviation = csv_to_dictionary(subjects_csv)
-    subjects_keys_list = list(subjects_abbreviation.keys())
-    # print(subjects_abbreviation)
-    csv_path = get_csv_path("fall_2024", "CECS", subjects_abbreviation)
-    print(csv_path)
-    course_infos = get_class_infos("fall_2024", "EE", subjects_abbreviation, "381")
-    print(get_course_codes(csv_path))
-    # course_infos.sort(key=lambda x: x.course_section)
-    for course in course_infos:
-        # course_stripped = course.open_seats.strip()
-        print(course)
+    fall = "fall_2024"
+    summer = "summer_2024"
+    create_cache_fall()
+    create_cache_summer()
+    print(get_course_codes(fall, "CECS"))
+    print(check_existing_abbreviation(fall, "CECS"))
+    print(check_existing_abbreviation(fall, "1SDFG"))
 
 
 if __name__ == "__main__":
