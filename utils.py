@@ -170,8 +170,19 @@ def create_embed(course: CSULBCourse):
 
 
 def save_notif_channel(guild_id, channel_id):
+    with open('notif.txt', 'r') as file:
+        lines = file.readlines()
+        update_channel = []
+        for line in lines:
+            if line.strip():
+                guild, channel = line.strip().split(',')
+                if guild == str(guild_id):
+                    update_channel.append(f"{guild},{channel_id}")
+                else:
+                    update_channel.append(line)
     with open('notif.txt', 'w') as file:
-        file.write(f"{str(guild_id)}, {str(channel_id)}")
+        file.writelines(update_channel)
+    print("channel updated successfully")
 
 
 def get_time():
