@@ -24,7 +24,6 @@ import discord
 import pandas as pd
 import numpy as np
 import csv
-from cache import *
 from datetime import datetime
 
 CLASS_CACHE_SUMMER = {}
