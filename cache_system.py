@@ -36,7 +36,7 @@ def ensure_cache_initialized():
 
 
 def create_cache(cache_dict, file_path):
-    with open(file_path, 'r') as file:
+    with open(file_path, 'r', encoding='windows-1252') as file:
         reader = csv.reader(file)
         for line in reader:
             course_string = ', '.join(map(str, line))
