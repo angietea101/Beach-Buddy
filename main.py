@@ -94,7 +94,7 @@ async def notify(ctx, channel: discord.TextChannel):
 @tasks.loop(seconds=1)
 async def notify_scrape():
     current_time = get_time()
-    if '05:03:00' <= current_time <= '05:04:00':
+    if '12:03:00' <= current_time <= '12:04:00':
         try:
             with open('notif.txt', 'r') as file:
                 for line in file:
