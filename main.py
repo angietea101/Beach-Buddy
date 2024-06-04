@@ -79,7 +79,7 @@ async def sync(ctx: commands.Context):
 
 
 @bot.hybrid_command()
-async def ping(ctx, test: Literal['PONG', 'PANG']):
+async def ping(ctx, test: Literal['PONG', 'PANG', "PEEP"]):
     await ctx.send(f"{test}")
 
 
