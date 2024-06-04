@@ -24,11 +24,11 @@ import discord
 import pandas as pd
 import numpy as np
 import csv
-from datetime import datetime
+from datetime import datetime, timezone
 
 
 def get_time():
-    now = datetime.now()
+    now = datetime.now(timezone.utc)
     current_time = now.strftime("%H:%M:%S")
     return current_time
 
