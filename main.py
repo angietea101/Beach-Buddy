@@ -19,6 +19,7 @@ File: main.py
 Author: Angie Tran and Diego Cid
 Description: Main function to run our script
 """
+import asyncio
 import threading
 from typing import Literal
 from discord import app_commands
@@ -40,7 +41,7 @@ subjects_csv = "subjects.csv"
 def scheduled_scrape():
     # Schedules scrape at 5:03am - 5:04am PST AKA 12:03pm - 12:04pm UTC
     current_time = get_time()
-
+    print(current_time)
     if '12:03:00' <= current_time <= '12:04:00':
         start_time = time.time()
         print("Scraping...")
@@ -50,7 +51,7 @@ def scheduled_scrape():
         print("Complete")
         scrape_time = time.time() - start_time
         print("--- %s seconds for scrape ---" % scrape_time)
-        schedule_next_scrape(scrape_time)
+        asyncio.run_coroutine_threadsafe(notify_scrape(), bot.loop)
     else:
         schedule_next_check()
 
@@ -66,7 +67,6 @@ def schedule_next_scrape(delay):
 @bot.event
 async def on_ready():
     print("Beach Buddy is awake!")
-    notify_scrape.start()
     scheduled_scrape()
     initialize_caches()
 
@@ -84,27 +84,24 @@ async def ping(ctx, test: Literal['PONG', 'PANG']):
 
 
 @bot.hybrid_command()
-async def notify(ctx, channel: discord.TextChannel):
+async def set_notif_channel(ctx, channel: discord.TextChannel):
     channel_id = channel.id
     guild_id = ctx.guild.id
     save_notif_channel(guild_id, channel_id)
     await ctx.send(f"Notification channel set to {channel.mention}")
 
 
-@tasks.loop(seconds=1)
 async def notify_scrape():
-    current_time = get_time()
-    if '12:03:00' <= current_time <= '12:04:00':
-        try:
-            with open('notif.txt', 'r') as file:
-                for line in file:
-                    data = line.strip().split(',')
-                    guild = bot.get_guild(int(data[0]))
-                    if guild:
-                        channel = guild.get_channel(int(data[1]))
-                        await channel.send("Schedule Updated")
-        except Exception as e:
-            print(f"An error occurred: {e}")
+    try:
+        with open('notif.txt', 'r') as file:
+            for line in file:
+                data = line.strip().split(',')
+                guild = bot.get_guild(int(data[0]))
+                if guild:
+                    channel = guild.get_channel(int(data[1]))
+                    await channel.send("Schedule Updated")
+    except Exception as e:
+        print(f"An error occurred: {e}")
 
 
 @bot.hybrid_command(name="search", description="Search for course information")
