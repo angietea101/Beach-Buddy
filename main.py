@@ -41,7 +41,6 @@ subjects_csv = "subjects.csv"
 def scheduled_scrape():
     # Schedules scrape at 5:03am - 5:04am PST AKA 12:03pm - 12:04pm UTC
     current_time = get_time()
-    print(current_time)
     if '12:03:00' <= current_time <= '12:04:00':
         start_time = time.time()
         print("Scraping...")
