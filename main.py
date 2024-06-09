@@ -51,6 +51,7 @@ def scheduled_scrape():
         scrape_time = time.time() - start_time
         print("--- %s seconds for scrape ---" % scrape_time)
         asyncio.run_coroutine_threadsafe(notify_scrape(), bot.loop)
+        schedule_next_scrape(86400 - (scrape_time + 30))
     else:
         schedule_next_check()
 
@@ -60,7 +61,7 @@ def schedule_next_check():
 
 
 def schedule_next_scrape(delay):
-    threading.Timer((86400-(delay+10)), scheduled_scrape).start()
+    threading.Timer(delay, scheduled_scrape).start()
 
 
 @bot.event

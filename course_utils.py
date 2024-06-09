@@ -43,7 +43,7 @@ def check_existing_abbreviation(season, abbreviation):
 def main():
     initialize_caches()
     # print(CLASS_CACHE_FALL)
-    print(get_course_codes("fall_2024", "CECS"))
+    print(get_course_codes("summer_2024", "CECS"))
 
 
 if __name__ == "__main__":
