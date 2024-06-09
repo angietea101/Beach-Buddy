@@ -35,8 +35,8 @@ def get_time():
 
 def get_date():
     now = datetime.utcnow()
-    current_time = now.strftime("%B %d %Y")
-    return current_time
+    current_date = now.strftime("%B %d %Y")
+    return current_date
 
 
 def main():
