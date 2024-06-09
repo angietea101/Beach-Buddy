@@ -40,6 +40,7 @@ subjects_csv = "subjects.csv"
 
 def scheduled_scrape():
     # Schedules scrape at 5:03am - 5:04am PST AKA 12:03pm - 12:04pm UTC
+    current_date = get_date()
     current_time = get_time()
     if '12:03:00' <= current_time <= '12:04:00':
         start_time = time.time()
@@ -49,7 +50,7 @@ def scheduled_scrape():
         scrape_summer(subjects_file)
         print("Complete")
         scrape_time = time.time() - start_time
-        print("--- %s seconds for scrape ---" % scrape_time)
+        print(f"--- {scrape_time} seconds for scrape --- @ {current_date} {current_time}")
         asyncio.run_coroutine_threadsafe(notify_scrape(), bot.loop)
         schedule_next_scrape(86400 - (scrape_time + 30))
     else:
