@@ -28,12 +28,19 @@ from datetime import datetime, timezone
 
 
 def get_time():
-    now = datetime.now(timezone.utc)
+    now = datetime.utcnow()
     current_time = now.strftime("%H:%M:%S")
     return current_time
 
 
+def get_date():
+    now = datetime.utcnow()
+    current_time = now.strftime("%B %d %Y")
+    return current_time
+
+
 def main():
+    print(get_date())
     print(get_time())
 
 
