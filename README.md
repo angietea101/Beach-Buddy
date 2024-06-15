@@ -38,15 +38,15 @@ See Gallery below to see examples of bot usage.
 ![python](https://github.com/angietea101/Beach-Buddy/assets/81064737/782aa3f0-852e-4b98-8780-d24630331fce)
 2. Clone this repository
 3. Create a folder called `seasons`
-4. Create a file called config.py in the project root folder
+4. Create a file called `config.py` in the project root folder
     * Do **NOT** create this file within the seasons folder
-    * Set variable **BOT_TOKEN** to your bot's secret. See next section for directions on how to set up your own Discord bot
+    * Set variable **BOT_TOKEN** to your bot's token. See next section for directions on how to set up your own Discord bot.
 5. Create a `notif.txt`file
 6. Download requirements using:
     ```sh
     pip install -r /path/to/requirements.txt
     ```
-7. Run the `scrape_subjects.py` code to populate two csv files holding all course information inside of the seasons folder
+7. Run the `scrape_subjects.py` code to populate two CSV files holding all course information. The CSV files will be located in the seasons folder.
 
 
 ### Discord Bot Setup
@@ -56,8 +56,8 @@ See Gallery below to see examples of bot usage.
 
 ![new_application](https://github.com/angietea101/Beach-Buddy/assets/81064737/febac2ce-99b8-4ca2-9715-05b5ace9c266)
 
-3.  Choose a name, agree to the terms and services, then select `create`.
-4. Go to the `Bot`tab and select the `Reset Token`button. Copy the token and paste it into your `config.py`file.
+3.  Choose a name, agree to the terms and services (only if you agree), then select `create`.
+4. Go to the `Bot` tab and select the `Reset Token` button. Copy the token and paste it into your `config.py` file.
 
 ![image](https://github.com/angietea101/Beach-Buddy/assets/81064737/33f74719-635b-422f-85cc-75d13493cd99)
 
