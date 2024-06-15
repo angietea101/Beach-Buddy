@@ -35,7 +35,7 @@ See Gallery below to see examples of bot usage.
 **Windows**:
 
 1. Download Python and set it to **PATH** during installation.
-![alt text](python.png)
+![python](https://github.com/angietea101/Beach-Buddy/assets/81064737/782aa3f0-852e-4b98-8780-d24630331fce)
 2. Clone this repository
 3. Create a folder called `seasons`
 4. Create a file called config.py in the project root folder
@@ -54,21 +54,20 @@ See Gallery below to see examples of bot usage.
 1. Visit the [Discord Developer Portal](https://discord.com/login?redirect_to=%2Fdevelopers%2Fapplications) to create your Discord Bot
 2. Select the applications tab, then click on `New Application`
 
-![alt text](new_application.png)
+![new_application](https://github.com/angietea101/Beach-Buddy/assets/81064737/febac2ce-99b8-4ca2-9715-05b5ace9c266)
 
 3.  Choose a name, agree to the terms and services, then select `create`.
 4. Go to the `Bot`tab and select the `Reset Token`button. Copy the token and paste it into your `config.py`file.
 
-![alt text](image.png)
+![image](https://github.com/angietea101/Beach-Buddy/assets/81064737/33f74719-635b-422f-85cc-75d13493cd99)
 
 5. Ensure these permissions match.
 
-![alt text](image-1.png)
+![image-1](https://github.com/angietea101/Beach-Buddy/assets/81064737/d51faa34-a728-4d8d-ae51-3960441a7292)
 
 6. Invite the Discord Bot to your server with the `administrator` box marked:
 
-![alt text](image-2.png)
-
+![image-2](https://github.com/angietea101/Beach-Buddy/assets/81064737/bbaa9b37-f569-4c9a-a1d9-6f521d00a45c)
 
 ## Updating Beach Buddy
 We don't provide release versions. To get the latest version, simply perform `git pull`.
