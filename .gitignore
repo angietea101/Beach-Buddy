@@ -1,6 +1,9 @@
-# Specific files
+# ALLOW specifics
+!notif.txt
+
+# DO NOT ALLOW Specific files
 scraped_data.txt
-config.py
+# config.py
 *.txt
 *.csv
 *.DS_Store
