@@ -1,5 +1,4 @@
 # DO NOT ALLOW specific files
-scraped_data.txt
 config.py
 *.txt
 *.csv
