@@ -1,10 +1,11 @@
 # DO NOT ALLOW specific files
-config.py
-*.txt
-*.csv
+# config.py
+/fall_2024.csv
+/summer_2024.csv
 *.DS_Store
 
 # ALLOW specifics
+notif.txt
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
