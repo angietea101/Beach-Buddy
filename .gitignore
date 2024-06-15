@@ -1,12 +1,12 @@
-# ALLOW specifics
-!notif.txt
-
-# DO NOT ALLOW Specific files
+# DO NOT ALLOW specific files
 scraped_data.txt
-# config.py
+config.py
 *.txt
 *.csv
 *.DS_Store
+
+# ALLOW specifics
+!notif.txt
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
