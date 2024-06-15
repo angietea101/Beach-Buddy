@@ -19,7 +19,7 @@ See Gallery below to see examples of bot usage.
 ![image](https://github.com/angietea101/Beach-Buddy/assets/81064737/40a482f3-f1f3-4f49-920e-93ef03017cd7)
 
 **Beach Buddy updating its' data on courses every morning:**
-![alt text](image-3.png)
+![image](https://github.com/angietea101/Beach-Buddy/assets/81064737/184474fc-13fe-4c67-b34e-6a148aa34ad1)
 
 
 ## Getting Started
