@@ -6,7 +6,6 @@ config.py
 *.DS_Store
 
 # ALLOW specifics
-!notif.txt
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
