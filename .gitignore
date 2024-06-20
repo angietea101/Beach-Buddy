@@ -1,9 +1,11 @@
-# Specific files
-scraped_data.txt
+# DO NOT ALLOW specific files
 config.py
-*.txt
-*.csv
+notif.txt
+seasons/fall_2024.csv
+seasons/summer_2024.csv
 *.DS_Store
+
+# ALLOW specifics
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
