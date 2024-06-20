@@ -22,15 +22,16 @@ Description: Main function to run our script
 import asyncio
 import threading
 from typing import Literal
+
 from discord import app_commands
-from discord.ext import commands, tasks
+from discord.ext import commands
+
 from config import BOT_TOKEN
-from cache_system import *
 from course_utils import *
 from discord_utils import *
-from utils import *
 from paginator import PaginatorView
 from scrape_subjects import *
+from utils import *
 
 intents = discord.Intents.all()
 bot = commands.Bot(command_prefix="/", intents=intents)
@@ -50,7 +51,7 @@ def scheduled_scrape():
         scrape_summer(subjects_file)
         print("Complete")
         scrape_time = time.time() - start_time
-        print(f"--- {scrape_time} seconds for scrape --- @ {current_date} {current_time}")
+        print(f"--- {scrape_time} seconds for scrape --- @ {current_date} {get_time()}")
         asyncio.run_coroutine_threadsafe(notify_scrape(), bot.loop)
         schedule_next_scrape(86400 - (scrape_time + 30))
     else:
@@ -100,7 +101,7 @@ async def notify_scrape():
                 guild = bot.get_guild(int(data[0]))
                 if guild:
                     channel = guild.get_channel(int(data[1]))
-                    await channel.send("Schedule Updated")
+                    await channel.send(f"Schedule Updated ({get_time()})")
     except Exception as e:
         print(f"An error occurred: {e}")
 
