@@ -37,9 +37,11 @@ intents = discord.Intents.all()
 bot = commands.Bot(command_prefix="/", intents=intents)
 
 subjects_csv = "subjects.csv"
+scheduled_scraping = False
 
 
 def scheduled_scrape():
+    global scheduled_scraping
     # Schedules scrape at 5:03am - 5:04am PST AKA 12:03pm - 12:04pm UTC
     current_date = get_date()
     current_time = get_time()
@@ -56,14 +58,21 @@ def scheduled_scrape():
         schedule_next_scrape(86400 - (scrape_time + 30))
     else:
         schedule_next_check()
+    scheduled_scraping = False
 
 
 def schedule_next_check():
-    threading.Timer(1, scheduled_scrape).start()
+    global scheduled_scraping
+    if not scheduled_scraping:
+        threading.Timer(1, scheduled_scrape).start()
+        scheduled_scraping = True
 
 
 def schedule_next_scrape(delay):
-    threading.Timer(delay, scheduled_scrape).start()
+    global scheduled_scraping
+    if not scheduled_scraping:
+        threading.Timer(delay, scheduled_scrape).start()
+        scheduled_scraping = True
 
 
 @bot.event
