@@ -24,6 +24,7 @@ import discord
 import pandas as pd
 import numpy as np
 import csv
+import os
 from datetime import datetime, timezone
 
 
@@ -39,9 +40,20 @@ def get_date():
     return current_date
 
 
+def check_days_last_scrape():
+    path_fall = "seasons/fall_2024.csv"
+    timestamp_fall = os.path.getmtime(path_fall)
+    datestamp = datetime.fromtimestamp(timestamp_fall)
+    days_between = datetime.utcnow() - datestamp
+    if days_between.days >= 2:
+        return True
+    return False
+
+
 def main():
     print(get_date())
     print(get_time())
+    print(check_days_last_scrape())
 
 
 if __name__ == "__main__":

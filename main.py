@@ -20,6 +20,8 @@ Author: Angie Tran and Diego Cid
 Description: Main function to run our script
 """
 import asyncio
+from datetime import datetime
+import os
 import threading
 from typing import Literal
 
@@ -40,20 +42,25 @@ subjects_csv = "subjects.csv"
 scheduled_scraping = False
 
 
+def scrape():
+    current_date = get_date()
+    start_time = time.time()
+    print("Scraping...")
+    subjects_file = "subjects.csv"
+    scrape_fall(subjects_file)
+    scrape_summer(subjects_file)
+    print("Complete")
+    scrape_time = time.time() - start_time
+    print(f"--- {scrape_time} seconds for scrape --- @ {current_date} {get_time()}")
+    return scrape_time
+
+
 def scheduled_scrape():
     global scheduled_scraping
     # Schedules scrape at 5:03am - 5:04am PST AKA 12:03pm - 12:04pm UTC
-    current_date = get_date()
     current_time = get_time()
     if '12:03:00' <= current_time <= '12:04:00':
-        start_time = time.time()
-        print("Scraping...")
-        subjects_file = "subjects.csv"
-        scrape_fall(subjects_file)
-        scrape_summer(subjects_file)
-        print("Complete")
-        scrape_time = time.time() - start_time
-        print(f"--- {scrape_time} seconds for scrape --- @ {current_date} {get_time()}")
+        scrape_time = scrape()
         asyncio.run_coroutine_threadsafe(notify_scrape(), bot.loop)
         schedule_next_scrape(86400 - (scrape_time + 30))
     else:
@@ -78,6 +85,10 @@ def schedule_next_scrape(delay):
 @bot.event
 async def on_ready():
     print("Beach Buddy is awake!")
+    if check_days_last_scrape():
+        print("It's been longer than 2 days.")
+        scrape()
+        await notify_scrape()
     scheduled_scrape()
     initialize_caches()
 
