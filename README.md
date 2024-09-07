@@ -13,7 +13,7 @@ See Gallery below to see examples of bot usage.
 ![image](https://github.com/angietea101/Beach-Buddy/assets/81064737/cde753b6-e292-42c6-b041-55db79e4662d)
 
 **/search of CECS 329 in Fall 2024 with opened_only set to False**
-![image](https://github.com/angietea101/Beach-Buddy/assets/81064737/4f3dc24e-0e1f-4853-9c69-05c8e0d836b6)
+![image](https://github.com/user-attachments/assets/97dd1e83-1f50-4ef3-a0cf-b387d448c7d8)
 
 **Set channel to where notifications are sent:**
 ![image](https://github.com/angietea101/Beach-Buddy/assets/81064737/40a482f3-f1f3-4f49-920e-93ef03017cd7)
