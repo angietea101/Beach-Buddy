@@ -19,11 +19,6 @@ File: utils.py
 Author: Angie Tran and Diego Cid
 Description: Utility file that includes any utility functions and helper functions
 """
-from csulb_course import CSULBCourse
-import discord
-import pandas as pd
-import numpy as np
-import csv
 import os
 from datetime import datetime, timezone
 

@@ -16,8 +16,6 @@
 # along with Beach Buddy. If not, see <https://mit-license.org/>.
 
 from html_scraper import *
-import os.path
-import csv
 import time
 
 

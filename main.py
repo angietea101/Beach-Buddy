@@ -20,8 +20,6 @@ Author: Angie Tran and Diego Cid
 Description: Main function to run our script
 """
 import asyncio
-from datetime import datetime
-import os
 import threading
 from typing import Literal
 
