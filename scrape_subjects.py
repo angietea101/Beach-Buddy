@@ -55,10 +55,29 @@ def scrape_summer(subjects_file):
             write_data_to_file(file_path, subject_html)
 
 
+def scrape_spring(subjects_file):
+    csv_file = "spring_2025.csv"
+    file_path = f"seasons/{csv_file}"
+    # Deletes the csv to create a new one to append to
+    delete_csv_file(file_path)
+    with open(subjects_file, 'r') as file:
+        for line in file:
+            data = line.strip().split(', ')
+            # retrieve course abbreviations
+            course_abr = data[1]
+
+            # link to request html
+            subject_html = "https://web.csulb.edu/depts/enrollment/registration/class_schedule/Spring_2025/By_Subject/" \
+                           + course_abr + ".html"
+
+            write_data_to_file(file_path, subject_html)
+
+
 def main():
     subjects_file = "subjects.csv"
     scrape_fall(subjects_file)
     scrape_summer(subjects_file)
+    scrape_spring(subjects_file)
 
 
 if __name__ == "__main__":

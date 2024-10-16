@@ -3,6 +3,7 @@ from csulb_course import CSULBCourse
 
 CLASS_CACHE_SUMMER = {}
 CLASS_CACHE_FALL = {}
+CLASS_CACHE_SPRING = {}
 
 
 def create_CSULBCourse_object(course: str):
@@ -31,7 +32,7 @@ def create_CSULBCourse_object(course: str):
 
 
 def ensure_cache_initialized():
-    if not CLASS_CACHE_FALL or not CLASS_CACHE_SUMMER:
+    if not CLASS_CACHE_FALL or not CLASS_CACHE_SPRING:
         raise RuntimeError("Cache has not been created.")
 
 
@@ -49,12 +50,13 @@ def create_cache(cache_dict, file_path):
 def initialize_caches():
     # key: abbreviation + course code, value: CSULBCourse object
     create_cache(CLASS_CACHE_FALL, "seasons/fall_2024.csv")
-    create_cache(CLASS_CACHE_SUMMER, "seasons/summer_2024.csv")
+    create_cache(CLASS_CACHE_SPRING, "seasons/spring_2025.csv")
 
 
 def main():
     fall = "fall_2024"
     summer = "summer_2024"
+    spring = "spring_2025"
     # key: abbreviation + course code, value: CSULBCourse object
     initialize_caches()
     # print(get_course_codes(fall, "CECS"))

@@ -46,7 +46,7 @@ def scrape():
     print("Scraping...")
     subjects_file = "subjects.csv"
     scrape_fall(subjects_file)
-    scrape_summer(subjects_file)
+    scrape_spring(subjects_file)
     print("Complete")
     scrape_time = time.time() - start_time
     print(f"--- {scrape_time} seconds for scrape --- @ {current_date} {get_time()}")
@@ -131,15 +131,15 @@ async def notify_scrape():
     code="The course code",
     opened_only="Show only opened courses"
 )
-async def search(ctx: commands.Context, season: Literal["Fall 2024", "Summer 2024"], abbreviation: str, code: str,
-                 opened_only: Literal["True", "False"]):
+async def search(ctx: commands.Context, season: Literal["Fall 2024", "Spring 2025"], abbreviation: str,
+                 code: str, opened_only: Literal["True", "False"]):
     start_time = time.time()
     embeds = []
     abbreviation = abbreviation.upper()
     if season == "Fall 2024":
         season = "fall_2024"
     else:
-        season = "summer_2024"
+        season = "spring_2025"
     if not check_existing_abbreviation(season, abbreviation):
         await ctx.send(f"Invalid abbreviation or this subject does not exist in this season")
         return
@@ -150,8 +150,8 @@ async def search(ctx: commands.Context, season: Literal["Fall 2024", "Summer 202
     course_infos = []
     if season == "fall_2024":
         course_infos = CLASS_CACHE_FALL[f"{abbreviation} {code}"]
-    elif season == "summer_2024":
-        course_infos = CLASS_CACHE_SUMMER[f"{abbreviation} {code}"]
+    elif season == "spring_2025":
+        course_infos = CLASS_CACHE_SPRING[f"{abbreviation} {code}"]
     else:
         print("An unexpected error occurred while getting course infos")
     # Turn the course list into a list of embeds to be relayed back to user

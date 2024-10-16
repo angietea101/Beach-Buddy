@@ -93,12 +93,7 @@ def write_data_to_file(csv_file_path, url):
 
 def main():
     # subject = input("Subject abbreviation: ").upper()
-    subject = "WGSS"
-    url = 'http://web.csulb.edu/depts/enrollment/registration/class_schedule/Fall_2024/By_Subject/' + subject + '.html'
-    response = requests.get(url)
-    file_name = str(f"{subject.lower()}_scraped_data.csv")
-    delete_csv_file("wgss_scraped_data.csv")
-    write_data_to_file(file_name, url)
+    return
 
 
 if __name__ == "__main__":
