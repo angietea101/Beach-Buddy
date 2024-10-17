@@ -59,8 +59,6 @@ def main():
     spring = "spring_2025"
     # key: abbreviation + course code, value: CSULBCourse object
     initialize_caches()
-    # print(get_course_codes(fall, "CECS"))
-    # print(check_existing_abbreviation(fall, "CECS"))
 
 
 if __name__ == "__main__":

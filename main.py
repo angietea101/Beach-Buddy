@@ -93,9 +93,9 @@ async def on_ready():
 
 @bot.hybrid_command()
 async def sync(ctx: commands.Context):
-    await ctx.send("Syncing...")
+    await ctx.defer()
     await bot.tree.sync()
-    await ctx.send("Synced successfully")
+    await ctx.send("Synced successfully!")
 
 
 @bot.hybrid_command()
@@ -136,10 +136,7 @@ async def search(ctx: commands.Context, season: Literal["Fall 2024", "Spring 202
     start_time = time.time()
     embeds = []
     abbreviation = abbreviation.upper()
-    if season == "Fall 2024":
-        season = "fall_2024"
-    else:
-        season = "spring_2025"
+    season = format_season(season)
     if not check_existing_abbreviation(season, abbreviation):
         await ctx.send(f"Invalid abbreviation or this subject does not exist in this season")
         return
@@ -172,5 +169,52 @@ async def search(ctx: commands.Context, season: Literal["Fall 2024", "Spring 202
         view = PaginatorView(embeds)
         await ctx.send(embed=view.initial, view=view)
 
+
+@bot.hybrid_command(name="search_by_professor", description="Search for courses taught by a specific professor")
+@app_commands.describe(
+    season="The academic season",
+    last_name="Professor's last name",
+    abbreviation="The subject abbreviation",
+    opened_only="Show only opened courses"
+)
+async def search_by_professor(ctx: commands.Context, season: Literal["Fall 2024", "Spring 2025"], last_name: str,
+                              abbreviation: str, opened_only: Literal["True", "False"]):
+    start_time = time.time()
+    season = format_season(season)
+    embeds = []
+    abbreviation = abbreviation.upper()
+
+    if "spring" in season:
+        CLASS_CACHE = CLASS_CACHE_SPRING
+    elif "summer" in season:
+        CLASS_CACHE = CLASS_CACHE_SUMMER
+    elif "fall" in season:
+        CLASS_CACHE = CLASS_CACHE_FALL
+    else:
+        print("Could not find cache for this season")
+        return
+    course_infos = get_all_prof_course(last_name, abbreviation, CLASS_CACHE)
+
+    if not check_existing_abbreviation(season, abbreviation):
+        await ctx.send(f"Invalid abbreviation or this subject does not exist in this season")
+        return
+
+    if opened_only == "True":
+        for course in course_infos:
+            if course.open_seats != "CLOSED":
+                embed = create_embed(course)
+                embeds.append(embed)
+
+    else:
+        for course in course_infos:
+            embed = create_embed(course)
+            embeds.append(embed)
+    if len(embeds) == 0:
+        await ctx.send("No results were found.")
+    else:
+        command_time = time.time() - start_time
+        print("--- %s seconds for search command ---" % command_time)
+        view = PaginatorView(embeds)
+        await ctx.send(embed=view.initial, view=view)
 
 bot.run(BOT_TOKEN)

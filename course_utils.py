@@ -43,12 +43,39 @@ def check_existing_abbreviation(season, abbreviation):
     return False
 
 
+def get_all_prof_course(last_name, course_abbr, cache):
+    matching_courses = []
+
+    for abbr, course_list in cache.items():
+        if course_abbr not in abbr:
+            continue  # Skip if the abbreviation doesn't match
+
+        for course in course_list:
+            if last_name.lower() in course.instructor.lower():
+                matching_courses.append(course)
+
+    return matching_courses
+
+
+def get_courses_by_key_part(key_part, courses_dict):
+    matching_courses = []
+
+    for course_key, course_list in courses_dict.items():
+        if key_part in course_key:
+            matching_courses.extend(course_list)
+
+    return matching_courses
+
+
+def format_season(season: str):
+    return season.lower().replace(" ", "_")
+
 def main():
     initialize_caches()
-    # print(CLASS_CACHE_FALL)
-    # print(check_existing_abbreviation("spring_2025", "CECS"))
+    print(get_all_prof_course("Terrell", "CECS", CLASS_CACHE_FALL))
+    print(get_courses_by_key_part("CECS", CLASS_CACHE_SPRING))
+    print(check_existing_abbreviation("fall_2024", "CECS"))
 
 
 if __name__ == "__main__":
     main()
-
