@@ -14,11 +14,13 @@
 #
 # You should have received a copy of the MIT License
 # along with Beach Buddy. If not, see <https://mit-license.org/>.
+
 """
 File: utils.py
 Author: Angie Tran and Diego Cid
 Description: Utility file that includes any utility functions and helper functions
 """
+
 import os
 from datetime import datetime, timezone
 

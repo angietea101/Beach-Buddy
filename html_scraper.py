@@ -15,6 +15,12 @@
 # You should have received a copy of the MIT License
 # along with Beach Buddy. If not, see <https://mit-license.org/>.
 
+"""
+File: html_scraper.py
+Author: Angie Tran and Diego Cid
+Description: Includes scraping functionality
+"""
+
 from bs4 import BeautifulSoup
 import requests
 import os

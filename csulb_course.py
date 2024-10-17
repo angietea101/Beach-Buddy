@@ -15,6 +15,12 @@
 # You should have received a copy of the MIT License
 # along with Beach Buddy. If not, see <https://mit-license.org/>.
 
+"""
+File: csulb_course.py
+Author: Angie Tran and Diego Cid
+Description: CSULBCourse object class
+"""
+
 class CSULBCourse:
     def __init__(self, course_abr, course_name, units, section, number, reserved_cap, class_notes, class_type, days,
                  time, open_seats, location, instructor, comment):

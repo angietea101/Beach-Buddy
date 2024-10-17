@@ -14,11 +14,13 @@
 #
 # You should have received a copy of the MIT License
 # along with Beach Buddy. If not, see <https://mit-license.org/>.
+
 """
 File: main.py
 Author: Angie Tran and Diego Cid
 Description: Main function to run our script
 """
+
 import asyncio
 import threading
 from typing import Literal
