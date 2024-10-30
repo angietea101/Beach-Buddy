@@ -42,7 +42,7 @@ subjects_csv = "subjects.csv"
 scheduled_scraping = False
 
 
-def scrape():
+async def scrape():
     current_date = get_date()
     start_time = time.time()
     print("Scraping...")
@@ -57,7 +57,9 @@ def scrape():
 
 def scheduled_scrape():
     global scheduled_scraping
-    # Schedules scrape at 5:03am - 5:04am PST AKA 12:03pm - 12:04pm UTC
+    if scheduled_scraping:
+        return  # Don't run if a scrape is already scheduled
+
     current_time = get_time()
     if '12:03:00' <= current_time <= '12:04:00':
         scrape_time = scrape()
@@ -87,7 +89,7 @@ async def on_ready():
     print("Beach Buddy is awake!")
     if check_days_last_scrape():
         print("It's been longer than 2 days.")
-        scrape()
+        await scrape()
         await notify_scrape()
     scheduled_scrape()
     initialize_caches()
