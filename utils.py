@@ -39,6 +39,8 @@ def get_date():
 
 def check_days_last_scrape():
     path_fall = "seasons/fall_2024.csv"
+    if not os.path.exists(path_fall):
+        return True
     timestamp_fall = os.path.getmtime(path_fall)
     datestamp = datetime.fromtimestamp(timestamp_fall)
     days_between = datetime.utcnow() - datestamp
