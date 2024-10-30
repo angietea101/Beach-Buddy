@@ -114,6 +114,10 @@ async def set_notif_channel(ctx, channel: discord.TextChannel):
 
 
 async def notify_scrape():
+    if not os.path.exists('notif.txt'):
+        with open('notif.txt', 'w') as file:
+            # Create an empty file if it doesn't exist
+            pass
     try:
         with open('notif.txt', 'r') as file:
             for line in file:
