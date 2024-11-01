@@ -2,7 +2,7 @@
 
 Python Discord bot that displays CSULB course information. Get notifications when seats & sections open.
 
-The data displayed by the bot updates every morning at 5:03 AM - 5:04 AM. This is when the CSULB schedule of classes updates. Currently, real time updates are only available to admins.
+The data displayed by the bot updates every morning at 5:03 AM - 5:04 AM. This is when the CSULB schedule of classes updates. Currently, real time updates are a work in progress.
 
 See Gallery below to see examples of bot usage.
 
