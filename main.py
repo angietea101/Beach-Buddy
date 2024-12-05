@@ -22,24 +22,78 @@ Description: Main function to run our script
 """
 
 import asyncio
-import threading
+import functools
+import time
 from typing import Literal
+import typing
 
 from discord import app_commands
 from discord.ext import commands
+from apscheduler.schedulers.asyncio import AsyncIOScheduler
+from apscheduler.triggers.cron import CronTrigger
 
 from config import BOT_TOKEN
 from course_utils import *
 from discord_utils import *
+from html_scraper import delete_csv_file, write_data_to_file
 from paginator import PaginatorView
-from scrape_subjects import *
 from utils import *
 
 intents = discord.Intents.all()
 bot = commands.Bot(command_prefix="/", intents=intents)
 
 subjects_csv = "subjects.csv"
-scheduled_scraping = False
+
+scheduler = AsyncIOScheduler()
+
+SPRING_LINK = "https://web.csulb.edu/depts/enrollment/registration/class_schedule/Spring_2025/By_Subject/"
+SUMMER_LINK = ""
+FALL_LINK = "http://web.csulb.edu/depts/enrollment/registration/class_schedule/Fall_2024/By_Subject/"
+WINTER_LINK = ""
+
+
+def to_thread(func: typing.Callable[..., typing.Any]) -> typing.Callable[..., typing.Coroutine[typing.Any, typing.Any,
+                                                                                               typing.Any]]:
+    @functools.wraps(func)
+    async def wrapper(*args, **kwargs):
+        return await asyncio.to_thread(func, *args, **kwargs)
+    return wrapper
+
+
+@to_thread
+def scrape_fall(subjects_file):
+    csv_file = "fall_2024.csv"
+    file_path = f"seasons/{csv_file}"
+    # Deletes the csv to create a new one to append to
+    delete_csv_file(file_path)
+    with open(subjects_file, 'r') as file:
+        for line in file:
+            data = line.strip().split(', ')
+            # retrieve course abbreviations
+            course_abr = data[1]
+
+            # link to request html
+            subject_html = FALL_LINK + course_abr + ".html"
+
+            write_data_to_file(file_path, subject_html)
+
+
+@to_thread
+def scrape_spring(subjects_file):
+    csv_file = "spring_2025.csv"
+    file_path = f"seasons/{csv_file}"
+    # Deletes the csv to create a new one to append to
+    delete_csv_file(file_path)
+    with open(subjects_file, 'r') as file:
+        for line in file:
+            data = line.strip().split(', ')
+            # retrieve course abbreviations
+            course_abr = data[1]
+
+            # link to request html
+            subject_html = SPRING_LINK + course_abr + ".html"
+
+            write_data_to_file(file_path, subject_html)
 
 
 async def scrape():
@@ -47,51 +101,34 @@ async def scrape():
     start_time = time.time()
     print("Scraping...")
     subjects_file = "subjects.csv"
-    scrape_fall(subjects_file)
-    scrape_spring(subjects_file)
+    await scrape_fall(subjects_file)
+    await scrape_spring(subjects_file)
     print("Complete")
     scrape_time = time.time() - start_time
     print(f"--- {scrape_time} seconds for scrape --- @ {current_date} {get_time()}")
+
+    await notify_scrape()
     return scrape_time
 
 
-def scheduled_scrape():
-    global scheduled_scraping
-    if scheduled_scraping:
-        return  # Don't run if a scrape is already scheduled
-
-    current_time = get_time()
-    if '12:03:00' <= current_time <= '12:04:00':
-        scrape_time = scrape()
-        asyncio.run_coroutine_threadsafe(notify_scrape(), bot.loop)
-        schedule_next_scrape(86400 - (scrape_time + 30))
-    else:
-        schedule_next_check()
-    scheduled_scraping = False
-
-
-def schedule_next_check():
-    global scheduled_scraping
-    if not scheduled_scraping:
-        threading.Timer(1, scheduled_scrape).start()
-        scheduled_scraping = True
-
-
-def schedule_next_scrape(delay):
-    global scheduled_scraping
-    if not scheduled_scraping:
-        threading.Timer(delay, scheduled_scrape).start()
-        scheduled_scraping = True
+def start_scraping_scheduler():
+    print("Scheduler starts")
+    scheduler.add_job(
+        scrape,
+        # CronTrigger(hour=13, minute=4, timezone="UTC"),  # 5:04AM PST every day
+        CronTrigger(hour=10, minute=54, timezone="UTC"),  # 5:04AM PST every day
+    )
+    scheduler.start()
 
 
 @bot.event
 async def on_ready():
     print("Beach Buddy is awake!")
+    start_scraping_scheduler()
     if check_days_last_scrape():
         print("It's been longer than 2 days.")
         await scrape()
         await notify_scrape()
-    scheduled_scrape()
     initialize_caches()
 
 
@@ -127,7 +164,7 @@ async def notify_scrape():
                 guild = bot.get_guild(int(data[0]))
                 if guild:
                     channel = guild.get_channel(int(data[1]))
-                    await channel.send(f"Schedule Updated ({get_time()})")
+                    await channel.send(f"Schedule Updated @ {get_time()}")
     except Exception as e:
         print(f"An error occurred: {e}")
 
@@ -224,5 +261,6 @@ async def search_by_professor(ctx: commands.Context, season: Literal["Fall 2024"
         print("--- %s seconds for search command ---" % command_time)
         view = PaginatorView(embeds)
         await ctx.send(embed=view.initial, view=view)
+
 
 bot.run(BOT_TOKEN)

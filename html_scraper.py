@@ -45,7 +45,7 @@ def write_data_to_file(csv_file_path, url):
               "Example: CECS, MATH, or BIOL")
         return
 
-    with open(csv_file_path, 'a') as file:
+    with open(csv_file_path, 'a', encoding='utf-8') as file:
         for course_block in course_blocks:
             course_code = course_block.find('span', class_='courseCode').text
             course_title = course_block.find('span', class_='courseTitle').text
