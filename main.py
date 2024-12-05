@@ -115,8 +115,8 @@ def start_scraping_scheduler():
     print("Scheduler starts")
     scheduler.add_job(
         scrape,
-        # CronTrigger(hour=13, minute=4, timezone="UTC"),  # 5:04AM PST every day
-        CronTrigger(hour=10, minute=54, timezone="UTC"),  # 5:04AM PST every day
+        CronTrigger(hour=13, minute=4, timezone="UTC"),  # 5:04AM PST every day
+        # CronTrigger(hour=10, minute=54, timezone="UTC"),  # DEBUG
     )
     scheduler.start()
 
