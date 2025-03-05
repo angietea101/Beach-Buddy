@@ -101,8 +101,7 @@ async def scrape():
     start_time = time.time()
     print("Scraping...")
     subjects_file = "subjects.csv"
-    await scrape_fall(subjects_file)
-    await scrape_spring(subjects_file)
+    await asyncio.gather(scrape_fall(subjects_file), scrape_spring(subjects_file))
     print("Complete")
     scrape_time = time.time() - start_time
     print(f"--- {scrape_time} seconds for scrape --- @ {current_date} {get_time()}")
@@ -116,6 +115,7 @@ def start_scraping_scheduler():
     scheduler.add_job(
         scrape,
         CronTrigger(hour=13, minute=4, timezone="UTC"),  # 5:04AM PST every day
+        misfire_grace_time=600,
         # CronTrigger(hour=10, minute=54, timezone="UTC"),  # DEBUG
     )
     scheduler.start()
@@ -128,7 +128,6 @@ async def on_ready():
     if check_days_last_scrape():
         print("It's been longer than 2 days.")
         await scrape()
-        await notify_scrape()
     initialize_caches()
 
 

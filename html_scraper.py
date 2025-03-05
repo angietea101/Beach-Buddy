@@ -24,6 +24,7 @@ Description: Includes scraping functionality
 from bs4 import BeautifulSoup
 import requests
 import os
+import aiohttp
 
 
 def delete_csv_file(csv_file_name):
