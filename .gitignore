@@ -1,8 +1,7 @@
 # DO NOT ALLOW specific files
 config.py
 notif.txt
-seasons/fall_2024.csv
-seasons/summer_2024.csv
+seasons
 *.DS_Store
 
 # ALLOW specifics
