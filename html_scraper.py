@@ -34,74 +34,83 @@ def delete_csv_file(csv_file_name):
         return
 
 
-def write_data_to_file(csv_file_path, url):
-    response = requests.get(url)
-    course_blocks = ""
-    if response.status_code == 200:
-        html_content = response.text
+async def fetch_url(session, url):
+    async with session.get(url) as response:
+        if response.status == 200:
+            html_content = await response.text(errors='ignore')  # Ignore problematic characters
+            return html_content
+        else:
+            print("Error: This subject does not exist. Make sure the abbreviation is typed correctly.\n"
+                  "Example: CECS, MATH, or BIOL")
+            return None
+
+
+async def write_data_to_file(csv_file_path, url):
+    async with aiohttp.ClientSession() as session:
+        html_content = await fetch_url(session, url)
+        if html_content is None:
+            return
+
         soup = BeautifulSoup(html_content, 'html.parser')
         course_blocks = soup.find_all('div', class_='courseBlock')
-    else:
-        print("Error: This subject does not exist. Make sure the abbreviation is typed correctly.\n"
-              "Example: CECS, MATH, or BIOL")
-        return
 
-    with open(csv_file_path, 'a', encoding='utf-8') as file:
-        for course_block in course_blocks:
-            course_code = course_block.find('span', class_='courseCode').text
-            course_title = course_block.find('span', class_='courseTitle').text
-            course_title = course_title.replace(',', '')
-            units = course_block.find('span', class_='units').text
+        with open(csv_file_path, 'a', encoding='utf-8') as file:
+            for course_block in course_blocks:
+                course_code = course_block.find('span', class_='courseCode').text
+                course_title = course_block.find('span', class_='courseTitle').text
+                course_title = course_title.replace(',', '')
+                units = course_block.find('span', class_='units').text
 
-            # Find all tables within the current course block
-            tables = course_block.find_all('table', class_='sectionTable')
-            for table in tables:
-                rows = table.find_all('tr')
-                for i, row in enumerate(rows):
-                    if i == 0:
-                        continue
-                    cells = row.find_all(['td', 'th'])
+                # Find all tables within the current course block
+                tables = course_block.find_all('table', class_='sectionTable')
+                for table in tables:
+                    rows = table.find_all('tr')
+                    for i, row in enumerate(rows):
+                        if i == 0:
+                            continue
+                        cells = row.find_all(['td', 'th'])
 
-                    # Extract and organize data from each row
-                    row_data = [course_code, course_title, units]
-                    for cell in cells:
-                        div_tag = cell.find('div')
-                        if div_tag and div_tag.find('img') and div_tag.img.get('title') == "Seats available":
-                            # If an image is found, append 'Open' to indicate open seats
-                            row_data.append("OPEN")
-                        elif div_tag and div_tag.find('img') and div_tag.img.get('title') == "Reserve Capacity" and \
-                                div_tag.img.get('width') == "55":
-                            row_data.append('RESERVED SEATS')
-                        elif div_tag and div_tag.find('img') and div_tag.img.get('title') == "Reserve Capacity":
-                            row_data.append('OPEN (RESERVED)')
-                        elif cell.text.strip() == '':
-                            # If the cell is empty, replace it with 'NONE'
-                            row_data.append("NONE")
-                        else:
-                            # Otherwise, extract and append the text from the cell
-                            full_text = ""
-                            text = cell.contents
-                            for item in text:
-                                item_string = str(item)
-                                if "href=" in item_string:
-                                    text_replaced = cell.text.replace(',', ' ')
-                                    full_text += text_replaced.strip()
-                                elif "<br/>" not in item_string:
-                                    text_stripped = item_string.strip()
-                                    text_replaced = text_stripped.replace('\n', ' ')
-                                    text_replaced = text_replaced.replace(',', ' ')
-                                    full_text += f" {text_replaced}"
-                                    full_text = full_text[1:]
-                            row_data.append(full_text)
-                    # Write the row data into the file with comma-separated values
-                    if len(row_data) > 3:
-                        file.write(', '.join(row_data) + '\n')
+                        # Extract and organize data from each row
+                        row_data = [course_code, course_title, units]
+                        for cell in cells:
+                            div_tag = cell.find('div')
+                            if div_tag and div_tag.find('img') and div_tag.img.get('title') == "Seats available":
+                                # If an image is found, append 'Open' to indicate open seats
+                                row_data.append("OPEN")
+                            elif div_tag and div_tag.find('img') and div_tag.img.get('title') == "Reserve Capacity" and \
+                                    div_tag.img.get('width') == "55":
+                                row_data.append('RESERVED SEATS')
+                            elif div_tag and div_tag.find('img') and div_tag.img.get('title') == "Reserve Capacity":
+                                row_data.append('OPEN (RESERVED)')
+                            elif cell.text.strip() == '':
+                                # If the cell is empty, replace it with 'NONE'
+                                row_data.append("NONE")
+                            else:
+                                # Otherwise, extract and append the text from the cell
+                                full_text = ""
+                                text = cell.contents
+                                for item in text:
+                                    item_string = str(item)
+                                    if "href=" in item_string:
+                                        text_replaced = cell.text.replace(',', ' ')
+                                        full_text += text_replaced.strip()
+                                    elif "<br/>" not in item_string:
+                                        text_stripped = item_string.strip()
+                                        text_replaced = text_stripped.replace('\n', ' ')
+                                        text_replaced = text_replaced.replace(',', ' ')
+                                        full_text += f" {text_replaced}"
+                                        full_text = full_text[1:]
+                                row_data.append(full_text)
+                        # Write the row data into the file with comma-separated values
+                        if len(row_data) > 3:
+                            file.write(', '.join(row_data) + '\n')
 
 
-def main():
-    # subject = input("Subject abbreviation: ").upper()
-    return
+async def main():
+    pass
 
 
 if __name__ == "__main__":
-    main()
+    import asyncio
+
+    asyncio.run(main())

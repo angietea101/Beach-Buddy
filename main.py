@@ -60,8 +60,7 @@ def to_thread(func: typing.Callable[..., typing.Any]) -> typing.Callable[..., ty
     return wrapper
 
 
-@to_thread
-def scrape_fall(subjects_file):
+async def scrape_fall(subjects_file):
     csv_file = "fall_2024.csv"
     file_path = f"seasons/{csv_file}"
     # Deletes the csv to create a new one to append to
@@ -75,11 +74,10 @@ def scrape_fall(subjects_file):
             # link to request html
             subject_html = FALL_LINK + course_abr + ".html"
 
-            write_data_to_file(file_path, subject_html)
+            await write_data_to_file(file_path, subject_html)
 
 
-@to_thread
-def scrape_spring(subjects_file):
+async def scrape_spring(subjects_file):
     csv_file = "spring_2025.csv"
     file_path = f"seasons/{csv_file}"
     # Deletes the csv to create a new one to append to
@@ -93,7 +91,7 @@ def scrape_spring(subjects_file):
             # link to request html
             subject_html = SPRING_LINK + course_abr + ".html"
 
-            write_data_to_file(file_path, subject_html)
+            await write_data_to_file(file_path, subject_html)
 
 
 async def scrape():
